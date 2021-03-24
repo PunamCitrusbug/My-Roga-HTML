@@ -789,6 +789,8 @@ input[type="number"] {
 .middle-section .feature-section .heading h3 {
   color: #003B8E;
   margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 37px;
 }
 
 .middle-section .feature-section .heading p {
@@ -853,6 +855,257 @@ input[type="number"] {
 
 .middle-section .feature-section .featured-item .featured-content ul li:last-child {
   border-right: 0;
+}
+
+.middle-section .best-deal-section {
+  padding: 20px 0 20px 0;
+}
+
+.middle-section .best-deal-section .heading h3 {
+  color: #003B8E;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 10px;
+}
+
+.middle-section .best-deal-section .heading p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+  font-family: "Roboto";
+  margin-bottom: 20px;
+}
+
+.middle-section .best-deal-section .sub-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.middle-section .best-deal-section .sub-heading h3 {
+  color: #003B8E;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 0px;
+}
+
+.middle-section .best-deal-section .sub-heading p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-weight: 300;
+  border-left: 1px solid #000;
+  padding-left: 10px;
+}
+
+.middle-section .best-deal-section .product-item {
+  text-align: center;
+  max-width: 190px;
+  width: 100%;
+}
+
+.middle-section .best-deal-section .product-item .product-price h3 {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 26px;
+}
+
+.middle-section .best-deal-section .product-item .product-img {
+  margin-bottom: 26px;
+}
+
+.middle-section .best-deal-section .product-item .product-img img {
+  width: 110px;
+  height: 112px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto;
+}
+
+.middle-section .best-deal-section .product-item .product-review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 11px;
+}
+
+.middle-section .best-deal-section .product-item .product-review .rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.middle-section .best-deal-section .product-item .product-review .rating i {
+  color: #F89A48;
+  font-size: 17px;
+  margin-right: 3px;
+}
+
+.middle-section .best-deal-section .product-item .product-review a {
+  color: #414141;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 5px;
+  font-family: "Roboto";
+}
+
+.middle-section .best-deal-section .product-item .product-name {
+  min-height: 56px;
+  margin-bottom: 10px;
+}
+
+.middle-section .best-deal-section .product-item .product-name h3 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.middle-section .best-deal-section .product-item .product-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.middle-section .best-deal-section .product-item .product-btns .btn {
+  width: 100%;
+  font-size: 16px;
+  line-height: 19px;
+  height: 40px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+.middle-section .best-deal-section .product-item .product-btns .btn:last-child {
+  margin-bottom: 0;
+}
+
+.middle-section .best-deal-section .product-item .product-btns .btn-primary {
+  background-color: #F89A48;
+  color: #000;
+  border-color: #F89A48;
+}
+
+.middle-section .best-deal-section .product-item .product-btns .btn-outline-primary {
+  background-color: #fff;
+  color: #000;
+  font-weight: 400;
+  border-color: #F89A48;
+}
+
+.middle-section .best-deal-section .owl-theme {
+  padding: 0 30px;
+}
+
+.middle-section .best-deal-section .owl-theme .owl-nav {
+  position: absolute;
+  top: calc(50% - 50px);
+  right: 0;
+  left: 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.middle-section .best-deal-section .owl-theme .owl-nav .owl-prev {
+  left: -55px;
+  position: absolute;
+}
+
+.middle-section .best-deal-section .owl-theme .owl-nav .owl-next {
+  right: -55px;
+  position: absolute;
+}
+
+.middle-section .best-deal-section .owl-theme .owl-nav button {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #F1F9FF;
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #2699FB;
+  font-weight: 600;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.middle-section .best-deal-section .owl-theme .owl-nav button i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+}
+
+.middle-section .best-deal-section .owl-theme .owl-nav button:hover {
+  border-color: #2699FB;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 /*###########################################################################

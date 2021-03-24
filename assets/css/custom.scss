@@ -818,6 +818,8 @@ input[type="number"] {
       h3 {
         color: #003B8E;
         margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 37px;
       }
 
       p {
@@ -874,6 +876,211 @@ input[type="number"] {
             &:last-child {
               border-right: 0;
             }
+          }
+        }
+      }
+    }
+  }
+
+  .best-deal-section {
+    padding: 20px 0 20px 0;
+
+    .heading {
+
+      h3 {
+        color: #003B8E;
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 37px;
+        margin-bottom: 10px;
+        
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 22px;
+        color: #000;
+        font-family: $roboto;
+        margin-bottom: 20px;
+      }
+    }
+
+    .sub-heading {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 30px;
+
+      h3 {
+        color: #003B8E;
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 37px;
+        margin-bottom: 0px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 22px;
+        color: #000;
+        margin-bottom: 0px;
+        margin-left: 10px;
+        font-weight: 300;
+        border-left: 1px solid #000;
+        padding-left: 10px;
+      }
+    }
+
+    .product-item {
+      text-align: center;
+      max-width: 190px;
+      width: 100%;
+
+      .product-price {
+        h3 {
+          font-size: 18px;
+          line-height: 22px;
+          margin-bottom: 26px;
+        }
+      }
+
+      .product-img {
+        margin-bottom: 26px;
+        img {
+          width: 110px;
+          height: 112px;
+          object-fit: cover;
+          margin: 0 auto;
+
+        }
+      }
+
+      .product-review  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 11px;
+
+        .rating {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          i {
+            color: #F89A48;
+            font-size: 17px;
+            margin-right: 3px;
+          }
+        }
+        
+
+        a {
+          color: #414141;
+          font-size: 14px;
+          line-height: 18px;
+          margin-left: 5px;
+          font-family: $roboto;
+        }
+      }
+
+      .product-name {
+        min-height: 56px;
+        margin-bottom: 10px;
+
+        h3 {
+          font-size: 18px;
+          line-height: 22px;
+          color: #000000;
+          font-weight: 400;
+          font-family: $roboto;
+        }
+      }
+
+      .product-btns {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .btn {
+          width: 100%;
+          font-size: 16px;
+          line-height: 19px;
+          height: 40px;
+          font-weight: 500;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 10px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+
+        .btn-primary {
+          background-color: #F89A48;
+          color: #000;
+          border-color: #F89A48;
+        }
+
+        .btn-outline-primary {
+          background-color: #fff;
+          color: #000;
+          font-weight: 400;
+          border-color: #F89A48;
+        }
+      }
+    }
+
+    .owl-theme {
+      padding: 0 30px;
+
+      .owl-nav {
+        position: absolute;
+        top: calc(50% - 50px);
+        right: 0;
+        left: 0;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .owl-prev {
+          left: -55px;
+          position: absolute;
+        }
+
+        .owl-next {
+          right: -55px;
+          position: absolute;
+        }
+
+        button {
+          height: 50px;
+          width: 50px;
+          border: 2px solid #F1F9FF;
+          background-color: #FAFAFA;
+          border-radius: 10px;
+          box-shadow: none;
+          outline: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #2699FB;
+          font-weight: 600;
+          transition: all 0.3s;
+
+          i {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+          }
+
+          &:hover {
+            border-color: #2699FB;
+            transition: all 0.3s;
+     
           }
         }
       }
