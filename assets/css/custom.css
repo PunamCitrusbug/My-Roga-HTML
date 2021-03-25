@@ -442,7 +442,6 @@ input[type="number"] {
 /*  middle section start here */
 .middle-section {
   padding-top: 82px;
-  min-height: 100vh;
 }
 
 .middle-section .find-section {
@@ -842,11 +841,21 @@ input[type="number"] {
 
 .middle-section .feature-section .featured-item .featured-content ul li {
   display: inline-block;
-  font-size: 18px;
   padding: 0 10px;
-  border-right: 1px solid #000;
-  line-height: 20px;
   font-family: "Roboto";
+  border-right: 1px solid #000;
+}
+
+.middle-section .feature-section .featured-item .featured-content ul li a {
+  font-size: 18px;
+  color: #000;
+  line-height: 20px;
+}
+
+.middle-section .feature-section .featured-item .featured-content ul li a:hover {
+  font-weight: 600;
+  color: #000;
+  border-bottom: 1px solid;
 }
 
 .middle-section .feature-section .featured-item .featured-content ul li:first-child {
@@ -898,7 +907,7 @@ input[type="number"] {
   margin-bottom: 0px;
 }
 
-.middle-section .best-deal-section .sub-heading p {
+.middle-section .best-deal-section .sub-heading a {
   font-size: 18px;
   line-height: 22px;
   color: #000;
@@ -907,6 +916,14 @@ input[type="number"] {
   font-weight: 300;
   border-left: 1px solid #000;
   padding-left: 10px;
+}
+
+.middle-section .best-deal-section .sub-heading a:hover {
+  font-weight: 700;
+}
+
+.middle-section .best-deal-section .sub-heading a:focus {
+  font-weight: 700;
 }
 
 .middle-section .best-deal-section .product-item {
@@ -1106,6 +1123,94 @@ input[type="number"] {
   border-color: #2699FB;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.footer-section {
+  padding: 29px 0 25px 0;
+  background: #47b8da;
+  background: -webkit-gradient(linear, left top, right top, from(#47b8da), to(#003b8e));
+  background: linear-gradient(90deg, #47b8da 0%, #003b8e 100%);
+}
+
+.footer-section .quicklink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-section .quicklink ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+}
+
+.footer-section .quicklink ul li {
+  width: 100%;
+  display: inline-block;
+}
+
+.footer-section .quicklink ul li a {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-bottom: 17px;
+  text-decoration: underline;
+}
+
+.footer-section .quicklink ul li a:hover {
+  font-weight: 700;
+}
+
+.footer-section .quicklink ul li a:focus {
+  font-weight: 700;
+}
+
+.footer-section .footer-text p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-bottom: 18px;
+}
+
+.footer-section .affilate-link a {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-family: "Roboto";
+  display: block;
+  text-decoration: underline;
+}
+
+.footer-section .affilate-link a:hover {
+  font-weight: 700;
+}
+
+.footer-section .affilate-link a:focus {
+  font-weight: 700;
 }
 
 /*###########################################################################

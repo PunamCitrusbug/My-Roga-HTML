@@ -503,7 +503,7 @@ input[type="number"] {
 
 .middle-section {
   padding-top: 82px;
-  min-height: 100vh;
+  
 
   .find-section {
     padding: 160px 0 70px 0;
@@ -863,11 +863,21 @@ input[type="number"] {
 
           li {
             display: inline-block;
-            font-size: 18px;
             padding: 0 10px;
-            border-right: 1px solid #000;
-            line-height: 20px;
             font-family: $roboto;
+            border-right: 1px solid #000;
+
+            a {
+              font-size: 18px;
+              color: #000;
+              line-height: 20px;
+              
+              &:hover {
+                font-weight: 600;
+                color: #000;
+                border-bottom: 1px solid;
+              }
+            }
 
             &:first-child {
               padding-left: 0;
@@ -919,7 +929,7 @@ input[type="number"] {
         margin-bottom: 0px;
       }
 
-      p {
+      a {
         font-size: 18px;
         line-height: 22px;
         color: #000;
@@ -928,6 +938,13 @@ input[type="number"] {
         font-weight: 300;
         border-left: 1px solid #000;
         padding-left: 10px;
+        &:hover {
+          font-weight: 700;
+        }
+
+        &:focus {
+          font-weight: 700;
+        }
       }
     }
 
@@ -1088,6 +1105,87 @@ input[type="number"] {
   }
 }
 
+
+.footer-section {
+  padding: 29px 0 25px 0;
+  background: rgb(71,184,218);
+  background: linear-gradient(90deg, rgba(71,184,218,1) 0%, rgba(0,59,142,1) 100%);
+
+  .quicklink {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    ul {  
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      list-style: none;
+
+      li {
+        width: 100%;
+        display: inline-block;
+        a {
+          display: block;
+          width: 100%;
+          font-size: 18px;
+          line-height: 30px;
+          text-align: center;
+          color: #FFFFFF;
+          font-weight: 400;
+          font-family: $roboto;
+          margin-bottom: 17px;
+          text-decoration: underline;
+
+          &:hover {
+            font-weight: 700;
+          }
+
+          &:focus {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-text {
+    p {
+      font-size: 18px;
+      line-height: 24px;
+      color: #fff;
+      text-align: center;
+      font-weight: 400;
+      font-family: $roboto;
+      margin-bottom: 18px;
+    }
+  }
+
+  .affilate-link {
+    a {
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+      font-weight: 400;
+      font-family: $roboto;
+      display: block;
+      text-decoration: underline;
+
+      &:hover {
+        font-weight: 700;
+      }
+      
+      &:focus {
+        font-weight: 700;
+      }
+    }
+  }
+
+  
+}
 
 
 /*###########################################################################
