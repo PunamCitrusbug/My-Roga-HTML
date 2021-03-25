@@ -104,8 +104,13 @@ $(".owl-carousel-popular").owlCarousel({
     ],
     responsive:{
         0:{
+            items:2,
+            nav:false
+        },
+
+        375:{
             items:3,
-            nav:true
+            nav:false   
         },
         768:{
             items:4,
@@ -144,8 +149,8 @@ $(".owl-carousel-best").owlCarousel({
     ],
     responsive:{
         0:{
-            items:3,
-            nav:true
+            items:2,
+            nav:false
         },
         768:{
             items:4,
