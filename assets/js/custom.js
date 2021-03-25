@@ -157,11 +157,11 @@ $(".owl-carousel-best").owlCarousel({
             nav:false
         },
 
-        1000:{
-            items:5,
+        1024:{
+            items:4,
             nav:true
         },
-        1024:{
+        1200:{
             items:5,
             nav:true,
             loop:true
