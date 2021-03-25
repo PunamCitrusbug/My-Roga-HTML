@@ -153,7 +153,7 @@ $(".owl-carousel-best").owlCarousel({
             nav:false
         },
         768:{
-            items:4,
+            items:3,
             nav:false
         },
 
