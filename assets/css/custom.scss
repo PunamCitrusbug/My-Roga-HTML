@@ -255,6 +255,24 @@ input[type="number"] {
       img {
         width: 100%;
       }
+
+      .logo-1 {
+        display: block;
+      }
+
+      .logo-2 {
+        display: none;
+      }
+
+      &:active {
+        .logo-1 {
+          display: none;
+        }
+
+        .logo-2 {
+          display: block;
+        }
+      }
     }
 
     .navbar-toggler {
@@ -304,6 +322,12 @@ input[type="number"] {
               color: #EBEBEB;
               border: 1px solid #fff;
             }
+
+            &:active {
+              transition: all 0.4s ease-in-out;
+              color: #EBEBEB;
+              border: 1px solid #fff;
+            }
           }
           
           // .pdr-0 {
@@ -349,9 +373,7 @@ input[type="number"] {
     max-width: 814px;
     width: 100%;
     border-radius: 3px;
-    overflow: hidden;
     position: relative;
-    
     
     .search-div {
       padding: 0 !important;
@@ -371,7 +393,6 @@ input[type="number"] {
       height: 36px !important;
       width: 36px;
       border-color: transparent;
-
     }
 
     .input-group-text {
@@ -403,10 +424,17 @@ input[type="number"] {
         min-width: 122px;
         border-color: transparent;
         border-radius: 0 3px 3px 0;
-        overflow: hidden;
+        box-shadow: none;
         transition: all 0.3s ease-in-out;
 
         &:hover {
+          background: rgb(42,111,133);
+          background: linear-gradient(111deg, rgba(42,111,133,1) 0%, rgba(9,37,59,1) 100%);
+          transition: all 0.3s ease-in-out;
+          border-color: #fff;
+        }
+
+        &:active {
           background: rgb(42,111,133);
           background: linear-gradient(111deg, rgba(42,111,133,1) 0%, rgba(9,37,59,1) 100%);
           transition: all 0.3s ease-in-out;
@@ -512,7 +540,7 @@ input[type="number"] {
         margin-bottom: 0;
       }
 
-      p {
+      h2 {
         font-size: 24px;
         line-height: 29px;
         color: #000000;
@@ -632,6 +660,11 @@ input[type="number"] {
           height: 100px;
           object-fit: cover;
         }
+
+        &:hover {
+          border: 1px solid #BFBFBF;
+          transition: all 0.3s;
+        }
       }
 
       h3 {
@@ -641,6 +674,15 @@ input[type="number"] {
         font-family: $roboto;
         color: #000;
         transition: all 0.3s;
+        a {
+          color: #000;
+
+          &:hover {
+            text-decoration: underline;
+            transition: all 0.3s;
+          }
+        }
+       
       }
 
       p {
@@ -650,17 +692,6 @@ input[type="number"] {
         color: #000;
       }
 
-      &:hover {
-        .popular-img {
-          border: 1px solid #BFBFBF;
-          transition: all 0.3s;
-        }
-
-        h3 {
-          text-decoration: underline;
-          transition: all 0.3s;
-        }
-      }
     }
 
 
@@ -740,7 +771,6 @@ input[type="number"] {
       width: calc(100% - 20px);
       background-color: #fff;
       border-radius: 3px;
-      overflow: hidden;        
       position: relative;
 
       .search-div {
@@ -783,15 +813,22 @@ input[type="number"] {
           max-width: 122px;
           display: block;
           min-width: 122px;
-          border: 0;
           border-radius: 0 3px 3px 0;
-          overflow: hidden;
+          box-shadow: none;
           transition: all 0.3s ease-in-out;
 
           &:hover {
             background: rgb(42,111,133);
             background: linear-gradient(111deg, rgba(42,111,133,1) 0%, rgba(9,37,59,1) 100%);
             transition: all 0.3s ease-in-out;
+            border-color: #fff;
+          }
+
+          &:active {
+            background: rgb(42,111,133);
+            background: linear-gradient(111deg, rgba(42,111,133,1) 0%, rgba(9,37,59,1) 100%);
+            transition: all 0.3s ease-in-out;
+            border-color: #fff;
           }
         }
   
@@ -815,7 +852,7 @@ input[type="number"] {
     padding: 60px 0;
 
     .heading {
-      h3 {
+      h2 {
         color: #003B8E;
         margin-bottom: 10px;
         font-size: 30px;
@@ -836,10 +873,14 @@ input[type="number"] {
       align-items: center;
       justify-content: flex-start;
       margin-bottom: 20px;
+      width: 100%;
+      border: 2px solid transparent;
 
       .featured-img {
         width: 400px;
         height: 116px;
+        border: 2px solid transparent;
+        overflow: hidden;
       }
 
       .featured-content {
@@ -848,6 +889,8 @@ input[type="number"] {
         padding: 19px 21px;
         height: 100%;
         min-height: 116px;;
+        border: 2px solid transparent;
+        margin-left: -2px;
 
         h3 {
           font-size: 24px;
@@ -873,10 +916,22 @@ input[type="number"] {
               color: #000;
               line-height: 20px;
               
+              h4 {
+                font-size: 18px;
+                color: #000;
+                line-height: 20px;
+                font-weight: 400;
+                margin-bottom: 0;
+              }
+
               &:hover {
                 font-weight: 600;
                 color: #000;
                 border-bottom: 1px solid;
+
+                h4 {
+                  font-weight: 600;
+                }
               }
             }
 
@@ -890,7 +945,21 @@ input[type="number"] {
           }
         }
       }
+
+      &:hover {
+
+        .featured-img {
+          border-color: #707070;
+        }
+
+        .featured-content {
+          border-color: #707070;
+          border-left-color: transparent !important;
+        }
+      }
     }
+
+
   }
 
   .best-deal-section {
@@ -955,7 +1024,7 @@ input[type="number"] {
       width: 100%;
 
       .product-price {
-        h3 {
+        h4 {
           font-size: 18px;
           line-height: 22px;
           margin-bottom: 26px;
@@ -1209,6 +1278,16 @@ input[type="number"] {
 
 @media (max-width: 320px) {
 
+  .middle-section {
+    .feature-section .featured-item .featured-img {
+      height: 115px !important;
+    }
+
+    .feature-section .featured-item .featured-content h3 {
+      font-size: 16px !important;
+    }
+  }
+ 
 }
 
 @media (max-width: 767px) {
@@ -1320,7 +1399,6 @@ input[type="number"] {
     }
   }
 
-  
 
   #cd-shadow-layer {
     position: fixed;
@@ -1401,7 +1479,7 @@ input[type="number"] {
           margin-bottom: 10px;
         }
 
-        p {
+        h2 {
           font-size: 16px;
           line-height: 27px;
           color: #000000;
@@ -1512,7 +1590,7 @@ input[type="number"] {
       padding: 30px 0 0 0;
       
       .heading {
-        h3 {
+        h2 {
           font-size: 18px;
           line-height: 22px;
           margin-bottom: 5px;
@@ -1526,7 +1604,7 @@ input[type="number"] {
      
 
       .featured-item {
-    
+        
         .featured-img {
           width: 90px;
           height: 90px;
@@ -1535,12 +1613,19 @@ input[type="number"] {
             height: 100%;
             object-fit: cover;
           }
+
+          border: 0 !important;
         }
     
         .featured-content {
           width: calc(100% - 90px);
-          padding: 8px 10px;
+          padding: 8px 7px 8px 10px;
           min-height: 90px;
+          border: 0 !important;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
 
           h3 {
             font-size: 18px;
@@ -1560,6 +1645,13 @@ input[type="number"] {
               a {
                 font-size: 14px;
                 line-height: 18px;
+
+                h4 {
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 18px;
+                }
+                
               }
 
               &:last-child {
@@ -1611,7 +1703,7 @@ input[type="number"] {
 
       .product-item {
         .product-price {
-          h3 {
+          h4 {
             font-size: 16px;
             line-height: 19px;
           }
@@ -1707,12 +1799,35 @@ input[type="number"] {
   
       .featured-content {
         width: calc(100% - 300px);
+        h3 {
+          margin-bottom: 10px;
+        }
+
         ul {
           li {
+            padding: 0 10px;
+
+           a {
             font-size: 16px;
             line-height: 20px;
+           
 
-         
+            h4 {
+              font-size: 16px;
+              line-height: 20px;
+            }
+
+           
+
+           }
+
+           &:nth-last-child(2) {
+            border: 0;
+          }
+
+           &:nth-last-child(1) {
+            display: none;
+          }
           }
         }
       }
@@ -1739,8 +1854,24 @@ input[type="number"] {
          width: calc(100% - 200px);
          ul {
            li {
-             font-size: 16px;
-             line-height: 20px;
+           a {
+            font-size: 14px;
+            line-height: 20px;
+
+            h4 {
+              font-size: 14px;
+              line-height: 20px;
+            }
+
+           }
+
+           &:nth-last-child(2) {
+            border: 0;
+          }
+          
+           &:nth-last-child(1) {
+            display: none;
+          }
  
           
            }
