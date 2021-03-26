@@ -1552,6 +1552,7 @@ input[type="number"] {
               max-width: 100px;
               font-size: 18px;
               font-family: $roboto; 
+              text-align: center;
             }
 
             .btn-go {
@@ -1599,36 +1600,38 @@ input[type="number"] {
         justify-content: flex-start;
         flex-direction: column;
 
-        h2 {
-          font-size: 30px;
-          color: #000000;
-          line-height: 30px;
-        }
-
-        .product-review  {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin-bottom: 22px;
+        .product-name {
+          h2 {
+            font-size: 30px;
+            color: #000000;
+            line-height: 30px;
+          }
   
-          .rating {
+          .product-review  {
             display: flex;
             align-items: center;
             justify-content: flex-start;
-  
-            i {
-              color: #F89A48;
-              font-size: 17px;
-              margin-right: 3px;
+            margin-bottom: 22px;
+    
+            .rating {
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+    
+              i {
+                color: #F89A48;
+                font-size: 17px;
+                margin-right: 3px;
+              }
             }
-          }
-          
-          a {
-            color: #414141;
-            font-size: 14px;
-            line-height: 18px;
-            margin-left: 5px;
-            font-family: $roboto;
+            
+            a {
+              color: #414141;
+              font-size: 14px;
+              line-height: 18px;
+              margin-left: 5px;
+              font-family: $roboto;
+            }
           }
         }
 
@@ -1700,6 +1703,14 @@ input[type="number"] {
               text-decoration: underline;
               transition: all 0.3s;
             }
+          }
+        }
+
+        .product-footer {
+          width: 100%;
+
+          .product-img-mobile {
+            display: none;
           }
         }
 
@@ -1991,6 +2002,24 @@ input[type="number"] {
             font-size: 30px;
             opacity: 1;
           }
+
+          .btn-refresh {
+            outline: none;
+            color: #003B8E;
+            font-size: 30px;
+            line-height: 1;
+            opacity: 1;
+            background: #fff;
+            display: none;
+            border: 0;
+            padding: 1rem 1rem;
+            margin: -1rem -1rem -1rem auto;
+            animation: rotate 5s normal linear infinite;
+            i {
+              font-size: 22px;
+            }
+          }
+
         }
 
         .modal-body {
@@ -2123,6 +2152,29 @@ input[type="number"] {
     opacity: 0.6 !important;
   }
 
+
+  @keyframes rotate {
+    0% {
+      -webkit-transform: rotate3d(0, 0, 1, 0deg);
+      transform: rotate3d(0, 0, 1, 0deg);
+    }
+    25% {
+      -webkit-transform: rotate3d(0, 0, 1, 90deg);
+      transform: rotate3d(0, 0, 1, 90deg);
+    }
+    50% {
+      -webkit-transform: rotate3d(0, 0, 1, 180deg);
+      transform: rotate3d(0, 0, 1, 180deg);
+    }
+    75% {
+      -webkit-transform: rotate3d(0, 0, 1, 270deg);
+      transform: rotate3d(0, 0, 1, 270deg);
+    }
+    100% {
+      -webkit-transform: rotate3d(0, 0, 1, 360deg);
+      transform: rotate3d(0, 0, 1, 360deg);
+    }
+  }
   
 /*###########################################################################
 ############################## media query started ###############################
@@ -2159,6 +2211,10 @@ input[type="number"] {
     font-family: $roboto; 
   }
 
+  .modal-backdrop {
+    background-color: transparent !important;
+    opacity: 1;
+  }
   
 
   .learn-more {
@@ -2186,16 +2242,19 @@ input[type="number"] {
 
   .modal-custom {
     .modal-dialog {
-      margin: 120px auto 0 auto;
+      margin: 100px auto 0 auto;
       border-radius: 0;
       overflow: hidden;
+      max-width: unset;
+
       .modal-content {
         border-radius: 0;
+
         
         .modal-body {
           padding-bottom: 80px;
-          max-height: calc(100vh - 180px);
-          min-height: calc(100vh - 180px);
+          max-height: calc(100vh - 170px);
+          min-height: calc(100vh - 170px);
           overflow-y: scroll;
         }
 
@@ -2898,7 +2957,7 @@ input[type="number"] {
     }
 
     .product-info-section {
-      padding: 33px 0 0 0;
+      padding: 33px 0 30px 0;
 
       .content {
         .result {
@@ -2945,6 +3004,7 @@ input[type="number"] {
 
        
         .product-img {
+          display: none;
           max-width: 115px;
           height: auto;
           margin-bottom: 18px;
@@ -2953,10 +3013,67 @@ input[type="number"] {
             width: 100%;
           }
         }
+
+        .product-detail {
+
+          .product-name {
+            h2 {
+              font-size: 24px;
+              line-height: 30px;
+            }
+          }
+
+          .product-desc {
+            order: 2;
+            p {
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+
+          .product-footer {
+            order: 1;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            margin-bottom: 18px;
+
+            .product-img-mobile {
+              max-width: 115px;
+              height: auto;
+              display: block;
+              margin-right: 40px;
+    
+              img {
+                width: 100%;
+              }
+            }
+
+            .product-btns {
+              display: flex;
+              flex-direction: column;
+
+              .btn {
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .show-more {
+        a.btn-show-more {
+          font-size: 16px;
+          i {
+            font-size: 20px;
+          }
+        }
       }
     }
 
     .best-values-section {
+      padding: 20px 0 40px 0;
+
       .content {
         h1 {
           font-size: 24px;
