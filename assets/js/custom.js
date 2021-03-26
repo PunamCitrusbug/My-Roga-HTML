@@ -77,15 +77,29 @@ $(".nav-link").click(function(){
 
 $("#toggle-read").click(function() {
     var elem = $("#toggle-read").text();
-    if (elem === "Read More...") {
-      $("#toggle-read").text("Read Less");
-      $("#text_hide_show").show();
-    } else {
-      $("#toggle-read").text("Read More...");
-      $("#text_hide_show").hide();
-    }
+    $("#toggle-read").hide();
+    $("#text_hide_show").show();
+    // if (elem === "Read More") {
+    //   $("#toggle-read").text("Read Less");
+    //   $("#text_hide_show").show();
+    // } else {
+    //   $("#toggle-read").text("Read More");
+    //   $("#text_hide_show").hide();
+    // }
   });
 
+  $("#toggle-read-2").click(function() {
+    var elem = $("#toggle-read-2").text();
+    $("#toggle-read").show();
+    $("#text_hide_show").hide();
+    // if (elem === "Read More") {
+    //   $("#toggle-read-2").text("Read Less");
+    //   $("#text_hide_show").show();
+    // } else {
+    //   $("#toggle-read-2").text("Read More");
+    //   $("#text_hide_show").hide();
+    // }
+  });
 
 // our service
 
