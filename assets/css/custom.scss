@@ -367,7 +367,8 @@ input[type="number"] {
     .search-div {
       padding: 0 !important;
       border-radius: 0 3px 3px 0;
-      background-color: transparent !important;
+      background: rgb(65,173,212);
+      background: linear-gradient(114deg, rgba(65,173,212,1) 0%, rgba(23,99,167,1) 100%);
     }
 
     .input-group-prepend {
@@ -881,12 +882,17 @@ input[type="number"] {
         border: 2px solid transparent;
         margin-left: -2px;
 
+        a {
+          text-decoration: none;
+        }
+
         h3 {
           font-size: 24px;
           line-height: 29px;
           margin-bottom: 20px;
           color: #000;
           font-family: $roboto;
+          
         }
 
         ul {
@@ -904,6 +910,7 @@ input[type="number"] {
               font-size: 18px;
               color: #000;
               line-height: 20px;
+              text-decoration: underline;
               
               h4 {
                 font-size: 18px;
@@ -956,7 +963,7 @@ input[type="number"] {
 
     .heading {
 
-      h3 {
+      h2 {
         color: #003B8E;
         margin-bottom: 10px;
         font-size: 30px;
@@ -1486,9 +1493,30 @@ input[type="number"] {
       align-items: center;
       justify-content: space-between; 
 
-      .content-right {
+      .right-conetnt {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
         .btn {
           box-shadow: none;
+          font-size: 14px;
+          color: #000;
+          line-height: 18px;
+          display: flex;
+          align-items: center;
+          font-family: $roboto;
+          font-weight: 300;
+
+          i {
+            font-size:  20px;
+          }
+
+          &:hover {
+           span {
+            text-decoration: underline;
+           }
+          }
         }
       }
       
@@ -1540,6 +1568,11 @@ input[type="number"] {
               display: flex;
               align-items: center;
               justify-content: center;
+              box-shadow: none;
+
+              &:hover {
+                background-color: #A5D3E1;
+              }
 
               i {
                 font-size: 24px;
@@ -1557,10 +1590,26 @@ input[type="number"] {
 
             .btn-go {
               background: rgb(65,173,212);
-              background: linear-gradient(114deg, rgba(65,173,212,1) 0%, rgba(23,99,167,1) 100%) !important;
+              background: linear-gradient(114deg, rgba(65,173,212,1) 0%, rgba(23,99,167,1) 100%);
               width: 70px;
               height: 40px;
               color: #fff;
+              border: 0;
+              box-shadow:  0 10px 30px rgba(147, 147, 147, 0.16);
+
+              &:hover {
+                background: rgb(42,111,133);
+                background: linear-gradient(111deg, rgba(42,111,133,1) 0%, rgba(9,37,59,1) 100%);
+                transition: all 0.3s ease-in-out;
+                border-color: #fff !important;
+              }
+      
+              &:active {
+                background: rgb(42,111,133);
+                background: linear-gradient(111deg, rgba(42,111,133,1) 0%, rgba(9,37,59,1) 100%);
+                transition: all 0.3s ease-in-out;
+                border-color: #fff !important;
+              }
             }
           }
         }
@@ -1734,11 +1783,20 @@ input[type="number"] {
         font-size: 18px;
         line-height: 22px;
         font-family: $roboto;
+        box-shadow: none;
+
+        &:hover {
+          span {
+            text-decoration: underline;
+          }
+
+        }
 
         i {
           font-weight: 600;
           font-size: 24px;
           margin-left: 10px;
+          text-decoration: none !important;
         }
       }
     }
@@ -1749,7 +1807,7 @@ input[type="number"] {
     background-color: #EFFAFD;
 
     .content {
-      h1 {
+      h2 {
         font-size: 30px;
         line-height: 40px;
         color: #003B8E;
@@ -1793,6 +1851,12 @@ input[type="number"] {
           text-align: center;
           border: 0;
 
+          h3 {
+            font-size: 18px;
+            color: #000;
+            line-height: 22px;
+          }
+
           &:last-child {
             border-radius: 10px; 
           }
@@ -1813,6 +1877,7 @@ input[type="number"] {
           img {
             width: 70px;
             height: 70px;
+            object-fit: cover;
           }
         }
         
@@ -1875,8 +1940,62 @@ input[type="number"] {
     }
   }
 
+
+  // caollpas
+
+  .page-tile-section {
+    padding: 18px 0px;
+    border-bottom: 2px solid #BFBFBF;
+
+    p{
+      margin-bottom: 0;
+      font-size: 24px;
+      line-height: 36px;
+      color: #003B8E;
+    }
+
+    a {
+      font-size: 24px;
+      line-height: 36px;
+      color: #003B8E;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      position: relative;
+
+   
+      i {
+        font-size: 24px;
+        transition: all 0.3s;
+        transform: rotate(-180deg);
+      }
+    }
+
+    .collapsed i{
+      transition: all 0.3s;
+      transform: rotate(0deg);
+    }
+
+    &:hover {
+      background-color: rgba(235, 235, 235,0.23);
+    }
+  }
+
 }
 
+
+.product-details {
+  transition: unset !important;
+}
+
+.product-details.collapse {
+  padding-top: 50px;
+}
+
+.product-details.collapse.show {
+  display: block !important;
+}
 
 .footer-section {
   padding: 29px 0 25px 0;
@@ -2015,6 +2134,7 @@ input[type="number"] {
             padding: 1rem 1rem;
             margin: -1rem -1rem -1rem auto;
             animation: rotate 5s normal linear infinite;
+            box-shadow: none;
             i {
               font-size: 22px;
             }
@@ -2051,6 +2171,48 @@ input[type="number"] {
               }
             }
 
+
+            .filter-option {
+              padding: 0;
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              height: 28px;
+              font-size: 16px;
+              line-height: 26px;
+              font-family: $roboto;
+              background-color: #FFFFFF;
+              border: 1px solid #BFBFBF;
+              border-radius: 5px;
+              padding: 4px 10px 5px 10px;
+
+              &::before {
+                display: none;
+              }
+
+              &::after {
+                display: none ;
+              }
+
+              &:hover {
+                background-color: rgba(181, 206, 255,0.25) !important;
+                border-color: #003B8E;
+                color: #000;
+              }
+            }
+
+            .filter-option.active {
+              background-color: rgba(181, 206, 255,0.25) !important;
+              border-color: #003B8E;
+              color: #000;
+            }
+
+            .row-selected {
+              .filter-option {
+                background-color: #EBEBEB;
+              }
+            }
+
             .custom-control {
               padding: 0;
               margin: 0;
@@ -2075,6 +2237,12 @@ input[type="number"] {
 
                 &::after {
                   display: none ;
+                }
+
+                &:hover {
+                  background-color: rgba(181, 206, 255,0.25) !important;
+                  border-color: #003B8E;
+                  color: #000;
                 }
               }
 
@@ -2159,20 +2327,20 @@ input[type="number"] {
       transform: rotate3d(0, 0, 1, 0deg);
     }
     25% {
-      -webkit-transform: rotate3d(0, 0, 1, 90deg);
-      transform: rotate3d(0, 0, 1, 90deg);
+      -webkit-transform: rotate3d(0, 0, 1, -90deg);
+      transform: rotate3d(0, 0, 1, -90deg);
     }
     50% {
-      -webkit-transform: rotate3d(0, 0, 1, 180deg);
-      transform: rotate3d(0, 0, 1, 180deg);
+      -webkit-transform: rotate3d(0, 0, 1, -180deg);
+      transform: rotate3d(0, 0, 1, -180deg);
     }
     75% {
-      -webkit-transform: rotate3d(0, 0, 1, 270deg);
-      transform: rotate3d(0, 0, 1, 270deg);
+      -webkit-transform: rotate3d(0, 0, 1, -270deg);
+      transform: rotate3d(0, 0, 1, -270deg);
     }
     100% {
-      -webkit-transform: rotate3d(0, 0, 1, 360deg);
-      transform: rotate3d(0, 0, 1, 360deg);
+      -webkit-transform: rotate3d(0, 0, 1, -360deg);
+      transform: rotate3d(0, 0, 1, -360deg);
     }
   }
   
@@ -2198,6 +2366,15 @@ input[type="number"] {
     .feature-section .featured-item .featured-content h3 {
       font-size: 16px !important;
     }
+
+    .product-info-section .prodcut-item .product-detail .product-footer .product-img-mobile {
+      margin-right: 30px !important;
+    }
+
+    .learn-filter-section .radio-list .radio-item .call-detail .call-content h3 {
+      font-size: 16px !important;
+    }
+
   }
  
 }
@@ -2269,7 +2446,6 @@ input[type="number"] {
       }
     }
   }
-
  
   .header {
     .navbar {
@@ -2686,7 +2862,7 @@ input[type="number"] {
 
     .best-deal-section {
       .heading {
-        h3 {
+        h2 {
           font-size: 18px;
           line-height: 22px;
         }
@@ -2950,6 +3126,10 @@ input[type="number"] {
           align-items: center;
           justify-content: space-between;
           margin-top: 20px;
+
+          .btn {
+            box-shadow: none;
+          }
         }
       }
 
@@ -3064,6 +3244,8 @@ input[type="number"] {
       .show-more {
         a.btn-show-more {
           font-size: 16px;
+          box-shadow: none;
+
           i {
             font-size: 20px;
           }
@@ -3075,7 +3257,7 @@ input[type="number"] {
       padding: 20px 0 40px 0;
 
       .content {
-        h1 {
+        h2 {
           font-size: 24px;
           line-height: 36px;
           color: #003B8E; 
@@ -3086,6 +3268,10 @@ input[type="number"] {
         tr {
           th {
             font-size: 16px;
+
+            h3 {
+              font-size: 16px;
+            }
           }
 
           td {
@@ -3095,6 +3281,41 @@ input[type="number"] {
       }
     }
     
+    .page-tile-section {
+      padding-top: 60px;
+
+      p {
+        font-size: 16px;
+        line-height: 27px;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        display: -webkit-box;
+        max-width: 96%;
+      }
+
+      a {
+        font-size: 16px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        i {
+          position: absolute;
+          top: 0;
+          right: 10px;
+        }
+        
+      }
+    }
+
+    .product-details.collapse.show {
+      padding-top: 30px !important;
+    }
+
   }
 
   .footer-section {
@@ -3187,6 +3408,11 @@ input[type="number"] {
         }
       }
     }
+    
+  }
+
+  .learn-filter-section .radio-list .radio-item .call-detail .call-img img {
+    min-height: 140px;
   }
  }
 }
@@ -3252,6 +3478,9 @@ input[type="number"] {
     margin-left: 50px;
   }
 
+  .learn-filter-section .radio-list .radio-item .call-detail .call-img img {
+    min-height: 160px;
+  }
 
 }
 

@@ -120,21 +120,7 @@
   <main role="main" class="middle-section">
     <div class="middle-inner">
 
-    <section class="page-tile-section " id="title-none" style="display: none;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-         
-              <a class="collapsed" data-toggle="collapse" href="#title-collapse" role="button" aria-expanded="false" aria-controls="title-collapse" ><p>Best Regular Smartwatches For Men With SIM Card Slot, GPS Tracker, Health Rate & Blood 
-                Pressure Monitor <i class="fa fa-angle-down ml-2"></i> </p></a>
-           
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-      <section class="product-details collapse" id="title-collapse" style="display: block;">
+      <section class="product-details">
         <div class="product-inner">
           <div class="container">
             <div class="row">
@@ -221,7 +207,7 @@
                 <div class="radio-list">
                   <div class="radio-item">
                     <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" class="custom-control-input answer-radio" id="customRadio2" name="answer-radio">
+                      <input type="radio" class="custom-control-input" id="customRadio2" name="example2">
                       <label class="custom-control-label" for="customRadio2">
 
                         <div class="row">
@@ -255,7 +241,7 @@
 
                   <div class="radio-item">
                     <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" class="custom-control-input answer-radio" id="customRadio24" name="answer-radio" checked>
+                      <input type="radio" class="custom-control-input" id="customRadio24" name="example2">
                       <label class="custom-control-label" for="customRadio24">
 
                         <div class="row">
@@ -290,7 +276,7 @@
 
                   <div class="radio-item">
                     <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" class="custom-control-input answer-radio" id="customRadio23" name="answer-radio">
+                      <input type="radio" class="custom-control-input" id="customRadio23" name="example2">
                       <label class="custom-control-label" for="customRadio23">
 
                         <div class="row">
@@ -325,7 +311,7 @@
 
                   <div class="radio-item">
                     <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" class="custom-control-input answer-radio" id="customRadio22" name="answer-radio">
+                      <input type="radio" class="custom-control-input" id="customRadio22" name="example2">
                       <label class="custom-control-label" for="customRadio22">
 
                         <div class="row">
@@ -864,16 +850,12 @@
           <div class="filter-item">
             <h3>Department</h3>
             <ul>
-
-              <!-- note : u can use anchore as <li> <a href="#!" class="filter-option">Women</a> </li>  insted of radio button -->
             <li>
               <div class="custom-control custom-radio">
                 <input type="radio" class="custom-control-input" id="c1" name="example1" checked>
-                <label class="custom-control-label" for="c1">Women</label>
-              </div>   
+                <label class="custom-control-label" for="c1">Custom radio</label>
+              </div>
             </li>
-
-        
             <li>
               <div class="custom-control custom-radio">
                 <input type="radio" class="custom-control-input" id="c2" name="example1">
@@ -1207,18 +1189,6 @@
       // $('btn-select').click(function(){
       //   $(this).parent(input).val(checked);
       // }); 
-
-      $('input[type=radio][name=answer-radio]').change(function() {
-        if ($(this).is(":checked")) {
-          $('#title-none').show();
-          $('#title-collapse').hide();
-        }
-        
-        // if ($(this).is(":checked")) {
-        //   $('#title-none').toggle();
-        //   $('#title-collapse').toggle();
-        // }
-      });
 
     });
  
