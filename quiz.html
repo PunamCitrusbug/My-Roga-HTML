@@ -51,7 +51,7 @@
                   <div class="input-group-prepend ">
                     <span class="input-group-text search-icon"><i class="fe fe-search"></i></span>
                   </div>
-                  <input type="text" class="form-control typehead-box keyword" placeholder="Search a Guide: Headphones, Laptops,…" autocomplete="off">
+                  <input type="text" class="form-control typehead-box keyword serach-text" placeholder="Search a Guide: Headphones, Laptops,…" autocomplete="off">
                   <div class="input-group-append ">
                     <span class="input-group-text search-div" id="basic-addon2">
                       <a href="#!" class="btn btn-priamry btn-search">Search</a>
@@ -196,7 +196,7 @@
                       <img src="assets/images/profile.jpg" alt="">
                     </div>
                     <div class="profiel-name">
-                      <p>Updated: 15th October 2020</p>
+                      <p>Only 5 questions to go....</p>
                     </div>
                  </div>
 
@@ -377,7 +377,7 @@
                
                   <div class="filter-div">
                     <ul>
-                      <li><a href="#!" class="btn" data-toggle="modal" data-target="#filter">4 Filters Applied <i class="fa fa-angle-down ml-2"></i></a></li>
+                      <li><a href="#" class="btn" data-toggle="modal" data-target="#filter">4 Filters Applied <i class="fa fa-angle-down ml-2"></i></a></li>
                       <li><input type="text" class="form-control" placeholder="$Min."></li>
                       <li><input type="text" class="form-control" placeholder="$1080"></li>
                       <li><a href="#!" class="btn btn-go">Go</a></li>
@@ -613,9 +613,9 @@
                         <tbody>
                           <tr>
                             <td>
-                              <a href="#" class="tbl-price">
+                              <span class="tbl-price">
                                 Under $50
-                              </a>
+                              </span>
                             </td>
                             <td>
                               <span class="tbl-img">
@@ -638,12 +638,12 @@
                               </span>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-outline-primary">
+                              <a href="https://www.ebay.com/" class="btn btn-outline-primary" target="_blank" rel=”sponsored”>
                                 See ebay
                               </a>
                             </td>
                             <td>
-                              <a href="#" class="tbl-runnerup">
+                              <a href="https://www.ebay.com/" target="_blank" rel=”sponsored” class="tbl-runnerup">
                                 $455 on eBay
                               </a>
                             </td>
@@ -651,9 +651,9 @@
   
                           <tr>
                             <td>
-                              <a href="#" class="tbl-price">
+                              <span class="tbl-price">
                                 Under $50
-                              </a>
+                              </span>
                             </td>
                             <td>
                               <span class="tbl-img">
@@ -676,12 +676,12 @@
                               </span>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-outline-primary">
+                              <a href="https://www.ebay.com/" class="btn btn-outline-primary" target="_blank" rel=”sponsored”>
                                 See ebay
                               </a>
                             </td>
                             <td>
-                              <a href="#" class="tbl-runnerup">
+                              <a href="https://www.ebay.com/" target="_blank" rel=”sponsored” class="tbl-runnerup">
                                 $455 on eBay
                               </a>
                             </td>
@@ -689,9 +689,9 @@
   
                           <tr>
                             <td>
-                              <a href="#" class="tbl-price">
+                              <span class="tbl-price">
                                 Under $50
-                              </a>
+                              </span>
                             </td>
                             <td>
                               <span class="tbl-img">
@@ -714,12 +714,12 @@
                               </span>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-outline-primary">
+                              <a href="https://www.ebay.com/" class="btn btn-outline-primary" target="_blank" rel=”sponsored”>
                                 See ebay
                               </a>
                             </td>
                             <td>
-                              <a href="#" class="tbl-runnerup">
+                              <a href="https://www.ebay.com/" target="_blank" rel=”sponsored” class="tbl-runnerup">
                                 $455 on eBay
                               </a>
                             </td>
@@ -727,9 +727,9 @@
   
                           <tr>
                             <td>
-                              <a href="#" class="tbl-price">
+                              <span class="tbl-price">
                                 Under $50
-                              </a>
+                              </span>
                             </td>
                             <td>
                               <span class="tbl-img">
@@ -752,12 +752,12 @@
                               </span>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-outline-primary">
+                              <a href="https://www.ebay.com/" class="btn btn-outline-primary" target="_blank" rel=”sponsored”>
                                 See ebay
                               </a>
                             </td>
                             <td>
-                              <a href="#" class="tbl-runnerup">
+                              <a href="https://www.ebay.com/" target="_blank" rel=”sponsored” class="tbl-runnerup">
                                 $455 on eBay
                               </a>
                             </td>
@@ -765,9 +765,9 @@
   
                           <tr>
                             <td>
-                              <a href="#" class="tbl-price">
+                              <span class="tbl-price">
                                 Under $50
-                              </a>
+                              </span>
                             </td>
                             <td>
                               <span class="tbl-img">
@@ -790,12 +790,12 @@
                               </span>
                             </td>
                             <td>
-                              <a href="#" class="btn btn-outline-primary">
+                              <a href="https://www.ebay.com/" class="btn btn-outline-primary" target="_blank" rel=”sponsored”>
                                 See ebay
                               </a>
                             </td>
                             <td>
-                              <a href="#" class="tbl-runnerup">
+                              <a href="https://www.ebay.com/" target="_blank" rel=”sponsored” class="tbl-runnerup">
                                 $455 on eBay
                               </a>
                             </td>
@@ -1184,6 +1184,13 @@
             { id: 2, name: 'Smartwatch' },
         ]
       });
+
+      // $(".serach-text" ).focusin(function() {
+      //   $(this).attr("placeholder", "").placeholder();
+      // });
+
+     
+
 
       // $('#filter').modal('show');
 

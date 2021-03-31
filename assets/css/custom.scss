@@ -237,9 +237,15 @@ input[type="number"] {
     }
 
     .navbar-brand {
-      width: 160px;
-      height: auto;
+      width: 188px;
+      height: au  to;
       display: block;
+      padding: 7px 14px;
+      border: 1px solid transparent;
+
+      &:hover {
+        border: 1px solid #fff;
+      }
 
       img {
         width: 100%;
@@ -410,25 +416,28 @@ input[type="number"] {
         line-height: 26px;
         width: 100%;
         max-width: 122px;
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         min-width: 122px;
         border-color: transparent;
         border-radius: 0 3px 3px 0;
         box-shadow: none;
         transition: all 0.3s ease-in-out;
+        border: 0;
 
         &:hover {
           background: rgb(42,111,133);
           background: linear-gradient(111deg, rgba(42,111,133,1) 0%, rgba(9,37,59,1) 100%);
           transition: all 0.3s ease-in-out;
-          border-color: #fff;
+          border: 1px solid #fff;
         }
 
         &:active {
           background: rgb(42,111,133);
           background: linear-gradient(111deg, rgba(42,111,133,1) 0%, rgba(9,37,59,1) 100%);
           transition: all 0.3s ease-in-out;
-          border-color: #fff;
+          border: 1px solid #fff;
         }
       }
 
@@ -445,9 +454,15 @@ input[type="number"] {
       outline: none;
       border-radius: 3px 0 0 3px;
       margin-right: -1px;
+      z-index: 2;
+      position: relative;
 
       &:focus {
         border-color: #003B8E;
+
+        &::placeholder {
+          opacity: 0;
+        }
       }
     }
   }
@@ -489,6 +504,8 @@ input[type="number"] {
     &:focus {
       border-color: #1d61f6 !important;
       color: #000000;
+
+      
     }
   }
 }
@@ -513,6 +530,14 @@ input[type="number"] {
 
   .form-control {
     padding-right: 40px;
+  }
+}
+
+input.form-control {
+  &:focus {
+    &::placeholder {
+      opacity: 0;
+    }
   }
 }
 
@@ -609,6 +634,14 @@ input[type="number"] {
           outline: none;
           padding-left: 50px;
           border-radius:  3px 0 0 3px;
+
+          &:focus {
+            
+    
+            &::placeholder {
+              opacity: 0;
+            }
+          }
         }
       }
     
@@ -801,17 +834,20 @@ input[type="number"] {
           line-height: 26px;
           width: 100%;
           max-width: 122px;
-          display: block;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           min-width: 122px;
           border-radius: 0 3px 3px 0;
           box-shadow: none;
+          border: 0;
           transition: all 0.3s ease-in-out;
 
           &:hover {
             background: rgb(42,111,133);
             background: linear-gradient(111deg, rgba(42,111,133,1) 0%, rgba(9,37,59,1) 100%);
             transition: all 0.3s ease-in-out;
-            border-color: #fff;
+            border: 1px solid #fff;
           }
 
           &:active {
@@ -834,6 +870,14 @@ input[type="number"] {
         outline: none;
         // padding-left: 50px;
         border-radius:  3px 0 0 3px;
+        z-index: 2;
+        position: relative;
+
+        &:focus {
+          &::placeholder {
+            opacity: 0;
+          }
+        }
       }
     }
   }
@@ -1121,8 +1165,12 @@ input[type="number"] {
 
           &:hover {
             background-color: #FCF1E7;
-            text-decoration: underline;
+            text-decoration: none;
             transition: all 0.3s;
+          }
+
+          &:active {
+            text-decoration: underline;
           }
         }
       }
@@ -1317,7 +1365,7 @@ input[type="number"] {
           color:#003B8E;
           margin-bottom: 0;
           font-family: $roboto;
-          font-weight: 400;
+          font-weight: 300;
         }
       }
     }
@@ -1653,6 +1701,7 @@ input[type="number"] {
           h2 {
             font-size: 30px;
             color: #000000;
+            font-weight: 700;
             line-height: 30px;
           }
   
@@ -1676,7 +1725,7 @@ input[type="number"] {
             
             a {
               color: #414141;
-              font-size: 14px;
+              font-size: 18px;
               line-height: 18px;
               margin-left: 5px;
               font-family: $roboto;
@@ -1685,10 +1734,14 @@ input[type="number"] {
         }
 
         .product-desc {
+          max-width: 590px;
+
           h4 {
             font-size: 18px;
             line-height: 22px;
             color: #000000;
+            font-weight: 700;
+            margin-bottom: 17px;
           }
 
           p {
@@ -1720,7 +1773,7 @@ input[type="number"] {
             justify-content: center;
             margin-bottom: 10px;
             box-shadow: none;
-            margin-right: 10px;
+            margin-right: 20px;
 
             &:last-child {
               
@@ -1749,8 +1802,12 @@ input[type="number"] {
   
             &:hover {
               background-color: #FCF1E7;
-              text-decoration: underline;
+              text-decoration: none;
               transition: all 0.3s;
+            }
+
+            &:active {
+              text-decoration: underline;
             }
           }
         }
@@ -1932,8 +1989,12 @@ input[type="number"] {
 
           &:hover {
             background-color: #FCF1E7;
-            text-decoration: underline;
+            text-decoration: none;
             transition: all 0.3s;
+          }
+
+          &:active {
+            text-decoration: underline;
           }
         }
       }
@@ -2375,6 +2436,14 @@ input[type="number"] {
       font-size: 16px !important;
     }
 
+    .product-info-section .prodcut-item .product-detail .product-name h2 {
+      font-size: 20px !important;
+    }
+
+    .product-info-section .prodcut-item .product-detail .product-desc h4 {
+      font-size: 16px !important;
+    }
+
   }
  
 }
@@ -2498,7 +2567,8 @@ input[type="number"] {
         width: 120px;
         height: auto;
         margin: 0 auto;
-        padding: 0;
+        padding: 0px;
+        border: 0 !important;
 
         img {
           width: 100%;
@@ -2543,6 +2613,8 @@ input[type="number"] {
           }
         }
       }
+
+      
     }
   }
 
@@ -3155,16 +3227,27 @@ input[type="number"] {
 
         .filter-div ul li {
           margin-right: 5px;
+
+          &:last-child {
+            margin-right: 0;
+          }
           
         .btn {
-          font-size: 14px;
+          font-size: 12px;
           line-height: 20px;
           white-space: nowrap;
           height: 35px;
+          padding: 10px 8px;
+
+          i {
+            font-size: 16px;
+          }
         }
 
         input {
-          font-size: 14px;
+          font-size: 12px;
+          padding: 10px 5px;
+          height: 35px;
         }
 
         .btn-go {
@@ -3201,7 +3284,22 @@ input[type="number"] {
               font-size: 24px;
               line-height: 30px;
             }
+
+            .product-review {
+              .rating {
+                i {
+                  color: #F8DA48 ;
+                }
+              }
+
+              a {
+                font-size: 12px;  
+              }
+            }
+
           }
+
+         
 
           .product-desc {
             order: 2;
@@ -3319,6 +3417,8 @@ input[type="number"] {
   }
 
   .footer-section {
+    padding: 22px 0;
+
     .quicklink {
       ul {
         display: inline-block;
@@ -3327,15 +3427,18 @@ input[type="number"] {
           a {
             text-align: left;
             font-size: 16px;
-            line-height: 30px;
+            line-height: 20px;
+            margin-bottom: 17px;
           }
 
           &:nth-last-child(1) {
-            width: 49%;
+            width: auto;
+            margin-right: 20px;
           }
 
           &:nth-last-child(2) {
-            width: 49%;
+            width: auto;
+            margin-right: 20px;
           }
         }
       }
@@ -3346,6 +3449,8 @@ input[type="number"] {
       flex-direction: column-reverse;
       p {
         margin-bottom: 0;
+        text-align: left;
+        line-height: 25px;
       }
     }
 

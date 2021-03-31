@@ -21,16 +21,16 @@ function closeNav2() {
 }
 
 
-var headertopoption = $(window);
-var headTop = $(".navbar-dark");
+// var headertopoption = $(window);
+// var headTop = $(".navbar-dark");
 
-headertopoption.on("scroll", function () {
-    if (headertopoption.scrollTop() > 100) {
-        headTop.addClass("fixed-top slideInDown animated");
-    } else {
-        headTop.removeClass("fixed-top slideInDown animated");
-    }
-});
+// headertopoption.on("scroll", function () {
+//     if (headertopoption.scrollTop() > 100) {
+//         headTop.addClass("fixed-top slideInDown animated");
+//     } else {
+//         headTop.removeClass("fixed-top slideInDown animated");
+//     }
+// });
 
   
 // wow

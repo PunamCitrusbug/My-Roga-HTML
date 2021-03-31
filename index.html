@@ -51,7 +51,7 @@
                   <div class="input-group-prepend ">
                     <span class="input-group-text search-icon"><i class="fe fe-search"></i></span>
                   </div>
-                  <input type="text" class="form-control typehead-box keyword" placeholder="Search a Guide: Headphones, Laptops,…" autocomplete="off">
+                  <input type="text" class="form-control typehead-box keyword serach-text" placeholder="Search a Guide: Headphones, Laptops,…" autocomplete="off">
                   <div class="input-group-append ">
                     <span class="input-group-text search-div" >
                       <a href="#!" class="btn btn-priamry btn-search">Search</a>
@@ -78,42 +78,7 @@
 
     </nav>
 
-    <!--    <nav class="navbar navbar-expand-md navbar-dark ">
-      <div class="container">
-        <div class="row row-100 col-header">
-          <div class="col-lg-3 col-12 col-30">
-            <a class="navbar-brand smoth-scroll" href="index.html"><img src="assets/images/logo.png" alt="" /></a>
-          </div>
-          <div class="col-lg-9 col-12 col-70">
-            <button class="navbar-toggler" onclick="openNav2()" type="button">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse1 navbar-collapse sidenav-new-menu nav-full-menu" id="mySidenav2">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()"><img src="assets/images/close-menu.png" alt=""/></a>
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                  <a class="nav-link smoth-scroll active" href="#">Home</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link smoth-scroll" href="#">Download Link</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link smoth-scroll" href="#">About</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link smoth-scroll" href="#">Contact</a>
-                </li>
-                
-              </ul>
-            </div>
-
-            <div id="cd-shadow-layer" onclick="closeNav2()" style="display: none;"></div>
-          </div>
-        </div>
-
-      </div>
-
-    </nav> -->
+  
   </header>
 
   <!-- Begin page content -->
@@ -134,7 +99,7 @@
                   <div class="input-group-prepend search-icon">
                     <span class="input-group-text"><i class="fe fe-search"></i></span>
                   </div>
-                  <input type="text" class="form-control " placeholder="I’m looking for…" aria-label="" aria-describedby="basic-addon21">
+                  <input type="text" class="form-control serach-text" placeholder="I’m looking for…" aria-label="" aria-describedby="basic-addon21">
                   <div class="input-group-append ">
                     <span class="input-group-text search-div" id="basic-addon21">
                       <a href="#!" class="btn btn-priamry btn-search">Search</a>
@@ -590,7 +555,7 @@
                     <div class="input-group-prepend search-icon">
                       <span class="input-group-text"><i class="fe fe-search"></i></span>
                     </div>
-                    <input type="text" class="form-control typehead-box keyword" placeholder="Search a Product Guide…" autocomplete="off">
+                    <input type="text" class="form-control typehead-box keyword serach-text" placeholder="Search a Product Guide…" autocomplete="off">
                     <div class="input-group-append ">
                       <span class="input-group-text search-div" >
                         <a href="#!" class="btn btn-priamry btn-search">Search</a>
@@ -1496,7 +1461,14 @@
             { id: 2, name: 'Smartwatch' },
         ]
       });
+
+      // $(".serach-text" ).click(function() {
+      //   $(this).attr("placeholder", "").placeholder();
+      // });
     });
+
+
+   
  
   </script>
 </body>

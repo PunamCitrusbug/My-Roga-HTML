@@ -238,9 +238,15 @@ input[type="number"] {
 }
 
 .header .navbar .navbar-brand {
-  width: 160px;
-  height: auto;
+  width: 188px;
+  height: au  to;
   display: block;
+  padding: 7px 14px;
+  border: 1px solid transparent;
+}
+
+.header .navbar .navbar-brand:hover {
+  border: 1px solid #fff;
 }
 
 .header .navbar .navbar-brand img {
@@ -408,7 +414,15 @@ input[type="number"] {
   line-height: 26px;
   width: 100%;
   max-width: 122px;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-width: 122px;
   border-color: transparent;
   border-radius: 0 3px 3px 0;
@@ -416,6 +430,7 @@ input[type="number"] {
           box-shadow: none;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  border: 0;
 }
 
 .nav-center .search-bar .input-group-text .btn-search:hover {
@@ -423,7 +438,7 @@ input[type="number"] {
   background: linear-gradient(111deg, #2a6f85 0%, #09253b 100%);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border-color: #fff;
+  border: 1px solid #fff;
 }
 
 .nav-center .search-bar .input-group-text .btn-search:active {
@@ -431,7 +446,7 @@ input[type="number"] {
   background: linear-gradient(111deg, #2a6f85 0%, #09253b 100%);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border-color: #fff;
+  border: 1px solid #fff;
 }
 
 .nav-center .search-bar .form-control {
@@ -446,10 +461,28 @@ input[type="number"] {
   outline: none;
   border-radius: 3px 0 0 3px;
   margin-right: -1px;
+  z-index: 2;
+  position: relative;
 }
 
 .nav-center .search-bar .form-control:focus {
   border-color: #003B8E;
+}
+
+.nav-center .search-bar .form-control:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.nav-center .search-bar .form-control:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.nav-center .search-bar .form-control:focus::-ms-input-placeholder {
+  opacity: 0;
+}
+
+.nav-center .search-bar .form-control:focus::placeholder {
+  opacity: 0;
 }
 
 .nav-center .collapse1 {
@@ -511,6 +544,22 @@ input[type="number"] {
 
 .input-group .form-control {
   padding-right: 40px;
+}
+
+input.form-control:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+input.form-control:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+input.form-control:focus::-ms-input-placeholder {
+  opacity: 0;
+}
+
+input.form-control:focus::placeholder {
+  opacity: 0;
 }
 
 /*  middle section start here */
@@ -606,6 +655,22 @@ input[type="number"] {
   outline: none;
   padding-left: 50px;
   border-radius: 3px 0 0 3px;
+}
+
+.middle-section .find-section .content .search-bar .form-control:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.middle-section .find-section .content .search-bar .form-control:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.middle-section .find-section .content .search-bar .form-control:focus::-ms-input-placeholder {
+  opacity: 0;
+}
+
+.middle-section .find-section .content .search-bar .form-control:focus::placeholder {
+  opacity: 0;
 }
 
 .middle-section .popular-guid-section {
@@ -831,11 +896,20 @@ input[type="number"] {
   line-height: 26px;
   width: 100%;
   max-width: 122px;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-width: 122px;
   border-radius: 0 3px 3px 0;
   -webkit-box-shadow: none;
           box-shadow: none;
+  border: 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -845,7 +919,7 @@ input[type="number"] {
   background: linear-gradient(111deg, #2a6f85 0%, #09253b 100%);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border-color: #fff;
+  border: 1px solid #fff;
 }
 
 .middle-section .makeup-section .search-bar .input-group-text .btn-search:active {
@@ -866,6 +940,24 @@ input[type="number"] {
           box-shadow: none;
   outline: none;
   border-radius: 3px 0 0 3px;
+  z-index: 2;
+  position: relative;
+}
+
+.middle-section .makeup-section .search-bar .form-control:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.middle-section .makeup-section .search-bar .form-control:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.middle-section .makeup-section .search-bar .form-control:focus::-ms-input-placeholder {
+  opacity: 0;
+}
+
+.middle-section .makeup-section .search-bar .form-control:focus::placeholder {
+  opacity: 0;
 }
 
 .middle-section .feature-section {
@@ -1181,9 +1273,13 @@ input[type="number"] {
 
 .middle-section .best-deal-section .product-item .product-btns .btn-outline-primary:hover {
   background-color: #FCF1E7;
-  text-decoration: underline;
+  text-decoration: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.middle-section .best-deal-section .product-item .product-btns .btn-outline-primary:active {
+  text-decoration: underline;
 }
 
 .middle-section .best-deal-section .owl-theme {
@@ -1390,7 +1486,7 @@ input[type="number"] {
   color: #003B8E;
   margin-bottom: 0;
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .middle-section .learn-filter-section .content {
@@ -1765,6 +1861,7 @@ input[type="number"] {
 .middle-section .product-info-section .prodcut-item .product-detail .product-name h2 {
   font-size: 30px;
   color: #000000;
+  font-weight: 700;
   line-height: 30px;
 }
 
@@ -1801,16 +1898,22 @@ input[type="number"] {
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-name .product-review a {
   color: #414141;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 18px;
   margin-left: 5px;
   font-family: "Roboto";
+}
+
+.middle-section .product-info-section .prodcut-item .product-detail .product-desc {
+  max-width: 590px;
 }
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-desc h4 {
   font-size: 18px;
   line-height: 22px;
   color: #000000;
+  font-weight: 700;
+  margin-bottom: 17px;
 }
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-desc p {
@@ -1858,7 +1961,7 @@ input[type="number"] {
   margin-bottom: 10px;
   -webkit-box-shadow: none;
           box-shadow: none;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-btns .btn:last-child {
@@ -1887,9 +1990,13 @@ input[type="number"] {
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-btns .btn-outline-primary:hover {
   background-color: #FCF1E7;
-  text-decoration: underline;
+  text-decoration: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.middle-section .product-info-section .prodcut-item .product-detail .product-btns .btn-outline-primary:active {
+  text-decoration: underline;
 }
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-footer {
@@ -2078,9 +2185,13 @@ input[type="number"] {
 
 .middle-section .best-values-section .table tr .btn-outline-primary:hover {
   background-color: #FCF1E7;
-  text-decoration: underline;
+  text-decoration: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.middle-section .best-values-section .table tr .btn-outline-primary:active {
+  text-decoration: underline;
 }
 
 .middle-section .page-tile-section {
@@ -2547,6 +2658,12 @@ input[type="number"] {
   .middle-section .learn-filter-section .radio-list .radio-item .call-detail .call-content h3 {
     font-size: 16px !important;
   }
+  .middle-section .product-info-section .prodcut-item .product-detail .product-name h2 {
+    font-size: 20px !important;
+  }
+  .middle-section .product-info-section .prodcut-item .product-detail .product-desc h4 {
+    font-size: 16px !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2648,7 +2765,8 @@ input[type="number"] {
     width: 120px;
     height: auto;
     margin: 0 auto;
-    padding: 0;
+    padding: 0px;
+    border: 0 !important;
   }
   .header .navbar .navbar-brand img {
     width: 100%;
@@ -3159,14 +3277,23 @@ input[type="number"] {
   .middle-section .product-info-section .content .filter-div ul li {
     margin-right: 5px;
   }
+  .middle-section .product-info-section .content .filter-div ul li:last-child {
+    margin-right: 0;
+  }
   .middle-section .product-info-section .content .filter-div ul li .btn {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
     white-space: nowrap;
     height: 35px;
+    padding: 10px 8px;
+  }
+  .middle-section .product-info-section .content .filter-div ul li .btn i {
+    font-size: 16px;
   }
   .middle-section .product-info-section .content .filter-div ul li input {
-    font-size: 14px;
+    font-size: 12px;
+    padding: 10px 5px;
+    height: 35px;
   }
   .middle-section .product-info-section .content .filter-div ul li .btn-go {
     width: 55px;
@@ -3190,6 +3317,12 @@ input[type="number"] {
   .middle-section .product-info-section .prodcut-item .product-detail .product-name h2 {
     font-size: 24px;
     line-height: 30px;
+  }
+  .middle-section .product-info-section .prodcut-item .product-detail .product-name .product-review .rating i {
+    color: #F8DA48;
+  }
+  .middle-section .product-info-section .prodcut-item .product-detail .product-name .product-review a {
+    font-size: 12px;
   }
   .middle-section .product-info-section .prodcut-item .product-detail .product-desc {
     -webkit-box-ordinal-group: 3;
@@ -3297,19 +3430,25 @@ input[type="number"] {
   .middle-section .product-details.collapse.show {
     padding-top: 30px !important;
   }
+  .footer-section {
+    padding: 22px 0;
+  }
   .footer-section .quicklink ul {
     display: inline-block;
   }
   .footer-section .quicklink ul li a {
     text-align: left;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 20px;
+    margin-bottom: 17px;
   }
   .footer-section .quicklink ul li:nth-last-child(1) {
-    width: 49%;
+    width: auto;
+    margin-right: 20px;
   }
   .footer-section .quicklink ul li:nth-last-child(2) {
-    width: 49%;
+    width: auto;
+    margin-right: 20px;
   }
   .footer-section .footer-text {
     display: -webkit-box;
@@ -3322,6 +3461,8 @@ input[type="number"] {
   }
   .footer-section .footer-text p {
     margin-bottom: 0;
+    text-align: left;
+    line-height: 25px;
   }
   .footer-section .affilate-link {
     margin-bottom: 20px;
