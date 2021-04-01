@@ -104,13 +104,14 @@ $("#toggle-read").click(function() {
 // our service
 
 $(".owl-carousel-popular").owlCarousel({
-    loop:true,
+    loop:false,
     margin:0,
     smartSpeed:2000,
-    autoplay:true,
-    autoplayTimeout:4000,
+    autoplay:false,
+    // autoplayTimeout:4000,
     autoplayHoverPause:true,
     dots: false,
+    rewind: false,
     responsiveClass:true,
     navText: [
         "<i class='fa fa-chevron-left'></i>",
@@ -138,27 +139,25 @@ $(".owl-carousel-popular").owlCarousel({
         1024:{
             items:5,
             nav:true,
-            loop:true
         },
         1200:{
             items:5,
             nav:true,
-            loop:true
         },
         1300:{
             items:6,
             nav:true,
-            loop:true
         }
     }
 });
 
 $(".owl-carousel-best").owlCarousel({
-    loop:true,
+    loop:false,
     margin:27,
     smartSpeed:2000,
-    autoplay:true,
-    autoplayTimeout:4000,
+    autoplay:false,
+    // autoplayTimeout:4000,
+    rewind: false,
     autoplayHoverPause:true,
     dots: false,
     responsiveClass:true,
@@ -187,7 +186,6 @@ $(".owl-carousel-best").owlCarousel({
         1200:{
             items:5,
             nav:true,
-            loop:true
         },
        
     }

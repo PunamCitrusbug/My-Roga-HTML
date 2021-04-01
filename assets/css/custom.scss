@@ -700,10 +700,10 @@ input.form-control {
         a {
           color: #000;
 
-          &:hover {
-            text-decoration: underline;
-            transition: all 0.3s;
-          }
+          // &:hover {
+          //   text-decoration: underline;
+          //   transition: all 0.3s;
+          // }
         }
        
       }
@@ -713,6 +713,19 @@ input.form-control {
         line-height: 18px;
         font-family: $roboto;
         color: #000;
+      }
+
+      &:hover {
+
+        h3 {
+          text-decoration: underline;
+          transition: all 0.3s;
+        }
+
+        .popular-img {
+          border: 1px solid #BFBFBF;
+          transition: all 0.3s;
+        }
       }
 
     }
@@ -1232,6 +1245,7 @@ input.form-control {
   }
 
 
+
   // 
 
   .product-details {
@@ -1360,8 +1374,8 @@ input.form-control {
         align-items: center;
 
         p {
-          font-size: 16px;
-          line-height: 35px;
+          font-size: 18px;
+          line-height: 27px;
           color:#003B8E;
           margin-bottom: 0;
           font-family: $roboto;
@@ -1673,11 +1687,11 @@ input.form-control {
 
       h1 {
         font-size: 30px;
-        line-height: 37px;
+        line-height: 70px;
         color: #003B8E;
         font-weight: 300;
         font-family: $roboto;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
       }
 
       .product-img {
@@ -1703,6 +1717,7 @@ input.form-control {
             color: #000000;
             font-weight: 700;
             line-height: 30px;
+            font-family: $roboto;
           }
   
           .product-review  {
@@ -1726,7 +1741,7 @@ input.form-control {
             a {
               color: #414141;
               font-size: 18px;
-              line-height: 18px;
+              line-height: 22px;
               margin-left: 5px;
               font-family: $roboto;
             }
@@ -1741,7 +1756,8 @@ input.form-control {
             line-height: 22px;
             color: #000000;
             font-weight: 700;
-            margin-bottom: 17px;
+            margin-bottom: 10px;
+            font-family: $roboto;
           }
 
           p {
@@ -1964,6 +1980,14 @@ input.form-control {
           border: 0;
           white-space: nowrap;
           border-top: 1px solid rgba(112, 112, 112, 0.30) !important;
+
+          &:nth-child(4) {
+            font-weight: 400;
+          }
+
+          &:nth-child(5) {
+            font-weight: 400;
+          }
         }
 
         .btn {
@@ -2044,6 +2068,11 @@ input.form-control {
   }
 
 }
+
+
+.owl-theme .owl-nav .disabled {
+      opacity: 0 !important;
+    }
 
 
 .product-details {
@@ -2153,6 +2182,35 @@ input.form-control {
 } 
 
 
+.maxinput:disabled {
+  // background-color: #fafafa !important;
+}
+
+.dollars {
+  position: relative;
+  padding-left: 10px !important;
+
+  
+  input {
+    padding-left: 25px !important;
+    text-align: left !important;
+  }
+
+  &::after {
+      color: #37424a !important;
+      content: "$";
+      font-size: 16px !important;
+      font-weight: 400;
+      position: absolute;
+      top: 9px;
+      left: 25px;
+      height: 20px;
+      width: 10px;
+      z-index: 99;
+      color: #495057;
+      font-family: $roboto;
+  }
+}
 
 // modal {
   .modal-custom {
@@ -2449,6 +2507,16 @@ input.form-control {
 }
 
 @media (max-width: 767px) {
+
+  .dollars {
+    input {
+      padding-left: 18px !important;
+    }
+    &::after {
+      font-size: 12px !important;
+      left: 20px !important;
+    }
+  }
 
   .text-readmore {
     display: inline-block;
@@ -2754,14 +2822,25 @@ input.form-control {
         .search-bar {
           display: block;
 
+          max-width: 285px;
+          width: 100%;
+          margin: 0 auto;
+
           .form-control {
             height: 50px;
             background-color: #F4F6FA;
             border-color: #414141;
+            font-size: 18px;
+            line-height: 22px;
+            color: #707070;
+            border-radius: 5px;
           }
 
           .input-group-text {
             height: 50px;
+            i {
+              color: #707070; 
+            }
           }
 
           .input-group-append  {
@@ -2772,7 +2851,7 @@ input.form-control {
     }
 
     .popular-guid-section {
-      padding: 30px 0 20px 0;
+      padding: 20px 0 15px 0;
       .heading {
         h3 {
           font-size: 18px;

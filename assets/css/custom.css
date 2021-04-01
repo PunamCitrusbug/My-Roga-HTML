@@ -746,17 +746,23 @@ input.form-control:focus::placeholder {
   color: #000;
 }
 
-.middle-section .popular-guid-section .popular-box h3 a:hover {
-  text-decoration: underline;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
 .middle-section .popular-guid-section .popular-box p {
   font-size: 16px;
   line-height: 18px;
   font-family: "Roboto";
   color: #000;
+}
+
+.middle-section .popular-guid-section .popular-box:hover h3 {
+  text-decoration: underline;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.middle-section .popular-guid-section .popular-box:hover .popular-img {
+  border: 1px solid #BFBFBF;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .middle-section .popular-guid-section .owl-theme {
@@ -1481,8 +1487,8 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .learn-filter-section .profile-owner .profiel-name p {
-  font-size: 16px;
-  line-height: 35px;
+  font-size: 18px;
+  line-height: 27px;
   color: #003B8E;
   margin-bottom: 0;
   font-family: "Roboto";
@@ -1823,11 +1829,11 @@ input.form-control:focus::placeholder {
 
 .middle-section .product-info-section .prodcut-item h1 {
   font-size: 30px;
-  line-height: 37px;
+  line-height: 70px;
   color: #003B8E;
   font-weight: 300;
   font-family: "Roboto";
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .middle-section .product-info-section .prodcut-item .product-img {
@@ -1863,6 +1869,7 @@ input.form-control:focus::placeholder {
   color: #000000;
   font-weight: 700;
   line-height: 30px;
+  font-family: "Roboto";
 }
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-name .product-review {
@@ -1899,7 +1906,7 @@ input.form-control:focus::placeholder {
 .middle-section .product-info-section .prodcut-item .product-detail .product-name .product-review a {
   color: #414141;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 22px;
   margin-left: 5px;
   font-family: "Roboto";
 }
@@ -1913,7 +1920,8 @@ input.form-control:focus::placeholder {
   line-height: 22px;
   color: #000000;
   font-weight: 700;
-  margin-bottom: 17px;
+  margin-bottom: 10px;
+  font-family: "Roboto";
 }
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-desc p {
@@ -2154,6 +2162,14 @@ input.form-control:focus::placeholder {
   border-top: 1px solid rgba(112, 112, 112, 0.3) !important;
 }
 
+.middle-section .best-values-section .table tr td:nth-child(4) {
+  font-weight: 400;
+}
+
+.middle-section .best-values-section .table tr td:nth-child(5) {
+  font-weight: 400;
+}
+
 .middle-section .best-values-section .table tr .btn {
   width: 100%;
   font-size: 16px;
@@ -2240,6 +2256,10 @@ input.form-control:focus::placeholder {
 
 .middle-section .page-tile-section:hover {
   background-color: rgba(235, 235, 235, 0.23);
+}
+
+.owl-theme .owl-nav .disabled {
+  opacity: 0 !important;
 }
 
 .product-details {
@@ -2353,6 +2373,31 @@ input.form-control:focus::placeholder {
 
 .collapse.open {
   display: block;
+}
+
+.dollars {
+  position: relative;
+  padding-left: 10px !important;
+}
+
+.dollars input {
+  padding-left: 25px !important;
+  text-align: left !important;
+}
+
+.dollars::after {
+  color: #37424a !important;
+  content: "$";
+  font-size: 16px !important;
+  font-weight: 400;
+  position: absolute;
+  top: 9px;
+  left: 25px;
+  height: 20px;
+  width: 10px;
+  z-index: 99;
+  color: #495057;
+  font-family: "Roboto";
 }
 
 .modal-custom .modal-dialog {
@@ -2667,6 +2712,13 @@ input.form-control:focus::placeholder {
 }
 
 @media (max-width: 767px) {
+  .dollars input {
+    padding-left: 18px !important;
+  }
+  .dollars::after {
+    font-size: 12px !important;
+    left: 20px !important;
+  }
   .text-readmore {
     display: inline-block;
     color: #003B8E !important;
@@ -2923,20 +2975,30 @@ input.form-control:focus::placeholder {
   }
   .middle-section .find-section .content .search-bar {
     display: block;
+    max-width: 285px;
+    width: 100%;
+    margin: 0 auto;
   }
   .middle-section .find-section .content .search-bar .form-control {
     height: 50px;
     background-color: #F4F6FA;
     border-color: #414141;
+    font-size: 18px;
+    line-height: 22px;
+    color: #707070;
+    border-radius: 5px;
   }
   .middle-section .find-section .content .search-bar .input-group-text {
     height: 50px;
+  }
+  .middle-section .find-section .content .search-bar .input-group-text i {
+    color: #707070;
   }
   .middle-section .find-section .content .search-bar .input-group-append {
     display: none;
   }
   .middle-section .popular-guid-section {
-    padding: 30px 0 20px 0;
+    padding: 20px 0 15px 0;
   }
   .middle-section .popular-guid-section .heading h3 {
     font-size: 18px;

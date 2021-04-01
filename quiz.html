@@ -51,7 +51,7 @@
                   <div class="input-group-prepend ">
                     <span class="input-group-text search-icon"><i class="fe fe-search"></i></span>
                   </div>
-                  <input type="text" class="form-control typehead-box keyword serach-text" placeholder="Search a Guide: Headphones, Laptops,…" autocomplete="off">
+                  <input type="text" class="form-control typehead-box keyword serach-text" placeholder="Search a Guide" autocomplete="off">
                   <div class="input-group-append ">
                     <span class="input-group-text search-div" id="basic-addon2">
                       <a href="#!" class="btn btn-priamry btn-search">Search</a>
@@ -348,7 +348,7 @@
                 
                 <div class="radio-action">
                   <div class="left-conetnt">
-                    <a href="#" class="btn btn-custom btn-primary">NEXT</a>
+                    <a href="#" class="btn btn-custom btn-primary next-hide-coallpse">NEXT</a>
                   </div>
                   <div class="right-conetnt">
                     <a href="#" class="btn"><i class="fa fa-long-arrow-left mr-2"></i><span>Previous</span></a>
@@ -378,8 +378,8 @@
                   <div class="filter-div">
                     <ul>
                       <li><a href="#" class="btn" data-toggle="modal" data-target="#filter">4 Filters Applied <i class="fa fa-angle-down ml-2"></i></a></li>
-                      <li><input type="text" class="form-control" placeholder="$Min."></li>
-                      <li><input type="text" class="form-control" placeholder="$1080"></li>
+                      <li class="dollars"><input type="number" class="form-control mininput" placeholder="Min."></li>
+                      <li class="dollars"><input type="number" class="form-control maxinput" disabled placeholder="1080"></li>
                       <li><a href="#!" class="btn btn-go">Go</a></li>
                     </ul>
                   </div>
@@ -602,8 +602,8 @@
                           <th><h3>Budget</h3></th>
                           <th><h3>Image</h3></th>
                           <th class="text-left"><h3>Product</h3></th>
-                          <th class="m-78"><h3>Re</h3>views
-                            Score</th>
+                          <th class="m-78"><h3>Reviews
+                            Score</h3></th>
                           <th><h3>Reviews</h3></th>
                           <th><h3>Best Deal</h3></th>
                           <th><h3>Runner Up</h3></th>
@@ -1215,19 +1215,26 @@
       //   $(this).parent(input).val(checked);
       // }); 
 
-      $('input[type=radio][name=answer-radio]').change(function() {
-        if ($(this).is(":checked")) {
+      $('.next-hide-coallpse').click(function() {
           $('#title-none').show();
           $('#title-collapse').hide();
-        }
-        
-        // if ($(this).is(":checked")) {
-        //   $('#title-none').toggle();
-        //   $('#title-collapse').toggle();
-        // }
+
       });
 
+      var mylength = $(".mininput");
+      var maxLength = 1080;
+
+
+        $(".mininput").on("change", function(){
+         
+          if( mylength.val() > maxLength) {
+            $('.maxinput').removeAttr("disabled");
+          }
+        });
+
     });
+  
+  
  
   </script>
 </body>
