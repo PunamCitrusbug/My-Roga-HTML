@@ -37,8 +37,8 @@
         <div class="row no-gutters col-header mobile-header">
           <div class="col-lg-3 col-12 col-30">
             <a class="navbar-brand smoth-scroll" href="https://www.myroga.com/">
-              <img src="assets/images/logo.png"  class="logo-1" alt="" />
-              <img src="assets/images/logo-2.png"  class="logo-2" alt="" />
+              <img src="assets/images/logo.svg"  class="logo-1" alt="" />
+              <img src="assets/images/logo-2.svg"  class="logo-2" alt="" />
             </a>
           </div>
           <div class="col-lg-9 col-12 col-70">
@@ -379,7 +379,7 @@
                     <ul>
                       <li><a href="#" class="btn" data-toggle="modal" data-target="#filter">4 Filters Applied <i class="fa fa-angle-down ml-2"></i></a></li>
                       <li class="dollars"><input type="number" class="form-control mininput" placeholder="Min."></li>
-                      <li class="dollars"><input type="number" class="form-control maxinput" disabled placeholder="1080"></li>
+                      <li class="dollars"><input type="number" class="form-control maxinput"  placeholder="1080"></li>
                       <li><a href="#!" class="btn btn-go">Go</a></li>
                     </ul>
                   </div>
@@ -391,7 +391,7 @@
               <div class="col-lg-12">
                 <div class="all-product">
                   <div class="prodcut-item">
-                    <h1>1. Top Rated!</h1> 
+                    <h1>Top Rated!</h1> 
                     
                     <div class="product">
                       <div class="row">
@@ -404,7 +404,7 @@
                         <div class="col-lg-6 col-md-8">
                           <div class="product-detail">
                             <div class="product-name">
-                              <h2>Product Name goes here</h2>
+                              <h2><span class="mobile-none">1.</span>Apple Airpods Pro 123456</h2>
                               <div class="product-review">
                                 <div class="rating">
                                   <i class="fa fa-star"></i>
@@ -452,7 +452,7 @@
                   </div>
   
                   <div class="prodcut-item">
-                    <h1>2. Runner Up!</h1> 
+                    <h1>Runner Up!</h1> 
                     
                     <div class="product">
                       <div class="row">
@@ -465,7 +465,7 @@
                         <div class="col-lg-6 col-md-8">
                           <div class="product-detail">
                             <div class="product-name">
-                              <h2>Product Name goes here</h2>
+                              <h2><span class="mobile-none">2.</span>Samsung Buds Pro 123456</h2>
                               <div class="product-review">
                                 <div class="rating">
                                   <i class="fa fa-star"></i>
@@ -513,7 +513,7 @@
                   </div>
   
                   <div class="prodcut-item">
-                    <h1>3. Ranked 3rd</h1> 
+                    <h1>Ranked 3rd</h1> 
                     
                     <div class="product">
                       <div class="row">
@@ -527,7 +527,7 @@
                         <div class="col-lg-6 col-md-8">
                           <div class="product-detail">
                             <div class="product-name">
-                              <h2>Product Name goes here</h2>
+                              <h2><span class="mobile-none">3.</span>Momentum - True Wireless 2</h2>
                               <div class="product-review">
                                 <div class="rating">
                                   <i class="fa fa-star"></i>
@@ -1225,12 +1225,12 @@
       var maxLength = 1080;
 
 
-        $(".mininput").on("change", function(){
+        // $(".mininput").on("change", function(){
          
-          if( mylength.val() > maxLength) {
-            $('.maxinput').removeAttr("disabled");
-          }
-        });
+        //   if( mylength.val() > maxLength) {
+        //     $('.maxinput').removeAttr("disabled");
+        //   }
+        // });
 
     });
   

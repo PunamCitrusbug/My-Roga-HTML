@@ -106,10 +106,10 @@ $("#toggle-read").click(function() {
 $(".owl-carousel-popular").owlCarousel({
     loop:false,
     margin:0,
-    smartSpeed:2000,
+    smartSpeed:300,
     autoplay:false,
     // autoplayTimeout:4000,
-    autoplayHoverPause:true,
+    // autoplayHoverPause:true,
     dots: false,
     rewind: false,
     responsiveClass:true,
@@ -119,32 +119,39 @@ $(".owl-carousel-popular").owlCarousel({
     ],
     responsive:{
         0:{
+            slideBy:2,
             items:2,
             nav:false
         },
 
         375:{
+            slideBy:3,
             items:3,
             nav:false   
         },
         768:{
+            slideBy:4,
             items:4,
             nav:false
         },
 
         1000:{
+            slideBy:5,
             items:5,
             nav:true
         },
         1024:{
+            slideBy:5,
             items:5,
             nav:true,
         },
         1200:{
+            slideBy:5,
             items:5,
             nav:true,
         },
         1300:{
+            slideBy:6,
             items:6,
             nav:true,
         }
@@ -154,11 +161,11 @@ $(".owl-carousel-popular").owlCarousel({
 $(".owl-carousel-best").owlCarousel({
     loop:false,
     margin:27,
-    smartSpeed:2000,
+    smartSpeed:300,    
     autoplay:false,
     // autoplayTimeout:4000,
     rewind: false,
-    autoplayHoverPause:true,
+    // autoplayHoverPause:true,
     dots: false,
     responsiveClass:true,
     navText: [
@@ -171,19 +178,23 @@ $(".owl-carousel-best").owlCarousel({
             nav:false
         },
         375:{
+            slideBy:2,
             items:2,
             nav:false
         },
         768:{
+            slideBy:3,
             items:3,
             nav:false
         },
 
         1024:{
+            slideBy:4,
             items:4,
             nav:true
         },
         1200:{
+            slideBy:5,
             items:5,
             nav:true,
         },
