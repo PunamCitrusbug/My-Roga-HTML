@@ -2299,6 +2299,268 @@ input.form-control:focus::placeholder {
   background-color: rgba(235, 235, 235, 0.23);
 }
 
+.middle-section .about-morya {
+  padding: 220px 0 196px 0;
+  background-color: #fff;
+}
+
+.middle-section .about-morya .content {
+  text-align: center;
+}
+
+.middle-section .about-morya .content h1 {
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 12px;
+  font-weight: 400;
+  color: #003B8E;
+}
+
+.middle-section .about-morya .content h2 {
+  color: #003B8E;
+  font-size: 70px;
+  line-height: 86px;
+  margin-bottom: 12px;
+}
+
+.middle-section .about-morya .content p {
+  font-size: 24px;
+  line-height: 45px;
+  color: #000000;
+  font-weight: 300;
+  max-width: 952px;
+  margin: 0 auto 15px auto;
+}
+
+.middle-section .about-morya .content .rating i {
+  font-size: 18px;
+  color: #F89A48;
+  margin: 0 2px;
+}
+
+.middle-section .our-promises-section {
+  position: relative;
+}
+
+.middle-section .our-promises-section::after {
+  content: '';
+  display: block;
+  right: 127px;
+  top: 0;
+  width: 684px;
+  display: block;
+  background-image: url("../images/logo-bg.png");
+  position: absolute;
+  height: 2190px;
+  z-index: 1;
+  opacity: 0.25;
+}
+
+.middle-section .our-promises-section .our-promises-inner {
+  position: relative;
+  z-index: 2;
+}
+
+.middle-section .our-promises-section .heading h2 {
+  color: #003B8E;
+  font-size: 55px;
+  line-height: 67px;
+  margin-bottom: 40px;
+}
+
+.middle-section .our-promises-section .our-promis-box {
+  background-color: #EFFAFD;
+  padding: 30px 28px;
+  margin-bottom: 40px;
+  max-width: 865px;
+}
+
+.middle-section .our-promises-section .our-promis-box:nth-last-child(2) {
+  margin-bottom: 20px;
+}
+
+.middle-section .our-promises-section .our-promis-box h3 {
+  font-size: 35px;
+  line-height: 43px;
+  color: #003B8E;
+}
+
+.middle-section .our-promises-section .our-promis-box p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.middle-section .our-promises-section .rating {
+  font-size: 18px;
+  color: #F89A48;
+  margin: 0 2px;
+}
+
+.middle-section .our-promises-section .our-promices-div {
+  position: relative;
+  margin-bottom: 102px;
+}
+
+.middle-section .our-promises-section .our-promices-div::after {
+  content: '';
+  display: block;
+  width: 38%;
+  min-width: 730px;
+  height: 100%;
+  background: #003b8e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#52C8F2), to(#2E8CBF));
+  background: linear-gradient(180deg, #52C8F2 0%, #2E8CBF 100%);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.middle-section .our-promises-section .our-promices-div .our-inner {
+  padding: 40px 0 23px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.middle-section .our-promises-section .why-we-do-section {
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.middle-section .our-promises-section .why-we-do-section::after {
+  content: '';
+  display: block;
+  width: 61%;
+  min-width: 1177px;
+  height: 100%;
+  background: #003b8e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2E8CBF), to(#1C6BAB));
+  background: linear-gradient(180deg, #2E8CBF 0%, #1C6BAB 100%);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.middle-section .our-promises-section .why-we-do-section .why-we-do-inner {
+  padding: 80px 0 40px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content {
+  margin: 0 0 0 auto;
+  max-width: 700px;
+}
+
+.middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content h2 {
+  font-size: 55px;
+  line-height: 67px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content p {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.middle-section .our-promises-section .buisenss-modal-section {
+  position: relative;
+  margin-bottom: 155px;
+}
+
+.middle-section .our-promises-section .buisenss-modal-section::after {
+  content: '';
+  display: block;
+  width: 62%;
+  min-width: 1204px;
+  height: 100%;
+  background: #003b8e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1C6BAB), to(#0E549D));
+  background: linear-gradient(180deg, #1C6BAB 0%, #0E549D 100%);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner {
+  padding: 85px 0 40px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content {
+  margin: 0 0 0 0;
+  max-width: 700px;
+}
+
+.middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content h2 {
+  font-size: 55px;
+  line-height: 67px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content p {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.middle-section .our-promises-section .testimonial-section {
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.middle-section .our-promises-section .testimonial-section::after {
+  content: '';
+  display: block;
+  width: 61%;
+  min-width: 1177px;
+  height: 100%;
+  background: #003b8e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0E549D), to(#072A4F));
+  background: linear-gradient(180deg, #0E549D 0%, #072A4F 100%);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.middle-section .our-promises-section .testimonial-section .testimonial-inner {
+  padding: 80px 0 40px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.middle-section .our-promises-section .testimonial-section .testimonial-inner .content {
+  margin: 0 0 0 auto;
+  max-width: 700px;
+}
+
+.middle-section .our-promises-section .testimonial-section .testimonial-inner .content h2 {
+  font-size: 55px;
+  line-height: 67px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.middle-section .our-promises-section .testimonial-section .testimonial-inner .content p {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 .owl-theme .owl-nav .disabled {
   opacity: 0 !important;
 }
@@ -2971,6 +3233,15 @@ input.form-control:focus::placeholder {
             flex: 0 0 100%;
     max-width: 100%;
   }
+  .about-page .header .navbar {
+    background: transparent;
+  }
+  .about-page .middle-section {
+    padding-top: 0;
+  }
+  .about-page .middle-section .about-morya {
+    padding-top: 209px;
+  }
   #cd-shadow-layer {
     position: fixed;
     min-height: 100vh;
@@ -3032,6 +3303,9 @@ input.form-control:focus::placeholder {
   }
   .middle-section {
     padding-top: 56px;
+  }
+  .middle-section .middle-inner {
+    overflow: hidden;
   }
   .middle-section .find-section {
     padding: 78px 0 50px 0;
@@ -3578,6 +3852,155 @@ input.form-control:focus::placeholder {
   .middle-section .product-details.collapse.show {
     padding-top: 30px !important;
   }
+  .middle-section .about-morya {
+    padding: 93px 0;
+    background: #003b8e;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #003b8e), color-stop(70%, #48B9DB), to(#EFFAFD));
+    background: linear-gradient(180deg, #003b8e 10%, #48B9DB 70%, #EFFAFD 100%);
+    min-height: 813px;
+    position: relative;
+  }
+  .middle-section .about-morya::after {
+    content: '';
+    background-image: url(../images/star-group.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    height: 490px;
+    width: 70px;
+    display: block;
+    position: absolute;
+    right: -28px;
+    bottom: -142px;
+    z-index: 10;
+  }
+  .middle-section .about-morya .content {
+    text-align: center;
+  }
+  .middle-section .about-morya .content h1 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+  .middle-section .about-morya .content h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 20px;
+  }
+  .middle-section .about-morya .content p {
+    font-size: 16px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 14px;
+  }
+  .middle-section .about-morya .content .rating i {
+    font-size: 18px;
+    color: #F89A48;
+    margin: 0 2px;
+  }
+  .middle-section .our-promises-section {
+    background-color: #EFFAFD;
+  }
+  .middle-section .our-promises-section::after {
+    display: none;
+  }
+  .middle-section .our-promises-section .our-promices-div {
+    background-color: #EFFAFD;
+    margin-bottom: 0;
+  }
+  .middle-section .our-promises-section .our-promices-div .our-inner {
+    padding: 36px 0 40px 0;
+  }
+  .middle-section .our-promises-section .our-promices-div .our-inner h2 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 35px;
+  }
+  .middle-section .our-promises-section .our-promices-div .our-inner .our-promis-box {
+    padding: 0;
+  }
+  .middle-section .our-promises-section .our-promices-div .our-inner .our-promis-box h3 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .middle-section .our-promises-section .our-promices-div .our-inner .our-promis-box p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .middle-section .our-promises-section .our-promices-div::after {
+    display: none;
+  }
+  .middle-section .our-promises-section .why-we-do-section {
+    margin-bottom: 0;
+    background-color: #2E8CBF;
+  }
+  .middle-section .our-promises-section .why-we-do-section::after {
+    display: none;
+  }
+  .middle-section .our-promises-section .why-we-do-section .why-we-do-inner {
+    padding: 99px 0 64px 0;
+  }
+  .middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content h2 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+  .middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content .rating i {
+    font-size: 16px;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section {
+    margin-bottom: 0;
+    background-color: #1C6BAB;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section::after {
+    display: none;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner {
+    padding: 99px 0 53px 0;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content h2 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content .rating i {
+    font-size: 16px;
+  }
+  .middle-section .our-promises-section .testimonial-section {
+    margin-bottom: 0;
+    background-color: #0E549D;
+  }
+  .middle-section .our-promises-section .testimonial-section::after {
+    display: none;
+  }
+  .middle-section .our-promises-section .testimonial-section .testimonial-inner {
+    padding: 120px 0 88px 0;
+  }
+  .middle-section .our-promises-section .testimonial-section .testimonial-inner .content h2 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+  .middle-section .our-promises-section .testimonial-section .testimonial-inner .content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .middle-section .our-promises-section .testimonial-section .testimonial-inner .content .rating i {
+    font-size: 16px;
+  }
   .footer-section {
     padding: 22px 0;
   }
@@ -3620,6 +4043,116 @@ input.form-control:focus::placeholder {
   }
   .middle-section .product-info-section .prodcut-item .product-detail .product-desc p:nth-of-type(2) {
     max-width: 302px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .middle-section .about-morya {
+    padding: 100px 0;
+  }
+  .middle-section .about-morya .content h1 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .middle-section .about-morya .content h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .middle-section .our-promises-section::after {
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right top;
+  }
+  .middle-section .our-promises-section .our-promices-div h2 {
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .middle-section .our-promises-section .our-promices-div .our-promis-box h3 {
+    font-size: 28px;
+    line-height: 26px;
+  }
+  .middle-section .our-promises-section .our-promices-div .our-promis-box p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .middle-section .our-promises-section .our-promices-div:after {
+    min-width: 500px;
+  }
+  .middle-section .our-promises-section .why-we-do-section {
+    margin-bottom: 0;
+    background-color: #2E8CBF;
+  }
+  .middle-section .our-promises-section .why-we-do-section::after {
+    display: none;
+  }
+  .middle-section .our-promises-section .why-we-do-section .why-we-do-inner {
+    padding: 99px 0 64px 0;
+  }
+  .middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content {
+    max-width: unset;
+  }
+  .middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content h2 {
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content .rating i {
+    font-size: 16px;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section {
+    margin-bottom: 0;
+    background-color: #1C6BAB;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section::after {
+    display: none;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner {
+    padding: 99px 0 53px 0;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content {
+    max-width: unset;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content h2 {
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content .rating i {
+    font-size: 16px;
+  }
+  .middle-section .our-promises-section .testimonial-section {
+    margin-bottom: 0;
+    background-color: #0E549D;
+  }
+  .middle-section .our-promises-section .testimonial-section::after {
+    display: none;
+  }
+  .middle-section .our-promises-section .testimonial-section .testimonial-inner {
+    padding: 120px 0 88px 0;
+  }
+  .middle-section .our-promises-section .testimonial-section .testimonial-inner .content {
+    max-width: unset;
+  }
+  .middle-section .our-promises-section .testimonial-section .testimonial-inner .content h2 {
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .middle-section .our-promises-section .testimonial-section .testimonial-inner .content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .middle-section .our-promises-section .testimonial-section .testimonial-inner .content .rating i {
+    font-size: 16px;
   }
 }
 
@@ -3717,11 +4250,34 @@ input.form-control:focus::placeholder {
 
 /* ----------- iPad Pro ----------- */
 /* Portrait and Landscape */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .our-promises-section::after {
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right top;
+  }
+}
+
 /* Portrait */
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
   .nav-center .search-bar {
     max-width: 800px;
     margin-left: 50px;
+  }
+}
+
+@media (min-width: 1921px) {
+  .middle-section .our-promises-section .our-promices-div::after {
+    width: 47%;
+  }
+  .middle-section .our-promises-section .why-we-do-section::after {
+    width: 70%;
+  }
+  .middle-section .our-promises-section .buisenss-modal-section::after {
+    width: 70%;
+  }
+  .middle-section .our-promises-section .testimonial-section::after {
+    width: 70%;
   }
 }
 /*# sourceMappingURL=custom.css.map */
