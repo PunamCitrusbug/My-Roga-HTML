@@ -3061,7 +3061,7 @@ input.form-control {
 
       .form-control {
         background-color: #F4F6FA;
-        border: 1px solid #414141;
+        border: 1px solid #40404080;
         border-radius: 5px;
       }
 
@@ -3210,7 +3210,7 @@ input.form-control {
             line-height: 22px;
             color: #707070;
             border-radius: 5px; 
-            border: 1px solid #414141 !important;
+            border: 1px solid #40404080 !important;
             border-width: thin !important;
           }
 
@@ -3839,6 +3839,16 @@ input.form-control {
           td {
             font-size: 16px;
           }
+        }
+      }
+
+      .table-div {
+        border-radius: 10px 0 0 10px;
+        width: calc(100% + 15px);
+        border-right: 0;
+
+        .table tr .pro-left-th {
+          min-width: 151px;
         }
       }
     }

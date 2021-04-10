@@ -3205,7 +3205,7 @@ input.form-control:focus::placeholder {
   }
   .header.header-2 .search-bar .form-control {
     background-color: #F4F6FA;
-    border: 1px solid #414141;
+    border: 1px solid #40404080;
     border-radius: 5px;
   }
   .header.header-2 .search-bar .input-group-text {
@@ -3340,7 +3340,7 @@ input.form-control:focus::placeholder {
     line-height: 22px;
     color: #707070;
     border-radius: 5px;
-    border: 1px solid #414141 !important;
+    border: 1px solid #40404080 !important;
     border-width: thin !important;
   }
   .middle-section .find-section .content .search-bar .input-group-text {
@@ -3816,6 +3816,14 @@ input.form-control:focus::placeholder {
   }
   .middle-section .best-values-section .table tr td {
     font-size: 16px;
+  }
+  .middle-section .best-values-section .table-div {
+    border-radius: 10px 0 0 10px;
+    width: calc(100% + 15px);
+    border-right: 0;
+  }
+  .middle-section .best-values-section .table-div .table tr .pro-left-th {
+    min-width: 151px;
   }
   .middle-section .page-tile-section {
     padding-top: 60px;

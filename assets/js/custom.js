@@ -106,7 +106,7 @@ $("#toggle-read").click(function() {
 $(".owl-carousel-popular").owlCarousel({
     loop:false,
     margin:0,
-    smartSpeed:300,
+    smartSpeed:120,
     autoplay:false,
     // autoplayTimeout:4000,
     // autoplayHoverPause:true,
@@ -161,7 +161,7 @@ $(".owl-carousel-popular").owlCarousel({
 $(".owl-carousel-best").owlCarousel({
     loop:false,
     margin:27,
-    smartSpeed:300,    
+    smartSpeed:120, 
     autoplay:false,
     // autoplayTimeout:4000,
     rewind: false,
@@ -174,7 +174,16 @@ $(".owl-carousel-best").owlCarousel({
     ],
     responsive:{
         0:{
-            items:1.5,
+            items:1.6,
+            smartSpeed:1220, 
+            touchDrag: true,
+            nav:false,
+            center: true
+        },
+        321:{
+            items:2,
+            smartSpeed:1220, 
+            touchDrag: true,
             nav:false
         },
         375:{
