@@ -175,20 +175,24 @@ $(".owl-carousel-best").owlCarousel({
     responsive:{
         0:{
             items:1.6,
-            smartSpeed:1220, 
+            smartSpeed: 120, 
             touchDrag: true,
             nav:false,
             center: true
         },
         321:{
             items:2,
-            smartSpeed:1220, 
+            smartSpeed: 120,
             touchDrag: true,
             nav:false
         },
         375:{
             slideBy:2,
             items:2,
+            margin:20,
+            smartSpeed: 120,
+            touchDrag: true,
+            autoWidth: true,
             nav:false
         },
         768:{

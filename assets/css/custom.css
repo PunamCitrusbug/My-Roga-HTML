@@ -3100,8 +3100,7 @@ input.form-control:focus::placeholder {
   }
   .modal-custom .modal-dialog .modal-content .modal-body {
     padding-bottom: 80px;
-    max-height: calc(100vh - 70px);
-    min-height: calc(100vh - 70px);
+    height: calc((var(--vh, 1vh) * 100) - 70px);
     overflow-y: scroll;
   }
   .modal-custom .modal-dialog .modal-content .modal-footer {
@@ -3429,14 +3428,18 @@ input.form-control:focus::placeholder {
     height: 90px;
     border: 0 !important;
   }
+  .middle-section .feature-section .featured-item .featured-img a {
+    display: inline-block;
+  }
   .middle-section .feature-section .featured-item .featured-img img {
-    height: 100%;
+    width: 90px;
+    height: 90px;
     -o-object-fit: cover;
        object-fit: cover;
   }
   .middle-section .feature-section .featured-item .featured-content {
     width: calc(100% - 90px);
-    padding: 8px 7px 8px 10px;
+    padding: 8px 7px 1px 10px;
     min-height: 90px;
     border: 0 !important;
     display: -webkit-box;
@@ -3501,8 +3504,26 @@ input.form-control:focus::placeholder {
   .middle-section .best-deal-section .owl-theme {
     padding: 0;
   }
+  .middle-section .best-deal-section .owl-theme .owl-stage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
   .middle-section .best-deal-section .owl-nav.disabled {
     display: none !important;
+  }
+  .middle-section .best-deal-section .owl-stage-outer {
+    overflow: visible;
+  }
+  .middle-section .best-deal-section .product-item {
+    min-width: 155px;
   }
   .middle-section .best-deal-section .product-item .product-price h4 {
     font-size: 16px;
@@ -3517,6 +3538,7 @@ input.form-control:focus::placeholder {
   }
   .middle-section .best-deal-section .product-item .product-review a {
     font-size: 12px;
+    margin-left: 2px;
   }
   .middle-section .best-deal-section .product-item .product-name {
     min-height: 38px;
