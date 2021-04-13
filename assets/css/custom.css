@@ -3104,7 +3104,7 @@ input.form-control:focus::placeholder {
     overflow-y: scroll;
   }
   .modal-custom .modal-dialog .modal-content .modal-footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
