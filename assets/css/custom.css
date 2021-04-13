@@ -3100,7 +3100,9 @@ input.form-control:focus::placeholder {
   }
   .modal-custom .modal-dialog .modal-content .modal-body {
     padding-bottom: 80px;
+    min-height: calc(100vh - 70px);
     height: calc((var(--vh, 1vh) * 100) - 70px);
+    height: -webkit-fill-available;
     overflow-y: scroll;
   }
   .modal-custom .modal-dialog .modal-content .modal-footer {
