@@ -447,6 +447,8 @@
   .page-not-found-section {
     min-height: 520px;
     background: url(../images/page404.svg) no-repeat;
+    background-size: contain;
+    background-position: calc(100% + 181px) calc(100% - 20px);
 
     .page-not-found-div {
       padding: 69px 0 180px 0;
@@ -490,13 +492,35 @@
 
         .page-404-content-bd-left {
           width: 100%;
+          margin: 0 0 28px 0;
         }
 
         h4 {
           font-size: 18px;
-          line-height: 32px;
+          line-height: 22px;
           text-align: center;
           margin: 0;
+        }
+
+        .search-bar {
+          max-width: 100%;
+          width: 100%;
+          display: block;
+
+          .input-group-append {
+            display: none;
+          }
+
+          .input-group-text {
+            background-color: #f4f6fa;
+          }
+
+          .form-control.serach-text {
+            background-color: #f4f6fa;
+            border: 1px solid #40404080;
+            border-radius: 5px;
+            font-size: 15px;
+          }
         }
       }
     }
@@ -548,6 +572,45 @@
 
         .msc-mb-26 {
           margin-bottom: 26px;
+        }
+      }
+    }
+  }
+
+  .page-not-found-section {
+    min-height: 725px;
+
+    .page-not-found-div {
+      padding: 150px 0;
+      min-height: auto;
+    }
+
+    .page-404-content-div {
+      .page-404-content-tp-row {
+        .page-404-content-tp-left {
+          max-width: 425px;
+
+          h2 {
+            font-size: 28px;
+            line-height: 42px;
+          }
+        }
+
+        .page-404-content-tp-right {
+          h1 {
+            font-size: 110px;
+          }
+        }
+      }
+
+      .page-404-content-bd-row {
+        h4 {
+          font-size: 18px;
+          line-height: 28px;
+        }
+
+        .page-404-content-bd-right {
+          max-width: 450px;
         }
       }
     }

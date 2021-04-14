@@ -439,6 +439,8 @@
   .page-not-found-section {
     min-height: 520px;
     background: url(../images/page404.svg) no-repeat;
+    background-size: contain;
+    background-position: calc(100% + 181px) calc(100% - 20px);
   }
   .page-not-found-section .page-not-found-div {
     padding: 69px 0 180px 0;
@@ -479,12 +481,30 @@
   }
   .page-not-found-section .page-404-content-div .page-404-content-bd-row .page-404-content-bd-left {
     width: 100%;
+    margin: 0 0 28px 0;
   }
   .page-not-found-section .page-404-content-div .page-404-content-bd-row h4 {
     font-size: 18px;
-    line-height: 32px;
+    line-height: 22px;
     text-align: center;
     margin: 0;
+  }
+  .page-not-found-section .page-404-content-div .page-404-content-bd-row .search-bar {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+  }
+  .page-not-found-section .page-404-content-div .page-404-content-bd-row .search-bar .input-group-append {
+    display: none;
+  }
+  .page-not-found-section .page-404-content-div .page-404-content-bd-row .search-bar .input-group-text {
+    background-color: #f4f6fa;
+  }
+  .page-not-found-section .page-404-content-div .page-404-content-bd-row .search-bar .form-control.serach-text {
+    background-color: #f4f6fa;
+    border: 1px solid #40404080;
+    border-radius: 5px;
+    font-size: 15px;
   }
 }
 
@@ -525,6 +545,30 @@
   }
   .general-content-section .general-content-div .general-content-body-div .msc-mb-26 {
     margin-bottom: 26px;
+  }
+  .page-not-found-section {
+    min-height: 725px;
+  }
+  .page-not-found-section .page-not-found-div {
+    padding: 150px 0;
+    min-height: auto;
+  }
+  .page-not-found-section .page-404-content-div .page-404-content-tp-row .page-404-content-tp-left {
+    max-width: 425px;
+  }
+  .page-not-found-section .page-404-content-div .page-404-content-tp-row .page-404-content-tp-left h2 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .page-not-found-section .page-404-content-div .page-404-content-tp-row .page-404-content-tp-right h1 {
+    font-size: 110px;
+  }
+  .page-not-found-section .page-404-content-div .page-404-content-bd-row h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .page-not-found-section .page-404-content-div .page-404-content-bd-row .page-404-content-bd-right {
+    max-width: 450px;
   }
 }
 /*# sourceMappingURL=main.css.map */

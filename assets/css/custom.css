@@ -3861,10 +3861,20 @@ input.form-control:focus::placeholder {
   .middle-section .best-values-section .table-div {
     border-radius: 10px 0 0 10px;
     width: calc(100% + 15px);
-    border-right: 0;
+    border-right: 1px solid transparent;
+    will-change: margin-left;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
   }
   .middle-section .best-values-section .table-div .table tr .pro-left-th {
     min-width: 151px;
+  }
+  .middle-section .best-values-section .scroll-table-end {
+    border-radius: 0 10px 10px 0;
+    width: calc(100% + 15px);
+    border-left: 1px solid transparent;
+    border-right: 1px solid #707070;
+    margin-left: -15px !important;
   }
   .middle-section .page-tile-section {
     padding-top: 60px;

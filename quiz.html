@@ -594,7 +594,7 @@
                   <h2>Best Value for Money - Regular Smartwatches for Men - With SIM Card Slot, GPS Tracker, Health Rate & Blood Pressure Monitor</h2>
                 </div>
               
-                <div class="table-div">
+                <div class="table-div" id="table-scroll-div">
                   <div class="table-responsive">
                     <table class="table">
                       <thead>
@@ -1243,6 +1243,28 @@
           document.documentElement.style.setProperty('--vh', `${vh}px`);
         });
         /* End of screen height */
+
+        $(function() {
+          var scrolLeft = $(window).scrollLeft();
+          var windw = $('#table-scroll-div .table-responsive').width();//important
+          var documet = $('#table-scroll-div .table-responsive .table').width();
+          $('#table-scroll-div .table-responsive').scroll(function() {
+            if($('#table-scroll-div .table-responsive').scrollLeft() + windw == documet){
+              $("#table-scroll-div .table-responsive").parent().addClass('scroll-table-end');
+            } else {
+              $("#table-scroll-div .table-responsive").parent().removeClass('scroll-table-end');
+            }
+          });
+            
+            // $("#table-scroll-div .table-responsive").on('scroll', evt => {
+            //   if($(evt.target).scrollLeft() > 100){
+            //     $("#table-scroll-div .table-responsive").parent().addClass('scroll-table-end');
+
+            //   } else {
+            //     $("#table-scroll-div .table-responsive").parent().removeClass('scroll-table-end');
+            //   }
+            // })
+        });
     });
   
   

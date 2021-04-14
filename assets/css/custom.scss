@@ -3889,11 +3889,21 @@ input.form-control {
       .table-div {
         border-radius: 10px 0 0 10px;
         width: calc(100% + 15px);
-        border-right: 0;
+        border-right: 1px solid transparent;
+        will-change: margin-left;
+        transition: all 0.4s;
 
         .table tr .pro-left-th {
           min-width: 151px;
         }
+      }
+
+      .scroll-table-end {
+        border-radius: 0 10px 10px 0;
+        width: calc(100% + 15px);
+        border-left: 1px solid transparent;
+        border-right: 1px solid #707070;
+        margin-left: -15px !important;
       }
     }
     
