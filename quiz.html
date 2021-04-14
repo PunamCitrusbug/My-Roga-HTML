@@ -1244,27 +1244,24 @@
         });
         /* End of screen height */
 
-        $(function() {
+        function scroll_table() {
+          console.log("1");
           var scrolLeft = $(window).scrollLeft();
-          var windw = $('#table-scroll-div .table-responsive').width();//important
-          var documet = $('#table-scroll-div .table-responsive .table').width();
+          var widthTableRoot = $('#table-scroll-div .table-responsive').width();//important
+          var widthTable = $('#table-scroll-div .table-responsive .table').width();
           $('#table-scroll-div .table-responsive').scroll(function() {
-            if($('#table-scroll-div .table-responsive').scrollLeft() + windw == documet){
+            if($('#table-scroll-div .table-responsive').scrollLeft() + widthTableRoot == widthTable){
               $("#table-scroll-div .table-responsive").parent().addClass('scroll-table-end');
+              console.log("2");
             } else {
               $("#table-scroll-div .table-responsive").parent().removeClass('scroll-table-end');
+              console.log("3");
             }
           });
-            
-            // $("#table-scroll-div .table-responsive").on('scroll', evt => {
-            //   if($(evt.target).scrollLeft() > 100){
-            //     $("#table-scroll-div .table-responsive").parent().addClass('scroll-table-end');
+        }
 
-            //   } else {
-            //     $("#table-scroll-div .table-responsive").parent().removeClass('scroll-table-end');
-            //   }
-            // })
-        });
+        scroll_table();
+        
     });
   
   
