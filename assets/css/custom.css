@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #003B8E;
+  color: #003b8e;
 }
 
 h1 {
@@ -239,7 +239,7 @@ input[type="number"] {
 
 .header .navbar .navbar-brand {
   width: 188px;
-  height: au  to;
+  height: au to;
   display: block;
   padding: 7px 14px;
   border: 1px solid transparent;
@@ -316,14 +316,14 @@ input[type="number"] {
 .header .navbar .collapse1 .navbar-nav .nav-item .nav-link:hover {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  color: #EBEBEB;
+  color: #ebebeb;
   border: 1px solid #fff;
 }
 
 .header .navbar .collapse1 .navbar-nav .nav-item .nav-link:active {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  color: #EBEBEB;
+  color: #ebebeb;
   border: 1px solid #fff;
 }
 
@@ -469,7 +469,7 @@ input[type="number"] {
 }
 
 .nav-center .search-bar .form-control:active {
-  border-color: #003B8E;
+  border-color: #003b8e;
 }
 
 .nav-center .search-bar .form-control:active::-webkit-input-placeholder {
@@ -653,7 +653,7 @@ input.form-control:focus::placeholder {
 
 .middle-section .find-section .content .search-bar .form-control {
   height: 40px;
-  border-color: #003B8E;
+  border-color: #003b8e;
   font-size: 16px;
   line-height: 28px;
   font-family: "Roboto";
@@ -666,7 +666,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .find-section .content .search-bar .form-control:focus {
-  border-color: #003B8E;
+  border-color: #003b8e;
   border-right: 0;
 }
 
@@ -715,7 +715,7 @@ input.form-control:focus::placeholder {
   height: 160px;
   width: 160px;
   min-width: 160px;
-  background-color: #E3F5FA;
+  background-color: #e3f5fa;
   border-radius: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -727,7 +727,7 @@ input.form-control:focus::placeholder {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 30px;
-  border: 1px solid #E3F5FA;
+  border: 1px solid #e3f5fa;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -740,7 +740,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .popular-guid-section .popular-box .popular-img:hover {
-  border: 1px solid #BFBFBF;
+  border: 1px solid #bfbfbf;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -773,7 +773,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .popular-guid-section .popular-box:hover .popular-img {
-  border: 1px solid #BFBFBF;
+  border: 1px solid #bfbfbf;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -813,8 +813,8 @@ input.form-control:focus::placeholder {
 .middle-section .popular-guid-section .owl-theme .owl-nav button {
   height: 50px;
   width: 50px;
-  border: 2px solid #F1F9FF;
-  background-color: #FAFAFA;
+  border: 2px solid #f1f9ff;
+  background-color: #fafafa;
   border-radius: 10px;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -828,7 +828,7 @@ input.form-control:focus::placeholder {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #2699FB;
+  color: #2699fb;
   font-weight: 600;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -848,7 +848,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .popular-guid-section .owl-theme .owl-nav button:hover {
-  border-color: #2699FB;
+  border-color: #2699fb;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -951,7 +951,7 @@ input.form-control:focus::placeholder {
 
 .middle-section .makeup-section .search-bar .form-control {
   height: 40px;
-  border-color: #003B8E;
+  border-color: #003b8e;
   font-size: 16px;
   line-height: 28px;
   font-family: "Roboto";
@@ -985,7 +985,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .feature-section .heading h2 {
-  color: #003B8E;
+  color: #003b8e;
   margin-bottom: 10px;
   font-size: 30px;
   line-height: 37px;
@@ -1124,7 +1124,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .best-deal-section .heading h2 {
-  color: #003B8E;
+  color: #003b8e;
   margin-bottom: 10px;
   font-size: 30px;
   line-height: 37px;
@@ -1153,7 +1153,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .best-deal-section .sub-heading h3 {
-  color: #003B8E;
+  color: #003b8e;
   margin-bottom: 10px;
   font-size: 30px;
   line-height: 37px;
@@ -1231,7 +1231,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .best-deal-section .product-item .product-review .rating i {
-  color: #F89A48;
+  color: #f89a48;
   font-size: 17px;
   margin-right: 3px;
 }
@@ -1301,20 +1301,20 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .best-deal-section .product-item .product-btns .btn-primary:hover {
-  background-color: #F89A48;
+  background-color: #f89a48;
 }
 
 .middle-section .best-deal-section .product-item .product-btns .btn-outline-primary {
   background-color: #fff;
   color: #000;
   font-weight: 400;
-  border-color: #F89A48;
+  border-color: #f89a48;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .middle-section .best-deal-section .product-item .product-btns .btn-outline-primary:hover {
-  background-color: #FCF1E7;
+  background-color: #fcf1e7;
   text-decoration: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -1359,8 +1359,8 @@ input.form-control:focus::placeholder {
 .middle-section .best-deal-section .owl-theme .owl-nav button {
   height: 50px;
   width: 50px;
-  border: 2px solid #F1F9FF;
-  background-color: #FAFAFA;
+  border: 2px solid #f1f9ff;
+  background-color: #fafafa;
   border-radius: 10px;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1374,7 +1374,7 @@ input.form-control:focus::placeholder {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #2699FB;
+  color: #2699fb;
   font-weight: 600;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -1394,7 +1394,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .best-deal-section .owl-theme .owl-nav button:hover {
-  border-color: #2699FB;
+  border-color: #2699fb;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -1405,7 +1405,7 @@ input.form-control:focus::placeholder {
 
 .middle-section .product-details .content h1 {
   font-size: 50px;
-  color: #003B8E;
+  color: #003b8e;
   line-height: 70px;
   margin-bottom: 40px;
 }
@@ -1467,7 +1467,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .product-details .content-product p span::before {
-  content: '';
+  content: "";
   height: 10px;
   width: 10px;
   border-radius: 10px;
@@ -1479,7 +1479,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .learn-filter-section {
-  background-color: #EFFAFD;
+  background-color: #effafd;
   padding: 32px 0 40px 0;
 }
 
@@ -1525,7 +1525,7 @@ input.form-control:focus::placeholder {
 .middle-section .learn-filter-section .profile-owner .profiel-name p {
   font-size: 18px;
   line-height: 27px;
-  color: #003B8E;
+  color: #003b8e;
   margin-bottom: 0;
   font-family: "Roboto";
   font-weight: 300;
@@ -1551,8 +1551,8 @@ input.form-control:focus::placeholder {
 
 .middle-section .learn-filter-section .radio-list .radio-item {
   background-color: #fff;
-  -webkit-box-shadow: 0 3px 6px  #BFBFBF;
-          box-shadow: 0 3px 6px  #BFBFBF;
+  -webkit-box-shadow: 0 3px 6px #bfbfbf;
+          box-shadow: 0 3px 6px #bfbfbf;
   border-radius: 6px;
   width: 100%;
   overflow: hidden;
@@ -1757,14 +1757,14 @@ input.form-control:focus::placeholder {
 .middle-section .product-info-section .content .result p {
   font-size: 20px;
   line-height: 22px;
-  color: #003B8E;
+  color: #003b8e;
   margin-bottom: 40px;
 }
 
 .middle-section .product-info-section .content h1 {
   font-size: 30px;
   line-height: 45px;
-  color: #003B8E;
+  color: #003b8e;
   margin-bottom: 15px;
 }
 
@@ -1799,8 +1799,8 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .product-info-section .content .filter-div ul li .btn {
-  background-color: #D1EDF6;
-  color: #003B8E;
+  background-color: #d1edf6;
+  color: #003b8e;
   height: 40px;
   font-family: "Roboto";
   border-radius: 5px;
@@ -1820,7 +1820,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .product-info-section .content .filter-div ul li .btn:hover {
-  background-color: #A5D3E1;
+  background-color: #a5d3e1;
 }
 
 .middle-section .product-info-section .content .filter-div ul li .btn i {
@@ -1828,8 +1828,8 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .product-info-section .content .filter-div ul li input {
-  background-color: #FFFFFF;
-  border-color: #B5CEFF;
+  background-color: #ffffff;
+  border-color: #b5ceff;
   max-width: 100px;
   font-size: 18px;
   font-family: "Roboto";
@@ -1872,7 +1872,7 @@ input.form-control:focus::placeholder {
 .middle-section .product-info-section .prodcut-item h1 {
   font-size: 30px;
   line-height: 70px;
-  color: #003B8E;
+  color: #003b8e;
   font-weight: 300;
   font-family: "Roboto";
   margin-bottom: 7px;
@@ -1940,7 +1940,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-name .product-review .rating i {
-  color: #F89A48;
+  color: #f89a48;
   font-size: 17px;
   margin-right: 3px;
 }
@@ -2025,20 +2025,20 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-btns .btn-primary:hover {
-  background-color: #F89A48;
+  background-color: #f89a48;
 }
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-btns .btn-outline-primary {
   background-color: #fff;
   color: #000;
   font-weight: 400;
-  border-color: #F89A48;
+  border-color: #f89a48;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-btns .btn-outline-primary:hover {
-  background-color: #FCF1E7;
+  background-color: #fcf1e7;
   text-decoration: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -2100,13 +2100,13 @@ input.form-control:focus::placeholder {
 
 .middle-section .best-values-section {
   padding: 40px 0;
-  background-color: #EFFAFD;
+  background-color: #effafd;
 }
 
 .middle-section .best-values-section .content h2 {
   font-size: 30px;
   line-height: 40px;
-  color: #003B8E;
+  color: #003b8e;
   margin-bottom: 20px;
 }
 
@@ -2176,11 +2176,11 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .best-values-section .table tr .tbl-price {
-  color: #003B8E;
+  color: #003b8e;
 }
 
 .middle-section .best-values-section .table tr .tbl-runnerup {
-  color: #003B8E;
+  color: #003b8e;
   font-weight: 400;
   font-family: "Roboto";
 }
@@ -2235,13 +2235,13 @@ input.form-control:focus::placeholder {
   background-color: #fff;
   color: #000;
   font-weight: 400;
-  border-color: #F89A48;
+  border-color: #f89a48;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .middle-section .best-values-section .table tr .btn-outline-primary:hover {
-  background-color: #FCF1E7;
+  background-color: #fcf1e7;
   text-decoration: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -2253,20 +2253,20 @@ input.form-control:focus::placeholder {
 
 .middle-section .page-tile-section {
   padding: 18px 0px;
-  border-bottom: 2px solid #BFBFBF;
+  border-bottom: 2px solid #bfbfbf;
 }
 
 .middle-section .page-tile-section p {
   margin-bottom: 0;
   font-size: 24px;
   line-height: 36px;
-  color: #003B8E;
+  color: #003b8e;
 }
 
 .middle-section .page-tile-section a {
   font-size: 24px;
   line-height: 36px;
-  color: #003B8E;
+  color: #003b8e;
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2313,11 +2313,11 @@ input.form-control:focus::placeholder {
   line-height: 37px;
   margin-bottom: 12px;
   font-weight: 400;
-  color: #003B8E;
+  color: #003b8e;
 }
 
 .middle-section .about-morya .content h2 {
-  color: #003B8E;
+  color: #003b8e;
   font-size: 70px;
   line-height: 86px;
   margin-bottom: 12px;
@@ -2334,7 +2334,7 @@ input.form-control:focus::placeholder {
 
 .middle-section .about-morya .content .rating i {
   font-size: 20px;
-  color: #F89A48;
+  color: #f89a48;
   margin: 0 2px;
 }
 
@@ -2343,7 +2343,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .our-promises-section::after {
-  content: '';
+  content: "";
   display: block;
   right: 127px;
   top: 0;
@@ -2362,14 +2362,14 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .our-promises-section .heading h2 {
-  color: #003B8E;
+  color: #003b8e;
   font-size: 55px;
   line-height: 67px;
   margin-bottom: 40px;
 }
 
 .middle-section .our-promises-section .our-promis-box {
-  background-color: #EFFAFD;
+  background-color: #effafd;
   padding: 30px 28px;
   margin-bottom: 40px;
   max-width: 865px;
@@ -2382,7 +2382,7 @@ input.form-control:focus::placeholder {
 .middle-section .our-promises-section .our-promis-box h3 {
   font-size: 35px;
   line-height: 43px;
-  color: #003B8E;
+  color: #003b8e;
 }
 
 .middle-section .our-promises-section .our-promis-box p {
@@ -2395,7 +2395,7 @@ input.form-control:focus::placeholder {
 
 .middle-section .our-promises-section .rating {
   font-size: 18px;
-  color: #F89A48;
+  color: #f89a48;
   margin: 0 2px;
 }
 
@@ -2405,14 +2405,14 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .our-promises-section .our-promices-div::after {
-  content: '';
+  content: "";
   display: block;
   width: 38%;
   min-width: 730px;
   height: 100%;
   background: #003b8e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#52C8F2), to(#2E8CBF));
-  background: linear-gradient(180deg, #52C8F2 0%, #2E8CBF 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#52c8f2), to(#2e8cbf));
+  background: linear-gradient(180deg, #52c8f2 0%, #2e8cbf 100%);
   display: block;
   position: absolute;
   left: 0;
@@ -2432,14 +2432,14 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .our-promises-section .why-we-do-section::after {
-  content: '';
+  content: "";
   display: block;
   width: 61%;
   min-width: 1177px;
   height: 100%;
   background: #003b8e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#2E8CBF), to(#1C6BAB));
-  background: linear-gradient(180deg, #2E8CBF 0%, #1C6BAB 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#2e8cbf), to(#1c6bab));
+  background: linear-gradient(180deg, #2e8cbf 0%, #1c6bab 100%);
   display: block;
   position: absolute;
   right: 0;
@@ -2466,7 +2466,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
   line-height: 30px;
 }
@@ -2477,14 +2477,14 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .our-promises-section .buisenss-modal-section::after {
-  content: '';
+  content: "";
   display: block;
   width: 62%;
   min-width: 1204px;
   height: 100%;
   background: #003b8e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#1C6BAB), to(#0E549D));
-  background: linear-gradient(180deg, #1C6BAB 0%, #0E549D 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#1c6bab), to(#0e549d));
+  background: linear-gradient(180deg, #1c6bab 0%, #0e549d 100%);
   display: block;
   position: absolute;
   left: 0;
@@ -2511,7 +2511,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
   line-height: 30px;
 }
@@ -2522,14 +2522,14 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .our-promises-section .testimonial-section::after {
-  content: '';
+  content: "";
   display: block;
   width: 61%;
   min-width: 1177px;
   height: 100%;
   background: #003b8e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0E549D), to(#072A4F));
-  background: linear-gradient(180deg, #0E549D 0%, #072A4F 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0e549d), to(#072a4f));
+  background: linear-gradient(180deg, #0e549d 0%, #072a4f 100%);
   display: block;
   position: absolute;
   right: 0;
@@ -2556,7 +2556,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .our-promises-section .testimonial-section .testimonial-inner .content p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
   line-height: 30px;
 }
@@ -2622,7 +2622,7 @@ input.form-control:focus::placeholder {
   font-size: 18px;
   line-height: 30px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
   font-family: "Roboto";
   margin-bottom: 17px;
@@ -2651,7 +2651,7 @@ input.form-control:focus::placeholder {
   font-size: 18px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
   font-family: "Roboto";
   display: block;
@@ -2731,21 +2731,21 @@ input.form-control:focus::placeholder {
 .modal-custom .modal-dialog .modal-content .modal-header h5 {
   font-size: 24px;
   line-height: 26px;
-  color: #003B8E;
+  color: #003b8e;
 }
 
 .modal-custom .modal-dialog .modal-content .modal-header .close {
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: none;
-  color: #003B8E;
+  color: #003b8e;
   font-size: 30px;
   opacity: 1;
 }
 
 .modal-custom .modal-dialog .modal-content .modal-header .btn-refresh {
   outline: none;
-  color: #003B8E;
+  color: #003b8e;
   font-size: 30px;
   line-height: 1;
   opacity: 1;
@@ -2810,8 +2810,8 @@ input.form-control:focus::placeholder {
   font-size: 16px;
   line-height: 26px;
   font-family: "Roboto";
-  background-color: #FFFFFF;
-  border: 1px solid #BFBFBF;
+  background-color: #ffffff;
+  border: 1px solid #bfbfbf;
   border-radius: 5px;
   padding: 4px 10px 5px 10px;
 }
@@ -2826,18 +2826,18 @@ input.form-control:focus::placeholder {
 
 .modal-custom .modal-dialog .modal-content .modal-body .filter-item .filter-option:hover {
   background-color: rgba(181, 206, 255, 0.25) !important;
-  border-color: #003B8E;
+  border-color: #003b8e;
   color: #000;
 }
 
 .modal-custom .modal-dialog .modal-content .modal-body .filter-item .filter-option.active {
   background-color: rgba(181, 206, 255, 0.25) !important;
-  border-color: #003B8E;
+  border-color: #003b8e;
   color: #000;
 }
 
 .modal-custom .modal-dialog .modal-content .modal-body .filter-item .row-selected .filter-option {
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
 }
 
 .modal-custom .modal-dialog .modal-content .modal-body .filter-item .custom-control {
@@ -2860,8 +2860,8 @@ input.form-control:focus::placeholder {
   font-size: 16px;
   line-height: 26px;
   font-family: "Roboto";
-  background-color: #FFFFFF;
-  border: 1px solid #BFBFBF;
+  background-color: #ffffff;
+  border: 1px solid #bfbfbf;
   border-radius: 5px;
   padding: 4px 10px 5px 10px;
 }
@@ -2876,18 +2876,18 @@ input.form-control:focus::placeholder {
 
 .modal-custom .modal-dialog .modal-content .modal-body .filter-item .custom-control .custom-control-label:hover {
   background-color: rgba(181, 206, 255, 0.25) !important;
-  border-color: #003B8E;
+  border-color: #003b8e;
   color: #000;
 }
 
 .modal-custom .modal-dialog .modal-content .modal-body .filter-item .custom-control .custom-control-input:checked ~ .custom-control-label {
   background-color: rgba(181, 206, 255, 0.25) !important;
-  border-color: #003B8E;
+  border-color: #003b8e;
   color: #000;
 }
 
 .modal-custom .modal-dialog .modal-content .modal-body .filter-item .row-selected .custom-control .custom-control-label {
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
 }
 
 .modal-custom .modal-dialog .modal-content .modal-footer {
@@ -3057,7 +3057,7 @@ input.form-control:focus::placeholder {
   }
   .text-readmore {
     display: inline-block;
-    color: #003B8E !important;
+    color: #003b8e !important;
     font-size: 16px;
     font-family: "Roboto";
   }
@@ -3073,7 +3073,7 @@ input.form-control:focus::placeholder {
   }
   .learn-more {
     display: block;
-    color: #003B8E !important;
+    color: #003b8e !important;
     font-size: 16px;
     font-family: "Roboto";
   }
@@ -3222,7 +3222,7 @@ input.form-control:focus::placeholder {
     display: block;
   }
   .header.header-2 .search-bar .form-control {
-    background-color: #F4F6FA;
+    background-color: #f4f6fa;
     border: 1px solid #40404080;
     border-radius: 5px;
   }
@@ -3353,7 +3353,7 @@ input.form-control:focus::placeholder {
   }
   .middle-section .find-section .content .search-bar .form-control {
     height: 50px;
-    background-color: #F4F6FA;
+    background-color: #f4f6fa;
     font-size: 18px;
     line-height: 22px;
     color: #707070;
@@ -3426,7 +3426,7 @@ input.form-control:focus::placeholder {
   }
   .middle-section .makeup-section .search-bar .form-control {
     padding-left: 50px;
-    background-color: #F4F6FA;
+    background-color: #f4f6fa;
     color: #414141;
     border-radius: 5px;
   }
@@ -3778,7 +3778,7 @@ input.form-control:focus::placeholder {
     line-height: 37px;
   }
   .middle-section .product-info-section .prodcut-item .product-detail .product-name .product-review .rating i {
-    color: #F8DA48;
+    color: #f8da48;
   }
   .middle-section .product-info-section .prodcut-item .product-detail .product-name .product-review a {
     font-size: 12px;
@@ -3844,7 +3844,7 @@ input.form-control:focus::placeholder {
   .middle-section .best-values-section .content h2 {
     font-size: 24px;
     line-height: 36px;
-    color: #003B8E;
+    color: #003b8e;
   }
   .middle-section .best-values-section .table tr th {
     font-size: 16px;
@@ -3869,7 +3869,7 @@ input.form-control:focus::placeholder {
   .middle-section .best-values-section .table-div .table tr .pro-left-th {
     min-width: 151px;
   }
-  .middle-section .best-values-section .scroll-table-end {
+  .middle-section .best-values-section .scroll-table-end:not(.scroll-table-start) {
     border-radius: 0 10px 10px 0;
     width: calc(100% + 15px);
     border-left: 1px solid transparent;
@@ -3914,13 +3914,13 @@ input.form-control:focus::placeholder {
   .middle-section .about-morya {
     padding: 93px 0;
     background: #003b8e;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #003b8e), color-stop(70%, #48B9DB), to(#EFFAFD));
-    background: linear-gradient(180deg, #003b8e 10%, #48B9DB 70%, #EFFAFD 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #003b8e), color-stop(70%, #48b9db), to(#effafd));
+    background: linear-gradient(180deg, #003b8e 10%, #48b9db 70%, #effafd 100%);
     min-height: 813px;
     position: relative;
   }
   .middle-section .about-morya::after {
-    content: '';
+    content: "";
     background-image: url(../images/star-group.png);
     background-repeat: no-repeat;
     background-position: right center;
@@ -3958,17 +3958,17 @@ input.form-control:focus::placeholder {
   }
   .middle-section .about-morya .content .rating i {
     font-size: 18px;
-    color: #F89A48;
+    color: #f89a48;
     margin: 0 2px;
   }
   .middle-section .our-promises-section {
-    background-color: #EFFAFD;
+    background-color: #effafd;
   }
   .middle-section .our-promises-section::after {
     display: none;
   }
   .middle-section .our-promises-section .our-promices-div {
-    background-color: #EFFAFD;
+    background-color: #effafd;
     margin-bottom: 0;
   }
   .middle-section .our-promises-section .our-promices-div .our-inner {
@@ -3996,7 +3996,7 @@ input.form-control:focus::placeholder {
   }
   .middle-section .our-promises-section .why-we-do-section {
     margin-bottom: 0;
-    background-color: #2E8CBF;
+    background-color: #2e8cbf;
   }
   .middle-section .our-promises-section .why-we-do-section::after {
     display: none;
@@ -4018,7 +4018,7 @@ input.form-control:focus::placeholder {
   }
   .middle-section .our-promises-section .buisenss-modal-section {
     margin-bottom: 0;
-    background-color: #1C6BAB;
+    background-color: #1c6bab;
   }
   .middle-section .our-promises-section .buisenss-modal-section::after {
     display: none;
@@ -4040,7 +4040,7 @@ input.form-control:focus::placeholder {
   }
   .middle-section .our-promises-section .testimonial-section {
     margin-bottom: 0;
-    background-color: #0E549D;
+    background-color: #0e549d;
   }
   .middle-section .our-promises-section .testimonial-section::after {
     display: none;
@@ -4140,7 +4140,7 @@ input.form-control:focus::placeholder {
   }
   .middle-section .our-promises-section .why-we-do-section {
     margin-bottom: 0;
-    background-color: #2E8CBF;
+    background-color: #2e8cbf;
   }
   .middle-section .our-promises-section .why-we-do-section::after {
     display: none;
@@ -4165,7 +4165,7 @@ input.form-control:focus::placeholder {
   }
   .middle-section .our-promises-section .buisenss-modal-section {
     margin-bottom: 0;
-    background-color: #1C6BAB;
+    background-color: #1c6bab;
   }
   .middle-section .our-promises-section .buisenss-modal-section::after {
     display: none;
@@ -4190,7 +4190,7 @@ input.form-control:focus::placeholder {
   }
   .middle-section .our-promises-section .testimonial-section {
     margin-bottom: 0;
-    background-color: #0E549D;
+    background-color: #0e549d;
   }
   .middle-section .our-promises-section .testimonial-section::after {
     display: none;

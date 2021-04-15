@@ -1244,10 +1244,27 @@
         });
         /* End of screen height */
         
+        // #table-scroll-div .table-responsive
+        
+        
+        $("#table-scroll-div .table-responsive").on("scroll", function () {
+        var cur = $(this).scrollLeft();
+        if (cur == 0) {
+            $('#table-scroll-div .table-responsive table').addClass('scroll-table-start').removeClass('scroll-table-end');
+        } 
+        else {
+            var max = $(this)[0].scrollWidth - $(this).parent().width();
+            if (cur == max) {
+                $('#table-scroll-div .table-responsive table').parent().parent().addClass('scroll-table-end').removeClass('scroll-table-start');
+            } else {
+                $('#table-scroll-div .table-responsive table').parent().parent().addClass('scroll-table-start scroll-table-end');
+            }
+        }
+        });
+        $("#scroll-container").trigger("scroll");
+
     });
   
-  
- 
   </script>
 </body>
 
