@@ -30,7 +30,7 @@
 
 <body class="d-flex flex-column h-100">
 
-  <header class="header header-2">
+  <header class="header header-2 header-new">
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-dark ">
       <div class="container">
@@ -46,8 +46,16 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="nav-center">
-              <div class="search-bar">
-                <div class="input-group mb-0">
+              <div class="search-bar ">
+                <div class="search-btn-div desktop-hidden">
+                  <button class="btn-search" id="search-header-btn"> <span class="bg-custom-icon search-new-icon"></span> </button>
+                </div>
+
+                <div class="input-group mb-0 mobile-hidden search-bx-input" id="search-bx-collpase">
+                  <div class="search-back-div desktop-hidden">
+                    <button class="btn-arrow" id="btn-arrow-back"> <span class="bg-custom-icon left-arrow-new-icon"></span> </button>
+                  </div>
+
                   <div class="input-group-prepend ">
                     <span class="input-group-text search-icon"><i class="fe fe-search"></i></span>
                   </div>
@@ -123,9 +131,10 @@
     <section class="page-tile-section page-title-new-section" id="title-none">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <a class="title-link " data-toggle="collapse" href="#title-collapse" role="button" aria-expanded="false" aria-controls="title-collapse">
-              <p>Best Regular Smartwatches for Men With SIM Card Slot, GPS Tracker, Health Rate & Blood Pressure Monitor  
+          <div class="col-lg-12 mobile-hidden" id="hidden-collpase-div">
+            <a class="title-link" id="title-link" data-toggle="collapse" href="#title-collapse" role="button" aria-expanded="false" aria-controls="title-collapse">
+              <p> <span class="text">Best Regular Smartwatches for Men With SIM Card Slot, GPS Tracker, Health Rate & Blood Pressure Monitor  </span>
+                <span class="read-txt desktop-hidden"> Read More </span>
                 <i class="bg-custom-icon arrow-up-icon ml-2"></i>
               </p>
             </a>
@@ -134,7 +143,7 @@
       </div>
     </section>
 
-    <section class="product-details product-new-details-section show collapse" id="title-collapse">
+    <section class="product-details product-new-details-section title-collapse-section show collapse" id="title-collapse">
       <div class="product-inner">
         <div class="container">
           <div class="row">
@@ -163,9 +172,15 @@
                   <p>
                     <span class="txt"> <b class="bold-mobile">Smartwatches for men</b> are designed either for men’s taste or as unisex smartwatches that may appeal to women as well. Sometimes all it takes is to change the smartwatch band in order to fit it to men’s or women’s style.</span>
                   </p>
-                  <p>
-                    <span class="txt"> <b class="bold-mobile">Smartwatches for men</b> are designed either for men’s taste or as unisex smartwatches that may appeal to women as well. Sometimes all it takes is to change the smartwatch band in order to fit it to men’s or women’s style.</span>
-                  </p>
+                  <div class="readmore-link-div desktop-hidden">
+                    <a href="#" class="read-more" id="readmore-txt-btn-01">Read Less</a>
+                  </div>
+                  <div class="read-txt-view mobile-hidden" id="readmore-txt-view-01">
+                    <p>
+                      <span class="txt"> <b class="bold-mobile">Smartwatches for men</b> are designed either for men’s taste or as unisex smartwatches that may appeal to women as well. Sometimes all it takes is to change the smartwatch band in order to fit it to men’s or women’s style.</span>
+                    </p>
+                  </div>
+                  
               </div>
             </div>
           </div>
@@ -200,14 +215,15 @@
                 
                 <div class="who-smartwatch-root">
                   <div class="content content-who-smartwatch">
-                    <h2 class="text-center">Who Would Use the Smartwatch?</h2>
+                    <h2 class="text-center mobile-hidden">Who Would Use the Smartwatch?</h2>
+                    <h2 class="text-center desktop-hidden">Which Smartwatch Water Resistant Minimal Level Do You Want?</h2>
                     <div class="get-link-div">
                       <a href="#" class="link">Get a quick tip</a>
                     </div>
                   </div>
                 
                   <div class="radio-list radio-list-new-div">
-                    <div class="radio-item">
+                    <div class="radio-item mobile-hidden">
                       <div class="custom-control custom-radio custom-control-inline">
                         <input type="radio" class="custom-control-input answer-radio d-none" id="customRadio2" name="answer-radio">
                         <label class="custom-control-label" for="customRadio2">
@@ -233,7 +249,7 @@
                       </div>  
                     </div>
 
-                    <div class="radio-item">
+                    <div class="radio-item mobile-hidden">
                       <div class="custom-control custom-radio custom-control-inline">
                         <input type="radio" class="custom-control-input answer-radio d-none" id="customRadio24" name="answer-radio" >
                         <label class="custom-control-label" for="customRadio24">
@@ -260,7 +276,7 @@
                       </div>  
                     </div>
 
-                    <div class="radio-item">
+                    <div class="radio-item mobile-hidden">
                       <div class="custom-control custom-radio custom-control-inline">
                         <input type="radio" class="custom-control-input answer-radio d-none" id="customRadio23" name="answer-radio">
                         <label class="custom-control-label" for="customRadio23">
@@ -282,6 +298,150 @@
                           </div>
                         </label>
                       </div>  
+                    </div>
+
+                    <div class="mobile-radio-list-div">
+
+                      <div class="progress-bar-custom-dv desktop-hidden">
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">  </div>
+                        </div>
+                      </div>
+
+                      <div class="radio-item desktop-hidden">
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" class="custom-control-input answer-radio d-none" id="customRadio-mobile1" name="answer-radio">
+                          <label class="custom-control-label" for="customRadio-mobile1">
+                            <div class="call-detail">
+                              <div class="call-content">
+                                <h3>3 ATM (30m)</h3>
+                                <a href="#!" class="btn btn-open"><i class="bg-custom-icon info-mark-icon"></i></a>
+                                <div class="img-content">
+                                  <img src="assets/images/watch/watch-1.jpg" class="img-fluid" alt="img" />
+                                  <p>Regular smartwatch is the original 
+                                    smartwatch that has a screen instead of analogue mechanism. They offer different smart features vary from reading text messages to measuring your health data.</p>
+  
+                                    <div class="selected-div">
+                                      <a class="btn btn-select" for="customRadio-mobile1">Select</a>
+                                    </div>
+                                </div>
+                              
+                              </div>
+                              <div class="call-img">
+                                <img src="assets/images/watch/watch-1.jpg" class="img-fluid" alt="img" />
+                              </div>
+                            </div>
+                          </label>
+                        </div>  
+                      </div>
+
+                      <div class="radio-item desktop-hidden">
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" class="custom-control-input answer-radio d-none" id="customRadio-mobile2" name="answer-radio">
+                          <label class="custom-control-label" for="customRadio-mobile2">
+                            <div class="call-detail">
+                              <div class="call-content">
+                                <h3>5 ATM (50m)</h3>
+                                <a href="#!" class="btn btn-open"><i class="bg-custom-icon info-mark-icon"></i></a>
+                                <div class="img-content">
+                                  <img src="assets/images/watch/watch-1.jpg" class="img-fluid" alt="img" />
+                                  <p>Regular smartwatch is the original 
+                                    smartwatch that has a screen instead of analogue mechanism. They offer different smart features vary from reading text messages to measuring your health data.</p>
+  
+                                    <div class="selected-div">
+                                      <a class="btn btn-select" for="customRadio-mobile2">Select</a>
+                                    </div>
+                                </div>
+                              
+                              </div>
+                              <div class="call-img">
+                                <img src="assets/images/watch/watch-1.jpg" class="img-fluid" alt="img" />
+                              </div>
+                            </div>
+                          </label>
+                        </div>  
+                      </div>
+
+                      <div class="radio-item desktop-hidden">
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" class="custom-control-input answer-radio d-none" id="customRadio-mobile3" name="answer-radio">
+                          <label class="custom-control-label" for="customRadio-mobile3">
+                            <div class="call-detail">
+                              <div class="call-content">
+                                <h3>10 ATM (100m)</h3>
+                                <a href="#!" class="btn btn-open"><i class="bg-custom-icon info-mark-icon"></i></a>
+                                <div class="img-content">
+                                  <img src="assets/images/watch/watch-1.jpg" class="img-fluid" alt="img" />
+                                  <p>Regular smartwatch is the original 
+                                    smartwatch that has a screen instead of analogue mechanism. They offer different smart features vary from reading text messages to measuring your health data.</p>
+  
+                                    <div class="selected-div">
+                                      <a class="btn btn-select" for="customRadio-mobile3">Select</a>
+                                    </div>
+                                </div>
+                              
+                              </div>
+                              <div class="call-img">
+                                <img src="assets/images/watch/watch-1.jpg" class="img-fluid" alt="img" />
+                              </div>
+                            </div>
+                          </label>
+                        </div>  
+                      </div>
+
+                      <div class="radio-item desktop-hidden">
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" class="custom-control-input answer-radio d-none" id="customRadio-mobile4" name="answer-radio">
+                          <label class="custom-control-label" for="customRadio-mobile4">
+                            <div class="call-detail">
+                              <div class="call-content">
+                                <h3>20 ATM (200m)</h3>
+                                <a href="#!" class="btn btn-open"><i class="bg-custom-icon info-mark-icon"></i></a>
+                                <div class="img-content">
+                                  <img src="assets/images/watch/watch-1.jpg" class="img-fluid" alt="img" />
+                                  <p>Regular smartwatch is the original 
+                                    smartwatch that has a screen instead of analogue mechanism. They offer different smart features vary from reading text messages to measuring your health data.</p>
+  
+                                    <div class="selected-div">
+                                      <a class="btn btn-select" for="customRadio-mobile4">Select</a>
+                                    </div>
+                                </div>
+                              
+                              </div>
+                              <div class="call-img">
+                                <img src="assets/images/watch/watch-1.jpg" class="img-fluid" alt="img" />
+                              </div>
+                            </div>
+                          </label>
+                        </div>  
+                      </div>
+
+                      <div class="radio-item desktop-hidden">
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" class="custom-control-input answer-radio d-none" id="customRadio-mobile5" name="answer-radio">
+                          <label class="custom-control-label" for="customRadio-mobile5">
+                            <div class="call-detail">
+                              <div class="call-content">
+                                <h3>30 ATM (300m)</h3>
+                                <a href="#!" class="btn btn-open"><i class="bg-custom-icon info-mark-icon"></i></a>
+                                <div class="img-content">
+                                  <img src="assets/images/watch/watch-1.jpg" class="img-fluid" alt="img" />
+                                  <p>Regular smartwatch is the original 
+                                    smartwatch that has a screen instead of analogue mechanism. They offer different smart features vary from reading text messages to measuring your health data.</p>
+  
+                                    <div class="selected-div">
+                                      <a class="btn btn-select" for="customRadio-mobile5">Select</a>
+                                    </div>
+                                </div>
+                              
+                              </div>
+                              <div class="call-img">
+                                <img src="assets/images/watch/watch-1.jpg" class="img-fluid" alt="img" />
+                              </div>
+                            </div>
+                          </label>
+                        </div>  
+                      </div>
                     </div>
                   </div>
                   
@@ -375,7 +535,7 @@
                               </div>
 
                               <div class="product-btns">
-                                <a href="https://www.amazon.com/" class="btn btn-primary" target="_blank" rel=”sponsored”>Best Deal on Amazon</a>
+                                <a href="https://www.amazon.com/" class="btn btn-primary" target="_blank" rel=”sponsored”>Best&nbsp;<span class="mobile-hidden">Deal</span>&nbsp;on Amazon</a>
                                 <a href="https://www.ebay.com/" class="btn btn-outline-primary" target="_blank" rel=”sponsored”>or $97 on eBay</a>
                               </div>
                             </div>
@@ -436,7 +596,7 @@
                               </div>
 
                               <div class="product-btns">
-                                <a href="https://www.amazon.com/" class="btn btn-primary" target="_blank" rel=”sponsored”>Best on Amazon</a>
+                                <a href="https://www.amazon.com/" class="btn btn-primary" target="_blank" rel=”sponsored”>Best&nbsp;<span class="mobile-hidden">Deal</span>&nbsp;on Amazon</a>
                                 <a href="https://www.ebay.com/" class="btn btn-outline-primary" target="_blank" rel=”sponsored”>or $97 on eBay</a>
                               </div>
                             </div>
@@ -498,7 +658,7 @@
                               </div>
 
                               <div class="product-btns">
-                                <a href="https://www.amazon.com/" class="btn btn-primary" target="_blank" rel=”sponsored”>Best on Amazon</a>
+                                <a href="https://www.amazon.com/" class="btn btn-primary" target="_blank" rel=”sponsored”>Best&nbsp;<span class="mobile-hidden">Deal</span>&nbsp;on Amazon</a>
                                 <a href="https://www.ebay.com/" class="btn btn-outline-primary" target="_blank" rel=”sponsored”>or $97 on eBay</a>
                               </div>
                             </div>
@@ -762,15 +922,16 @@
           
             <div class="quicklink">
               <ul>
-                <li><a href="https://www.myroga.com/">About Myroga</a></li>
+                <li class="mobile-hidden"><a href="https://www.myroga.com/">About Myroga</a></li>
                 <li><a href="https://www.myroga.com/privacy-policy">Privacy Policy</a></li>
                 <li><a href="https://www.myroga.com/terms-of-use">Term of Use</a></li>
                 <li><a href="https://www.myroga.com/best-headphones-guide">All Guides</a></li>
               </ul>
             </div>
             <div class="footer-text">
-              <p>We only care about buyers making the best decisions. Our products’ recommendations are based on products’ popularities, reviews and more.
-                The recommendations we give are independent and no one pays us to rank specific products.</p>
+              <p>We only care about buyers making the best decisions. Our products’ recommendations are based on products’ popularities, reviews and more.</p>
+                <!-- <p>We only care about buyers making the best decisions. Our products’ recommendations are based on products’ popularities, reviews and more.
+                  The recommendations we give are independent and no one pays us to rank specific products.</p> -->
 
                 <div class="affilate-link">
                   <a href="https://www.myroga.com/affiliate-disclosure">
@@ -949,7 +1110,7 @@
 
             <li>
               <div class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" id="c75" name="example6">
+                <input type="radio" class="custom-control-input" id="c75" name="example6" >
                 <label class="custom-control-label" for="c75">Daily Use</label>
               </div>
             </li>
@@ -977,7 +1138,7 @@
       
         <li>
           <div class="custom-control custom-radio">
-            <input type="radio" class="custom-control-input" id="c762" name="example6">
+            <input type="radio" class="custom-control-input" id="c762" name="example6" disabled>
             <label class="custom-control-label" for="c762">Swimming</label>
           </div>
         </li>
@@ -1098,7 +1259,7 @@
           </div>
 
         </div>
-        <div class="modal-footer justify-content-center border-0">
+        <div class="modal-footer justify-space-between">
           <button type="button" class="btn btn-clear">Clear Filter</button>
           <button type="button" class="btn btn-save"  data-dismiss="modal">Save changes</button>
         </div>
@@ -1143,7 +1304,7 @@
 
       $('.btn-open').click(function(){
 
-        $(this).children().toggleClass("fe-x");
+        $(this).children().toggleClass("fe fe-x");
         $(this).next().toggle();
       });
 
@@ -1201,6 +1362,27 @@
         }
         });
         $("#scroll-container").trigger("scroll");
+
+        if (window.matchMedia("(max-width: 815px)").matches) {
+          $("#readmore-txt-btn-01").on("click", function(){
+            $("#hidden-collpase-div").removeClass("mobile-hidden");
+            $(".product-new-details-section").removeClass("show").addClass("hide").css("display", "none");
+
+            $("#title-link").on("click", function(){
+              $("#hidden-collpase-div").addClass("mobile-hidden");
+              $(".product-new-details-section").addClass("show").removeClass("hide");
+              $(".title-collapse-section.collapse").addClass("show").removeClass("hide").css("display", "block");
+            });
+          });
+
+          $("#search-header-btn").on("click", function(){
+            $("#search-bx-collpase").removeClass("mobile-hidden");
+          });
+
+          $("#btn-arrow-back").on("click", function(){
+            $("#search-bx-collpase").addClass("mobile-hidden");
+          });
+        }
 
     });
   
