@@ -1844,6 +1844,15 @@ input.form-control:focus::placeholder {
   font-size: 16px;
   line-height: 27px;
   font-weight: 400;
+  background: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.middle-section .learn-filter-section .who-smartwatch-root .content-who-smartwatch .get-link-div p {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .middle-section .learn-filter-section .radio-list-new-div .radio-item {

@@ -218,7 +218,13 @@
                     <h2 class="text-center mobile-hidden">Who Would Use the Smartwatch?</h2>
                     <h2 class="text-center desktop-hidden">Which Smartwatch Water Resistant Minimal Level Do You Want?</h2>
                     <div class="get-link-div">
-                      <a href="#" class="link">Get a quick tip</a>
+                      <button class="link" id="quick-tip-link">Get a quick tip</button>
+                      <div class="quick-tip-card-bx desktop-hidden mobile-hidden" id="quick-tip-card-bx">
+                        <div class="desc-div">
+                          <p>Smartwatches are connected to your smartphone and may offer features like reading text messages, emails and more. Smartwatches sub-types are the fitness tracker that is designated to track sports activities and hybrid type. It combines the traditional analogue watch with more features. </p>
+                        </div>
+                        <button class="link" id="quick-tip-close-link">Close</button>
+                      </div>
                     </div>
                   </div>
                 
@@ -1381,6 +1387,18 @@
 
           $("#btn-arrow-back").on("click", function(){
             $("#search-bx-collpase").addClass("mobile-hidden");
+          });
+
+          $("#quick-tip-link").on("click", function(){
+            $("#quick-tip-link").addClass("mobile-hidden");
+            $("#quick-tip-card-bx").removeClass("mobile-hidden");
+            $("#quick-tip-close-link").removeClass("mobile-hidden");
+          });
+
+          $("#quick-tip-close-link").on("click", function(){
+            $("#quick-tip-link").removeClass("mobile-hidden");
+            $("#quick-tip-card-bx").addClass("mobile-hidden");
+            $("#quick-tip-close-link").addClass("mobile-hidden");
           });
         }
 
