@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #003b8e;
+  color: #000000;
 }
 
 h1 {
@@ -225,7 +225,8 @@ input[type="number"] {
     display: flex;
     height: 82px;
     background: rgb(71, 184, 218);
-    background: linear-gradient(90deg, rgba(71, 184, 218, 1) 0%, rgba(0, 59, 142, 1) 100%);
+    // background: linear-gradient(90deg, rgba(71, 184, 218, 1) 0%, rgba(0, 59, 142, 1) 100%);
+    background: transparent linear-gradient(180deg, #5BD3B2 0%, #C9EDE9 61%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0 7px 12px rgba(0, 0, 0, 0.02);
     z-index: 999;
     padding: 8px 0;
@@ -251,9 +252,9 @@ input[type="number"] {
 
     .navbar-brand {
       width: 188px;
-      height: au to;
+      height: auto;
+      padding: 0;
       display: block;
-      padding: 7px 14px;
       border: 1px solid transparent;
 
       &:hover {
@@ -272,16 +273,6 @@ input[type="number"] {
 
       .logo-2 {
         display: none;
-      }
-
-      &:active {
-        .logo-1 {
-          display: none;
-        }
-
-        .logo-2 {
-          display: block;
-        }
       }
     }
 
@@ -316,7 +307,7 @@ input[type="number"] {
       .navbar-nav {
         .nav-item {
           .nav-link {
-            color: #ffffff;
+            color: #000;
             font-size: 18px;
             line-height: 22px;
             padding: 10px 10px;
@@ -344,7 +335,7 @@ input[type="number"] {
 
           .nav-link.active {
             transition: all 0.4s ease-in-out;
-            color: #ffffff;
+            color: #000;
           }
         }
         .nav-btn {
@@ -395,7 +386,7 @@ input[type="number"] {
 
     .search-icon {
       position: absolute;
-      left: 2px !important;
+      right: 7px !important;
       top: 2px;
       z-index: 9;
       height: 36px !important;
@@ -461,7 +452,7 @@ input[type="number"] {
       line-height: 28px;
       font-family: $roboto;
       box-shadow: none;
-      padding-left: 50px;
+      padding-left: 20px;
       outline: none;
       border-radius: 3px 0 0 3px;
       margin-right: -1px;
@@ -576,6 +567,7 @@ input.form-control {
         border-radius: 3px;
         overflow: hidden;
         position: relative;
+        margin: 0 auto;
 
         .search-div {
           padding: 0 !important;
@@ -640,7 +632,6 @@ input.form-control {
           outline: none;
           padding-left: 50px;
           border-radius: 3px 0 0 3px;
-          border-right: 0;
 
           &:focus {
             border-color: #003b8e;
@@ -675,13 +666,12 @@ input.form-control {
         height: 160px;
         width: 160px;
         min-width: 160px;
-        background-color: #e3f5fa;
+        background-color: rgba(139, 76, 216, 0.103);
         border-radius: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 30px;
-        border: 1px solid #e3f5fa;
         transition: all 0.3s;
 
         img {
@@ -791,15 +781,15 @@ input.form-control {
     padding-top: 16px;
 
     .makeup-inner-div {
-      background-color: rgba(0, 59, 142, 0.68);
+      background-color: #5BD3B2;
       padding: 36px 80px;
     }
 
     h3 {
-      color: #fff;
+      color: #000;
       font-size: 24px;
       line-height: 30px;
-      font-weight: 300;
+      font-weight: 400;
       margin: 5px 0;
     }
 
@@ -899,7 +889,7 @@ input.form-control {
 
     .heading {
       h2 {
-        color: #003b8e;
+        color: #000;
         margin-bottom: 10px;
         font-size: 30px;
         line-height: 37px;
@@ -1036,7 +1026,7 @@ input.form-control {
 
     .heading {
       h2 {
-        color: #003b8e;
+        color: #000;
         margin-bottom: 10px;
         font-size: 30px;
         line-height: 37px;
@@ -1059,7 +1049,7 @@ input.form-control {
       margin-bottom: 30px;
 
       h3 {
-        color: #003b8e;
+        color: #000;
         margin-bottom: 10px;
         font-size: 30px;
         line-height: 37px;
@@ -1265,16 +1255,16 @@ input.form-control {
     .content {
       h1 {
         font-size: 50px;
-        color: #003b8e;
+        color: #000;
         line-height: 70px;
-        margin-bottom: 35px;
+        margin-bottom: 0;
       }
 
       .profile-owner {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
 
         .img-profile {
           height: 45px;
@@ -1284,7 +1274,6 @@ input.form-control {
         }
 
         .profiel-name {
-          padding-left: 14px;
           min-height: 45px;
           display: flex;
           align-items: center;
@@ -1340,7 +1329,7 @@ input.form-control {
             height: 10px;
             width: 10px;
             border-radius: 10px;
-            background-color: rgba(0, 0, 0, 0.63);
+            background-color: rgb(255, 255, 255);
             border: 1px solid #707070;
             display: block;
             left: 5px;
@@ -1439,12 +1428,12 @@ input.form-control {
             }
 
             p {
-              border: 1px solid rgba(39, 126, 184, 0.5);
+              border: 1px solid rgba(47, 212, 175, 0.5);
               background-color: #fff;
               border-radius: 9px;
               padding: 8px 17px;
               min-height: 40px;
-              color: #277fb8;
+              color: #2fd4af;
               font-size: 16px;
               font-weight: 400;
               display: flex;
@@ -1975,7 +1964,7 @@ input.form-control {
           h2 {
             font-size: 30px;
             color: #000000;
-            font-weight: 700;
+            font-weight: 600;
             line-height: 30px;
             margin: 0 0 15px 0;
             // font-family: $roboto;
@@ -1998,7 +1987,7 @@ input.form-control {
                 margin-right: 3px;
 
                 &.active {
-                  color: #f89a48;
+                  color: #F8DA48;
                 }
               }
             }
@@ -2114,6 +2103,7 @@ input.form-control {
         justify-content: center;
         font-size: 18px;
         line-height: 22px;
+        color: #8C4CD8 !important;
         font-family: "Montserrat", sans-serif !important;
         box-shadow: none;
         padding: 0;
@@ -2138,13 +2128,15 @@ input.form-control {
     .content-header-div {
       h2 {
         color: #000;
-        font-size: 36px;
+        font-size: 24px;
+        font-weight: 400;
         line-height: 50px;
         margin: 0 0 10px 0;
         padding: 0;
       }
 
       h3 {
+        color: #000;
         font-weight: 500;
         line-height: 1.5;
         margin: 0 0 20px 0;
@@ -2157,7 +2149,26 @@ input.form-control {
       h1 {
         font-size: 30px;
         line-height: 1.5;
+        font-weight: 600;
+        color: #5A2E8E;
+        font-style: italic;
         margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+
+        span{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 20px;
+          width: 77px;
+          height: 77px;
+          background-color: #fff;
+          background: url("../images/num.png") no-repeat center;
+          background-size: contain;
+          color: #000;
+          font-style: normal;
+        }
       }
     }
   }
@@ -2171,8 +2182,12 @@ input.form-control {
         font-size: 30px;
         line-height: 40px;
         font-weight: 500;
-        color: #003b8e;
+        color: #000;
         margin-bottom: 25px;
+
+        span{
+          font-weight: 700;
+        }
       }
     }
 
@@ -2243,7 +2258,7 @@ input.form-control {
         }
 
         .tbl-price {
-          color: #003b8e;
+          color: #8C4CD8;
         }
 
         .tbl-runnerup {
@@ -2677,9 +2692,6 @@ input.form-control {
   }
 }
 
-.owl-theme .owl-nav .disabled {
-  opacity: 0 !important;
-}
 
 .product-details {
   transition: unset !important;
@@ -2699,8 +2711,8 @@ input.form-control {
 
 .footer-section {
   padding: 29px 0 35px 0;
-  background: rgb(71, 184, 218);
-  background: linear-gradient(90deg, rgba(71, 184, 218, 1) 0%, rgba(0, 59, 142, 1) 100%);
+  background: #5BD3B2;
+  // background: linear-gradient(90deg, rgba(71, 184, 218, 1) 0%, rgba(0, 59, 142, 1) 100%);
 
   .quicklink {
     display: flex;
@@ -2725,7 +2737,7 @@ input.form-control {
           font-size: 18px;
           line-height: 30px;
           text-align: center;
-          color: #fff;
+          color: #000;
           font-weight: 400;
           // font-family: $roboto;
           margin-bottom: 17px;
@@ -2747,7 +2759,7 @@ input.form-control {
     p {
       font-size: 18px;
       line-height: 24px;
-      color: #fff;
+      color: rgb(0, 0, 0);
       // text-align: center;
       font-weight: 400;
       // font-family: $roboto;
@@ -2759,7 +2771,7 @@ input.form-control {
     a {
       font-size: 16px;
       line-height: 24px;
-      color: #ffffff;
+      color: #000000;
       font-weight: 400;
       // font-family: $roboto;
       display: block;
@@ -3112,6 +3124,255 @@ input.form-control {
   background-color: #fff !important;
   border: 1px solid #adb5bd !important;
 }
+
+/*New heading CSS Start*/
+.content_2{
+  margin-bottom: 40px;
+  h3{
+    font-size: 36px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 30px;
+    span{
+      color: #8C4CD8;
+      font-weight: 700;
+    }
+  }
+  .mr_btn{
+    display: inline-block;
+    min-width: 224px;
+    height: 50px;
+    text-decoration: none;
+    line-height: 50px;
+    background-color: #8C4CD8;
+    color: #F5F7FF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    text-align: center;
+  }
+}
+/*New heading CSS End*/
+
+/*New Quiz section CSS Start*/
+.new_quiz_section{
+  padding-bottom: 30px;
+
+  .new_quiz_heading{
+    margin-bottom: 30px;
+
+    h2{
+      font-size: 40px;
+      color: #000000;
+      font-weight: 400;
+      margin: 0;
+    }
+  }
+
+  .quiz_progressbar{
+    position: relative;
+    margin-bottom: 30px;
+
+    .quiz_progress{
+      position: relative;
+      width: 100%;
+      max-width: 400px;
+      height: 10px;
+      border-radius: 5px;
+      background-color: #EBEBEB;
+
+      span{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 45%;
+        border-radius: 5px;
+        background-color: #439A82; 
+      }
+    }
+  }
+
+  .new_quiz_optionList{
+    ul{
+      position: relative;
+      li{
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 100%;
+
+        input[type="checkbox"]{
+          position: absolute;
+          left: -9999px;
+        }
+
+        label{
+          margin: 0;
+          margin-right: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          max-width: 420px;
+          height: 60px;
+          border: 1px solid #5BD3B2;
+          background-color: #fff;
+          border-radius: 30px;
+          color: #000;
+          font-weight: 600;
+          font-size: 24px;
+          cursor: pointer;
+          box-shadow: 0px 3px 6px #00000029;
+          transition: all 0.3s ease-in-out;
+        }
+
+        .quiz_icon{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          min-width: 40px;
+          height: 40px;
+          line-height: 35px;
+          border-radius: 100%;
+          border: 0.5px solid #8C4CD8;
+          color: #8C4CD8;
+          font-size: 16px;
+        }
+
+        input[type="checkbox"]:checked + label{
+          background-color: #5BD3B2;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .new_quiz_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a{
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: 600;
+      color: #439A82;
+
+      &:first-child{
+        span{
+          margin-right: 10px;
+        }
+      }
+      &:last-child{
+        span{
+          margin-left: 10px;
+        }
+      }
+
+      span{
+        img{
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .new_quiz_image_wrapper{
+    position: relative;
+    height: 100%;
+    background-color: #E6E6E6;
+
+    img{
+      object-fit: cover;
+    }
+  }
+
+  .new_quiz_content_wrapper{
+    position: relative;
+    padding: 10px 15px;
+
+    h3{
+      font-size: 24px;
+      font-weight: 600;
+      color: #000000;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.related_guidline_wrapper{
+  padding: 30px 0 80px;
+  background-color: #fff;
+
+  .guidline_heading{
+    margin-bottom: 20px;
+
+    h2{
+      font-size: 36px;
+      font-weight: 600;
+      color: #000000;
+      margin: 0;
+    }
+  }
+
+  .guidline_list{
+    position: relative;
+
+    li{
+      margin-bottom: 10px;
+
+      a{
+        display: inline-block;
+        text-decoration: none;
+        color: #000;
+        font-size: 24px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+.middle-section .page-title-new-section .title-link p.black_text{
+  color: #000;
+}
+.banner_search .input-group-append {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+/*New Quiz section CSS End*/
+/*Index*/
+.middle-section .popular-guid-section .owl-theme .owl-nav button{
+  border: 1px solid #5A2E8E;
+  background-color: transparent;
+  color: #5A2E8E;
+}
+.middle-section .popular-guid-section.electronic-guid-section .popular-box .popular-img{
+  background-color: rgba(91, 211, 179, 0.137);
+}
+.middle-section .popular-guid-section.kitchen-guid-section .popular-box .popular-img{
+  background-color: rgba(72, 185, 219, 0.158);
+}
+.middle-section .popular-guid-section .heading h3{
+  font-size: 24px;
+  font-weight: 600;
+}
+.middle-section .popular-guid-section .popular-box h3 a{
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.middle-section .best-deal-section .owl-theme .owl-nav button{
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+}
+/*Index*/
+
 /*###########################################################################
 ############################## media query started ###############################
 ######################################################################################*/
@@ -4443,7 +4704,7 @@ input.form-control {
         h2 {
           font-size: 18px;
           line-height: 27px;
-          color: #003b8e;
+          color: #000;
           font-weight: 700;
         }
       }
