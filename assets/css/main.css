@@ -9,7 +9,7 @@
   padding: 0;
   margin: 0;
   position: relative;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .general-content-section .general-content-div .top-heading-div {
@@ -69,14 +69,14 @@
 .general-content-section .general-content-div .general-content-body-div h4 {
   font-size: 24px;
   line-height: 28px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0 0 24px 0;
 }
 
 .general-content-section .general-content-div .general-content-body-div h5 {
   font-size: 20px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0 0 12px 0;
 }
 
@@ -238,6 +238,7 @@
   line-height: 1;
   font-weight: 700;
   margin: 0;
+  color: #414141;
 }
 
 .page-not-found-section .page-404-content-div .page-404-content-bd-row {
@@ -288,7 +289,7 @@
 
 .page-not-found-section .page-404-content-div .page-404-content-bd-row .search-bar .search-icon {
   position: absolute;
-  left: 2px !important;
+  right: 10px !important;
   top: 2px;
   z-index: 9;
   height: 36px !important;
@@ -367,12 +368,12 @@
           box-shadow: none;
   padding-left: 50px;
   outline: none;
-  border-radius: 3px 0 0 3px;
+  border-radius: 3px;
   margin-right: -1px;
   z-index: 2;
   position: relative;
   background: #fff;
-  border: 1px solid #003b8e;
+  border: 1px solid #235547ad;
 }
 
 .page-not-found-section .page-404-content-div .page-404-content-bd-row .search-bar .form-control:active {
@@ -438,9 +439,6 @@
   }
   .page-not-found-section {
     min-height: 520px;
-    background: url(../images/page404.svg) no-repeat;
-    background-size: contain;
-    background-position: calc(100% + 181px) calc(100% - 20px);
   }
   .page-not-found-section .page-not-found-div {
     padding: 69px 0 180px 0;
@@ -493,9 +491,6 @@
     max-width: 100%;
     width: 100%;
     display: block;
-  }
-  .page-not-found-section .page-404-content-div .page-404-content-bd-row .search-bar .input-group-append {
-    display: none;
   }
   .page-not-found-section .page-404-content-div .page-404-content-bd-row .search-bar .input-group-text {
     background-color: #f4f6fa;
@@ -569,6 +564,21 @@
   }
   .page-not-found-section .page-404-content-div .page-404-content-bd-row .page-404-content-bd-right {
     max-width: 450px;
+  }
+}
+
+@media (max-width: 480px) {
+  .general-content-section {
+    padding: 45px 0 20px 0;
+  }
+  .general-content-section .general-content-div .general-content-body-div .mb-80 {
+    margin-bottom: 30px;
+  }
+  .general-content-section .general-content-div .general-content-body-div .mb-74 {
+    margin-bottom: 44px;
+  }
+  .page-not-found-section .page-404-content-div .page-404-content-bd-row .search-bar .form-control {
+    padding-left: 15px;
   }
 }
 /*# sourceMappingURL=main.css.map */

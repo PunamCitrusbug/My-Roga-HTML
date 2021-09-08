@@ -335,7 +335,7 @@ input[type="number"] {
 
           .nav-link.active {
             transition: all 0.4s ease-in-out;
-            color: #000;
+            color: #235547;
           }
         }
         .nav-btn {
@@ -448,7 +448,7 @@ input[type="number"] {
     .form-control {
       height: 40px;
       border-color: #fff;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 28px;
       font-family: $roboto;
       box-shadow: none;
@@ -458,12 +458,16 @@ input[type="number"] {
       margin-right: -1px;
       z-index: 2;
       position: relative;
+      
+    font-family: "Montserrat", sans-serif;
 
       &:active {
         border-color: #003b8e;
 
         &::placeholder {
           opacity: 0;
+          font-size: 15px;
+          font-family: "Montserrat", sans-serif;
         }
       }
     }
@@ -501,6 +505,7 @@ input[type="number"] {
     font-size: 18px;
     box-shadow: none;
     outline: 0;
+    font-family: "Montserrat", sans-serif;
 
     &:focus {
       border-color: #1d61f6 !important;
@@ -561,7 +566,7 @@ input.form-control {
       }
 
       .search-bar {
-        max-width: 709px;
+        max-width: 627px;
         width: 100%;
         background-color: #fff;
         border-radius: 3px;
@@ -582,6 +587,7 @@ input.form-control {
 
         .input-group-append {
           margin-left: 0 !important;
+          z-index: 10;
         }
         .input-group-text {
           background-color: transparent;
@@ -624,7 +630,7 @@ input.form-control {
 
         .form-control {
           height: 40px;
-          border-color: #003b8e;
+          border-color: #235547;
           font-size: 16px;
           line-height: 28px;
           font-family: $roboto;
@@ -634,12 +640,8 @@ input.form-control {
           border-radius: 3px 0 0 3px;
 
           &:focus {
-            border-color: #003b8e;
-            border-right: 0;
+            border-color: #235547;
 
-            &::placeholder {
-              opacity: 0;
-            }
           }
         }
       }
@@ -1135,7 +1137,7 @@ input.form-control {
           font-size: 18px;
           line-height: 22px;
           color: #000000;
-          font-weight: 400;
+          font-weight: 600;
           font-family: $roboto;
         }
       }
@@ -1194,7 +1196,7 @@ input.form-control {
     }
 
     .owl-theme {
-      padding: 0 30px;
+      padding: 0 50px;
 
       .owl-nav {
         position: absolute;
@@ -1428,14 +1430,14 @@ input.form-control {
             }
 
             p {
-              border: 1px solid rgba(47, 212, 175, 0.5);
+              border: 0.5px solid #439A82;
               background-color: #fff;
               border-radius: 9px;
               padding: 8px 17px;
               min-height: 40px;
-              color: #2fd4af;
+              color: #439A82;
               font-size: 16px;
-              font-weight: 400;
+              font-weight: 600;
               display: flex;
               align-items: center;
               flex-wrap: wrap;
@@ -1840,9 +1842,9 @@ input.form-control {
 
             .btn {
               background-color: #fff;
-              color: #003b8e;
+              color: #235547;
               height: 40px;
-              border: 1px solid rgba(181, 206, 255, 0.5);
+              border: 0.5px solid #235547;
               font-family: "Montserrat", sans-serif !important;
               border-radius: 5px;
               font-size: 18px;
@@ -1865,29 +1867,29 @@ input.form-control {
 
             input {
               background-color: #ffffff;
-              border: 1px solid rgba(181, 206, 255, 0.5);
+              border: 0.5px solid #235547;
               max-width: 100px;
               font-size: 18px;
               text-align: center;
               padding-left: 27px !important;
               padding-top: 6px;
               border-radius: 5px;
-              color: #003b8e !important;
+              color: #235547 !important;
 
               &::-webkit-input-placeholder {
-                color: #003b8e;
+                color: #235547;
               }
 
               &::-moz-placeholder {
-                color: #003b8e;
+                color: #235547;
               }
 
               &:-ms-input-placeholder {
-                color: #003b8e;
+                color: #235547;
               }
 
               &:-moz-placeholder {
-                color: #003b8e;
+                color: #235547;
               }
             }
 
@@ -1895,7 +1897,7 @@ input.form-control {
               // background: rgb(65, 173, 212);
               // background: linear-gradient(114deg, rgba(65, 173, 212, 1) 0%, rgba(23, 99, 167, 1) 100%);
               width: 70px;
-              border: 1px solid #003b8e80;
+              border: 0.5px solid #235547;
               padding: 4px 20px;
               // height: 40px;
               // color: #fff;
@@ -1918,7 +1920,7 @@ input.form-control {
             }
 
             &.dollars::after {
-              color: #003b8e !important;
+              color: #235547 !important;
               font-size: 18px !important;
               top: 8px;
               font-family: "Montserrat", sans-serif !important;
@@ -2356,7 +2358,7 @@ input.form-control {
   .arrow-down-icon {
     height: 8px;
     width: 16px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15.767' height='8.414' viewBox='0 0 15.767 8.414'%3E%3Cg id='Group_2996' data-name='Group 2996' transform='translate(0.707 0.707)'%3E%3Cline id='Line_4' data-name='Line 4' x2='7' y2='7' fill='none' stroke='%23003b8e' stroke-linecap='round' stroke-width='1'/%3E%3Cline id='Line_5' data-name='Line 5' y1='7' x2='7' transform='translate(7.353)' fill='none' stroke='%23003b8e' stroke-linecap='round' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15.986' height='8.521' viewBox='0 0 15.986 8.521'%3E%3Cg id='Group_2996' data-name='Group 2996' transform='translate(0.707 0.707)'%3E%3Cline id='Line_4' data-name='Line 4' x2='7.107' y2='7.107' fill='none' stroke='%23235547' stroke-linecap='round' stroke-width='1'/%3E%3Cline id='Line_5' data-name='Line 5' y1='7.107' x2='7.107' transform='translate(7.465)' fill='none' stroke='%23235547' stroke-linecap='round' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E%0A");
   }
 
   .page-tile-section {
@@ -2477,7 +2479,7 @@ input.form-control {
       content: "";
       display: block;
       right: 127px;
-      top: 0;
+      top: 20px;
       width: 684px;
       display: block;
       background-image: url("../images/logo-bg.png");
@@ -2739,17 +2741,10 @@ input.form-control {
           text-align: center;
           color: #000;
           font-weight: 400;
-          // font-family: $roboto;
+          font-family: 'Roboto';
           margin-bottom: 17px;
           text-decoration: underline;
 
-          &:hover {
-            font-weight: 700;
-          }
-
-          &:focus {
-            font-weight: 700;
-          }
         }
       }
     }
@@ -2843,7 +2838,7 @@ input.form-control {
 .modal-custom {
   .modal-dialog {
     max-width: 575px;
-    margin-top: 120px;
+    margin-top: 50px;
     margin-bottom: 50px;
 
     .modal-content {
@@ -2857,8 +2852,8 @@ input.form-control {
         h5 {
           font-size: 24px;
           line-height: 26px;
-          color: #003b8e;
-          font-weight: 400;
+          color: #000000;
+          font-weight: 700;
         }
 
         .close {
@@ -2947,9 +2942,9 @@ input.form-control {
           }
 
           .filter-option.active {
-            background-color: rgba(181, 206, 255, 0.25) !important;
-            border-color: #003b8e;
-            color: #000;
+            background-color: #5BD3B2 !important;
+            border-color: #5BD3B2;
+            color: #fff;
           }
 
           .row-selected {
@@ -2971,9 +2966,9 @@ input.form-control {
               font-size: 16px;
               line-height: 26px;
               // font-family: $roboto;
-              color: #000;
+              color: #8E8E8E;
               background-color: #f4f4f4;
-              border: 1px solid #f4f4f4;
+              border: 1px solid #E6E6E6;
               border-radius: 5px;
               padding: 4px 10px 5px 10px;
               font-weight: 500;
@@ -2987,17 +2982,16 @@ input.form-control {
               }
 
               &:hover {
-                background-color: rgba(181, 206, 255, 0.25) !important;
-                border-color: rgba(0, 59, 142, 0.5);
-                color: #003b8e;
-                font-weight: 600;
+                background-color: #5BD3B2 !important;
+                border-color: #5BD3B2;
+                color: #fff;
               }
             }
 
             .custom-control-input:checked ~ .custom-control-label {
-              background-color: rgba(181, 206, 255, 0.25) !important;
-              border-color: rgba(0, 59, 142, 0.5);
-              color: #003b8e;
+              background-color: #5BD3B2 !important;
+              border-color: #5BD3B2;
+              color: #fff;
               font-weight: 700;
             }
 
@@ -3023,16 +3017,14 @@ input.form-control {
         padding: 20px 30px 25px 30px;
         border-top: 1px solid rgba(112, 112, 112, 0.4);
 
-        &.justify-space-between {
-          justify-content: space-between;
-        }
+        
 
         .btn-clear {
           height: 40px;
           background-color: transparent;
-          border: 1px solid rgba(0, 59, 142, 0.5);
+          border: 0.5px solid #414141;
           border-radius: 6px;
-          color: #003b8e;
+          color: #000000;
           font-size: 15px;
           font-weight: 400;
           // font-family: $roboto;
@@ -3047,11 +3039,11 @@ input.form-control {
 
         .btn-save {
           height: 40px;
-          background: #003b8e;
+          background: #8C4CD8;
           // background: linear-gradient(114deg, rgba(65, 173, 212, 1) 0%, rgba(23, 99, 167, 1) 100%);
           color: #fff;
           border-radius: 6px;
-          font-weight: 500 !important;
+          font-weight: 600 !important;
           border: 0 !important;
           font-size: 15px;
           font-family: "Montserrat", sans-serif !important;
@@ -3260,7 +3252,7 @@ input.form-control {
       align-items: center;
       text-decoration: none;
       font-size: 24px;
-      font-weight: 600;
+      font-weight: 700;
       color: #439A82;
 
       &:first-child{
@@ -3351,6 +3343,16 @@ input.form-control {
   background-color: transparent;
   color: #5A2E8E;
 }
+.middle-section .popular-guid-section.electronic-guid-section .owl-theme .owl-nav button{
+  border: 1px solid #439A82;
+  background-color: transparent;
+  color: #439A82;
+}
+.middle-section .popular-guid-section.kitchen-guid-section .owl-theme .owl-nav button{
+  border: 1px solid #277FB8;
+  background-color: transparent;
+  color: #277FB8;
+}
 .middle-section .popular-guid-section.electronic-guid-section .popular-box .popular-img{
   background-color: rgba(91, 211, 179, 0.137);
 }
@@ -3377,6 +3379,19 @@ input.form-control {
 ############################## media query started ###############################
 ######################################################################################*/
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .new_quiz_section .new_quiz_nav a{
+    font-size: 18px;
+
+    span{
+      width: 18px;
+
+      img{
+        object-fit: contain;
+      }
+    }
+  }
+}
 @media (min-width: 768px) {
   span#text_hide_show {
     display: block !important;
@@ -3386,6 +3401,7 @@ input.form-control {
     display: none;
   }
 }
+
 
 @media (max-width: 360px) {
   .middle-section .feature-section .featured-item .featured-content ul li a h4 {
@@ -3885,12 +3901,12 @@ input.form-control {
 
       .content {
         padding: 0 10px;
+        text-align: left !important;
 
         h1 {
           font-size: 30px;
           line-height: 37px;
           font-weight: 600;
-          text-align: center;
           margin-bottom: 10px;
         }
 
@@ -3898,14 +3914,13 @@ input.form-control {
           font-size: 16px;
           line-height: 27px;
           color: #000000;
-          text-align: center;
           margin-bottom: 15px;
         }
 
         .search-bar {
           display: block;
 
-          max-width: 285px;
+          max-width: 325px;
           width: 100%;
           margin: 0 auto;
 
@@ -3927,9 +3942,6 @@ input.form-control {
             }
           }
 
-          .input-group-append {
-            display: none;
-          }
         }
       }
     }
@@ -3940,6 +3952,7 @@ input.form-control {
         h3 {
           font-size: 18px;
           line-height: 22px;
+          font-weight: 700;
         }
       }
 
@@ -3987,13 +4000,13 @@ input.form-control {
           font-size: 18px;
           line-height: 24px;
           margin-bottom: 10px;
+          font-weight: 500;
         }
       }
 
       .search-bar {
         display: block;
         margin-left: 0;
-        background-color: transparent;
         width: 100%;
 
         .search-div {
@@ -4005,8 +4018,8 @@ input.form-control {
         }
 
         .form-control {
-          padding-left: 50px;
-          background-color: #f4f6fa;
+          padding-left: 15px;
+          background-color: #fff;
           color: #414141;
           border-radius: 5px;
         }
@@ -4018,8 +4031,8 @@ input.form-control {
 
       .heading {
         h2 {
-          font-size: 18px;
-          line-height: 22px;
+          font-size: 27px;
+          line-height: 1.5;
           margin-bottom: 5px;
         }
 
@@ -4099,8 +4112,8 @@ input.form-control {
     .best-deal-section {
       .heading {
         h2 {
-          font-size: 18px;
-          line-height: 22px;
+          font-size: 27px;
+          line-height: 1.5;
         }
 
         p {
@@ -4833,8 +4846,7 @@ input.form-control {
 
     .about-morya {
       padding: 93px 0;
-      background: rgb(0, 59, 142);
-      background: linear-gradient(180deg, rgba(0, 59, 142, 1) 10%, #48b9db 70%, #effafd 100%);
+      background: transparent linear-gradient(180deg, #5BD3B2 0%, #C9EDE9 61%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
       min-height: 813px;
       position: relative;
 
@@ -4860,22 +4872,24 @@ input.form-control {
           font-size: 18px;
           line-height: 22px;
           font-weight: 400;
-          color: #fff;
+          color: #000000;
           text-transform: uppercase;
           margin-bottom: 28px;
         }
 
         h2 {
-          color: #fff;
+          color: #000000;
           font-size: 30px;
           line-height: 37px;
+          font-weight: 600;
           margin-bottom: 20px;
         }
 
         p {
           font-size: 16px;
           line-height: 27px;
-          color: #fff;
+          color: #000000;
+          font-weight: 500;
           margin-bottom: 14px;
         }
 
@@ -5028,6 +5042,7 @@ input.form-control {
 
   .footer-section {
     padding: 29px 0 10px 0;
+    background: rgba(91, 211, 179, 0.5);
 
     .quicklink {
       ul {
@@ -5091,7 +5106,27 @@ input.form-control {
     }
   }
 }
-
+@media (max-width: 480px){
+  header.header.header-2 .navbar .navbar-brand{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    width: 100%;
+    max-width: 180px;
+  }
+  .header.header-2 .search-bar .form-control{
+    border: 1px solid #439A82;
+    background-color: #fff;
+  }
+}
+@media (max-width: 1024px){
+  .middle-section .best-deal-section .owl-theme .owl-nav{
+    right: 20px;
+    left: 20px;
+    width: auto;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .middle-section {
     .about-morya {
@@ -5253,6 +5288,13 @@ input.form-control {
         }
       }
     }
+  }
+  .middle-section .our-promises-section .our-promis-box{
+    max-width: 550px;
+  }
+  .middle-section .our-promises-section::after{
+    right: 5px;
+    width: 580px;
   }
 }
 
