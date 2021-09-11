@@ -255,7 +255,6 @@ input[type="number"] {
       height: auto;
       padding: 0;
       display: block;
-      border: 1px solid transparent;
 
       &:hover {
         border: 1px solid #fff;
@@ -636,7 +635,7 @@ input.form-control {
           font-family: $roboto;
           box-shadow: none;
           outline: none;
-          padding-left: 50px;
+          padding-left: 15px;
           border-radius: 3px 0 0 3px;
 
           &:focus {
@@ -872,7 +871,6 @@ input.form-control {
         border: 0 !important;
         box-shadow: none;
         outline: none;
-        // padding-left: 50px;
         border-radius: 3px 0 0 3px;
         z-index: 2;
         position: relative;
@@ -3643,7 +3641,7 @@ input.form-control {
       }
 
       .navbar-brand {
-        width: 120px;
+        width: 188px;
         height: auto;
         margin: 0 auto;
         padding: 0px;
@@ -3920,7 +3918,7 @@ input.form-control {
         .search-bar {
           display: block;
 
-          max-width: 325px;
+          max-width: 365px;
           width: 100%;
           margin: 0 auto;
 
@@ -5105,6 +5103,9 @@ input.form-control {
       }
     }
   }
+  .middle-section .feature-section .featured-item:hover{
+    border-color: #707070;
+  }
 }
 @media (max-width: 480px){
   header.header.header-2 .navbar .navbar-brand{
@@ -5484,5 +5485,11 @@ input.form-control {
         }
       }
     }
+  }
+}
+
+@media (max-width: 800px) and (orientation: landscape){
+  .middle-section .find-section .content{
+    text-align: center !important;
   }
 }

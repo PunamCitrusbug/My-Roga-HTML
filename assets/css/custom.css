@@ -260,7 +260,6 @@ input[type="number"] {
   height: auto;
   padding: 0;
   display: block;
-  border: 1px solid transparent;
 }
 
 .header .navbar .navbar-brand:hover {
@@ -682,7 +681,7 @@ input.form-control:focus::placeholder {
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: none;
-  padding-left: 50px;
+  padding-left: 15px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -3855,7 +3854,7 @@ input.form-control:focus::placeholder {
     max-width: 0%;
   }
   .header .navbar .navbar-brand {
-    width: 120px;
+    width: 188px;
     height: auto;
     margin: 0 auto;
     padding: 0px;
@@ -4111,7 +4110,7 @@ input.form-control:focus::placeholder {
   }
   .middle-section .find-section .content .search-bar {
     display: block;
-    max-width: 325px;
+    max-width: 365px;
     width: 100%;
     margin: 0 auto;
   }
@@ -5072,6 +5071,9 @@ input.form-control:focus::placeholder {
   .middle-section .product-info-section .prodcut-item .product-detail .product-desc p:nth-of-type(2) {
     max-width: 302px;
   }
+  .middle-section .feature-section .featured-item:hover {
+    border-color: #707070;
+  }
 }
 
 @media (max-width: 480px) {
@@ -5342,6 +5344,12 @@ input.form-control:focus::placeholder {
   }
   .middle-section .our-promises-section .testimonial-section::after {
     width: 70%;
+  }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+  .middle-section .find-section .content {
+    text-align: center !important;
   }
 }
 /*# sourceMappingURL=custom.css.map */

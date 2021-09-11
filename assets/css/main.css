@@ -366,7 +366,7 @@
   font-family: "Roboto", sans-serif;
   -webkit-box-shadow: none;
           box-shadow: none;
-  padding-left: 50px;
+  padding-left: 15px;
   outline: none;
   border-radius: 3px;
   margin-right: -1px;
@@ -501,11 +501,20 @@
     border-radius: 5px;
     font-size: 15px;
   }
+  .general-content-section .general-content-div .general-content-body-div .mb-80 {
+    margin-bottom: 30px;
+  }
+  .general-content-section {
+    padding: 35px 0 20px 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .general-content-section .general-content-div .general-content-body-div .mb-80 {
+    margin-bottom: 30px;
+  }
   .general-content-section {
-    padding: 75px 0 20px 0;
+    padding: 35px 0 20px 0;
   }
   .general-content-section .general-content-div .top-heading-div {
     margin: 0 0 40px 0;
@@ -569,16 +578,43 @@
 
 @media (max-width: 480px) {
   .general-content-section {
-    padding: 45px 0 20px 0;
+    padding: 35px 0 20px 0;
   }
   .general-content-section .general-content-div .general-content-body-div .mb-80 {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+  }
+  .general-content-section .general-content-div .general-content-body-div .mb-32 {
+    margin-bottom: 20px;
   }
   .general-content-section .general-content-div .general-content-body-div .mb-74 {
-    margin-bottom: 44px;
+    margin-bottom: 30px;
+  }
+  .general-content-section .general-content-div .general-content-body-div .mb-44 {
+    margin-bottom: 30px;
   }
   .page-not-found-section .page-404-content-div .page-404-content-bd-row .search-bar .form-control {
     padding-left: 15px;
+  }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+  .page-not-found-section .page-404-content-div .page-404-content-tp-row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .page-not-found-section .page-404-content-div .page-404-content-bd-row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header.header.header-2 .navbar .navbar-brand {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    width: 100%;
+    max-width: 180px;
   }
 }
 /*# sourceMappingURL=main.css.map */
