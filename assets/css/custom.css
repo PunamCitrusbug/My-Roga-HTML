@@ -5089,7 +5089,7 @@ input.form-control:focus::placeholder {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   header.header.header-2 .navbar .navbar-brand {
     margin: 0 auto;
     margin-bottom: 20px;
