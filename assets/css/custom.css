@@ -3356,10 +3356,11 @@ input.form-control:focus::placeholder {
 }
 
 .content_2 h3 {
-  font-size: 36px;
+  font-size: 24px;
   color: #000000;
   font-weight: 400;
   margin-bottom: 30px;
+  max-width: 750px;
 }
 
 .content_2 h3 span {
@@ -5077,6 +5078,14 @@ input.form-control:focus::placeholder {
   .middle-section .find-section .content .search-bar .form-control {
     background-color: #fff;
     border: 0.5px solid #439A82 !important;
+  }
+  .content_2 {
+    text-align: center;
+  }
+  .content_2 h3 {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
   }
 }
 

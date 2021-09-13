@@ -3119,10 +3119,11 @@ input.form-control {
 .content_2{
   margin-bottom: 40px;
   h3{
-    font-size: 36px;
+    font-size: 24px;
     color: #000000;
     font-weight: 400;
     margin-bottom: 30px;
+    max-width: 750px;
     span{
       color: #8C4CD8;
       font-weight: 700;
@@ -5109,6 +5110,14 @@ input.form-control {
   .middle-section .find-section .content .search-bar .form-control{
     background-color: #fff;
     border: 0.5px solid #439A82 !important;
+  }
+  .content_2{
+    text-align: center;
+    h3{
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: left;
+    }
   }
 }
 
