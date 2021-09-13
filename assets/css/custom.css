@@ -5074,6 +5074,10 @@ input.form-control:focus::placeholder {
   .middle-section .feature-section .featured-item:hover {
     border-color: #707070;
   }
+  .middle-section .find-section .content .search-bar .form-control {
+    background-color: #fff;
+    border: 0.5px solid #439A82 !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -5214,11 +5218,17 @@ input.form-control:focus::placeholder {
        object-fit: cover;
   }
   .middle-section .our-promises-section .our-promis-box {
-    max-width: 550px;
+    max-width: 650px;
   }
   .middle-section .our-promises-section::after {
     right: 5px;
     width: 580px;
+  }
+}
+
+@media (max-width: 768px) {
+  .middle-section .our-promises-section .our-promis-box {
+    max-width: 550px;
   }
 }
 
