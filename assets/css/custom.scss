@@ -5122,6 +5122,18 @@ input.form-control {
   .middle-section .find-section .content{
     text-align: center !important;
   }
+  header.header.header-2 .navbar .navbar-brand{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    width: 100%;
+    max-width: 180px;
+  }
+  .header.header-2 .search-bar .form-control{
+    border: 1px solid #439A82;
+    background-color: #fff;
+  }
 }
 
 @media (max-width: 580px){
