@@ -5087,6 +5087,9 @@ input.form-control:focus::placeholder {
     line-height: 1.5;
     text-align: left;
   }
+  .middle-section .find-section .content {
+    text-align: center !important;
+  }
 }
 
 @media (max-width: 580px) {
