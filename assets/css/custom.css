@@ -2044,6 +2044,7 @@ input.form-control:focus::placeholder {
 
 .middle-section .product-info-section .content .filter-div ul li .btn:hover {
   background-color: rgba(181, 206, 255, 0.5);
+  border-width: 1.5px;
 }
 
 .middle-section .product-info-section .content .filter-div ul li .btn i {
@@ -2060,6 +2061,10 @@ input.form-control:focus::placeholder {
   padding-top: 6px;
   border-radius: 5px;
   color: #235547 !important;
+}
+
+.middle-section .product-info-section .content .filter-div ul li input:hover {
+  border-width: 1.5px;
 }
 
 .middle-section .product-info-section .content .filter-div ul li input::-webkit-input-placeholder {
@@ -2082,6 +2087,10 @@ input.form-control:focus::placeholder {
   width: 70px;
   border: 0.5px solid #235547;
   padding: 4px 20px;
+}
+
+.middle-section .product-info-section .content .filter-div ul li .btn-go:hover {
+  border-width: 1.5px;
 }
 
 .middle-section .product-info-section .content .filter-div ul li.dollars::after {
@@ -2257,6 +2266,7 @@ input.form-control:focus::placeholder {
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-btns .btn-primary:hover {
   background-color: #f89a48;
+  font-weight: 600;
 }
 
 .middle-section .product-info-section .prodcut-item .product-detail .product-btns .btn-outline-primary {
@@ -3504,13 +3514,13 @@ input.form-control:focus::placeholder {
   font-size: 16px;
 }
 
+.new_quiz_section .new_quiz_optionList ul li .quiz_icon:hover {
+  border-width: 1px;
+}
+
 .new_quiz_section .new_quiz_optionList ul li input[type="checkbox"]:checked + label {
   background-color: #5BD3B2;
   color: #fff;
-}
-
-.new_quiz_section .new_quiz_optionList ul li:hover .quiz_icon {
-  border-width: 1px;
 }
 
 .new_quiz_section .new_quiz_nav {

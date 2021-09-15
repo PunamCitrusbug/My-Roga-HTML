@@ -1858,6 +1858,7 @@ input.form-control {
 
               &:hover {
                 background-color: rgba(181, 206, 255, 0.5);
+                border-width: 1.5px;
               }
 
               i {
@@ -1875,6 +1876,9 @@ input.form-control {
               padding-top: 6px;
               border-radius: 5px;
               color: #235547 !important;
+              &:hover {
+                border-width: 1.5px;
+              }
 
               &::-webkit-input-placeholder {
                 color: #235547;
@@ -1917,6 +1921,9 @@ input.form-control {
               //   transition: all 0.3s ease-in-out;
               //   border-color: #fff !important;
               // }
+              &:hover {
+                border-width: 1.5px;
+              }
             }
 
             &.dollars::after {
@@ -2059,6 +2066,7 @@ input.form-control {
 
             &:hover {
               background-color: #f89a48;
+              font-weight: 600;
               // border-color: #979797;
             }
           }
@@ -3242,6 +3250,10 @@ input.form-control {
           border: 0.5px solid #8C4CD8;
           color: #8C4CD8;
           font-size: 16px;
+
+          &:hover{
+            border-width: 1px;
+          }
         }
 
         input[type="checkbox"]:checked + label{
@@ -3250,9 +3262,6 @@ input.form-control {
         }
 
         
-        &:hover .quiz_icon{
-          border-width: 1px;
-        }
       }
     }
   }
