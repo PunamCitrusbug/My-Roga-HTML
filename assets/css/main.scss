@@ -565,7 +565,7 @@
 
     .general-content-div {
       .top-heading-div {
-        margin: 0 0 40px 0;
+        margin: 0 0 30px 0;
 
         h1 {
           margin-bottom: 17px;
@@ -651,6 +651,36 @@
 @media (max-width: 580px){
   .general-content-section{
     padding: 35px 0 20px 0;
+  }
+  .general-content-section .general-content-div .general-content-body-div .mb-80{
+    margin-bottom: 0px;
+  }
+  .general-content-section .general-content-div .general-content-body-div .mb-32{
+    margin-bottom: 20px;
+  }
+  .general-content-section .general-content-div .general-content-body-div .mb-74{
+    margin-bottom: 20px;
+  }
+  .general-content-section .general-content-div .general-content-body-div .mb-44{
+    margin-bottom: 20px;
+  }
+  .page-not-found-section .page-404-content-div .page-404-content-bd-row .search-bar .form-control{
+    padding-left: 15px;
+  }
+  .general-content-section .general-content-div .top-heading-div.mb-42{
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 768px){
+  .general-content-section{
+    padding: 35px 0 20px 0;
+  }
+  .general-content-section .general-content-div .top-heading-div{
+    margin: 0 0 30px 0;
+  }
+  .general-content-section .general-content-div .top-heading-div.mb-42{
+    margin-bottom: 20px;
   }
   .general-content-section .general-content-div .general-content-body-div .mb-80{
     margin-bottom: 0px;

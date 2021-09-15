@@ -256,14 +256,15 @@ input[type="number"] {
 }
 
 .header .navbar .navbar-brand {
-  width: 188px;
+  width: 200px;
+  padding: 0 10px;
   height: auto;
-  padding: 0;
   display: block;
+  border: 1px solid transparent;
 }
 
 .header .navbar .navbar-brand:hover {
-  border: 1px solid #fff;
+  border-color: #000000;
 }
 
 .header .navbar .navbar-brand img {
@@ -326,14 +327,14 @@ input[type="number"] {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   color: #ebebeb;
-  border: 1px solid #fff;
+  border: 1px solid #000;
 }
 
 .header .navbar .collapse1 .navbar-nav .nav-item .nav-link:active {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   color: #ebebeb;
-  border: 1px solid #fff;
+  border: 1px solid #000;
 }
 
 .header .navbar .collapse1 .navbar-nav .nav-item .nav-link.active {
@@ -1304,6 +1305,7 @@ input.form-control:focus::placeholder {
 
 .middle-section .best-deal-section .product-item .product-btns .btn-primary:hover {
   background-color: #f89a48;
+  border-color: #979797;
 }
 
 .middle-section .best-deal-section .product-item .product-btns .btn-outline-primary {
@@ -1316,7 +1318,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .best-deal-section .product-item .product-btns .btn-outline-primary:hover {
-  background-color: #fcf1e7;
+  background-color: #FCF1E7;
   text-decoration: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -2979,6 +2981,12 @@ input.form-control:focus::placeholder {
   font-family: 'Roboto';
   margin-bottom: 17px;
   text-decoration: underline;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-section .quicklink ul li a:hover {
+  font-weight: 600;
 }
 
 .footer-section .footer-text p {
@@ -3468,8 +3476,12 @@ input.form-control:focus::placeholder {
   cursor: pointer;
   -webkit-box-shadow: 0px 3px 6px #00000029;
           box-shadow: 0px 3px 6px #00000029;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.new_quiz_section .new_quiz_optionList ul li label:hover {
+  border-width: 3px;
 }
 
 .new_quiz_section .new_quiz_optionList ul li .quiz_icon {
@@ -3497,6 +3509,10 @@ input.form-control:focus::placeholder {
   color: #fff;
 }
 
+.new_quiz_section .new_quiz_optionList ul li:hover .quiz_icon {
+  border-width: 1px;
+}
+
 .new_quiz_section .new_quiz_nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3520,6 +3536,10 @@ input.form-control:focus::placeholder {
   font-size: 24px;
   font-weight: 700;
   color: #439A82;
+}
+
+.new_quiz_section .new_quiz_nav a:hover {
+  text-decoration: underline;
 }
 
 .new_quiz_section .new_quiz_nav a:first-child span {
@@ -3605,6 +3625,12 @@ input.form-control:focus::placeholder {
   border: 1px solid #5A2E8E;
   background-color: transparent;
   color: #5A2E8E;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.middle-section .popular-guid-section .owl-theme .owl-nav button:hover {
+  border: 2px solid #5A2E8E;
 }
 
 .middle-section .popular-guid-section.electronic-guid-section .owl-theme .owl-nav button {
@@ -3613,10 +3639,18 @@ input.form-control:focus::placeholder {
   color: #439A82;
 }
 
+.middle-section .popular-guid-section.electronic-guid-section .owl-theme .owl-nav button:hover {
+  border: 2px solid #439A82;
+}
+
 .middle-section .popular-guid-section.kitchen-guid-section .owl-theme .owl-nav button {
   border: 1px solid #277FB8;
   background-color: transparent;
   color: #277FB8;
+}
+
+.middle-section .popular-guid-section.kitchen-guid-section .owl-theme .owl-nav button:hover {
+  border: 2px solid #277FB8;
 }
 
 .middle-section .popular-guid-section.electronic-guid-section .popular-box .popular-img {
@@ -3642,6 +3676,10 @@ input.form-control:focus::placeholder {
   border: 1px solid #000;
   background-color: transparent;
   color: #000;
+}
+
+.middle-section .best-deal-section .owl-theme .owl-nav button:hover {
+  border: 2px solid #000;
 }
 
 /*Index*/

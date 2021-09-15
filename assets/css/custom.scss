@@ -251,13 +251,15 @@ input[type="number"] {
     }
 
     .navbar-brand {
-      width: 188px;
+      width: 200px;
+      padding: 0 10px;
       height: auto;
-      padding: 0;
+      // padding: 0;
       display: block;
+      border: 1px solid transparent;
 
-      &:hover {
-        border: 1px solid #fff;
+      &:hover{
+        border-color: #000000;
       }
 
       img {
@@ -318,13 +320,13 @@ input[type="number"] {
             &:hover {
               transition: all 0.4s ease-in-out;
               color: #ebebeb;
-              border: 1px solid #fff;
+              border: 1px solid #000;
             }
 
             &:active {
               transition: all 0.4s ease-in-out;
               color: #ebebeb;
-              border: 1px solid #fff;
+              border: 1px solid #000;
             }
           }
 
@@ -1169,7 +1171,7 @@ input.form-control {
 
           &:hover {
             background-color: #f89a48;
-            // border-color: #979797;
+            border-color: #979797;
           }
         }
 
@@ -1181,7 +1183,7 @@ input.form-control {
           transition: all 0.3s;
 
           &:hover {
-            background-color: #fcf1e7;
+            background-color: #FCF1E7;
             text-decoration: none;
             transition: all 0.3s;
           }
@@ -2742,6 +2744,11 @@ input.form-control {
           font-family: 'Roboto';
           margin-bottom: 17px;
           text-decoration: underline;
+          transition: all 0.3s ease-in-out;
+
+          &:hover{
+            font-weight: 600;
+          }
 
         }
       }
@@ -3216,7 +3223,11 @@ input.form-control {
           font-size: 24px;
           cursor: pointer;
           box-shadow: 0px 3px 6px #00000029;
-          transition: all 0.3s ease-in-out;
+          transition: all 0.1s ease-in-out;
+
+          &:hover{
+            border-width: 3px;
+          }
         }
 
         .quiz_icon{
@@ -3237,6 +3248,11 @@ input.form-control {
           background-color: #5BD3B2;
           color: #fff;
         }
+
+        
+        &:hover .quiz_icon{
+          border-width: 1px;
+        }
       }
     }
   }
@@ -3253,6 +3269,10 @@ input.form-control {
       font-size: 24px;
       font-weight: 700;
       color: #439A82;
+
+      &:hover{
+        text-decoration: underline;
+      }
 
       &:first-child{
         span{
@@ -3341,16 +3361,29 @@ input.form-control {
   border: 1px solid #5A2E8E;
   background-color: transparent;
   color: #5A2E8E;
+  transition: all 0.3s ease-in-out;
+
+  &:hover{
+    border: 2px solid #5A2E8E;
+  }
 }
 .middle-section .popular-guid-section.electronic-guid-section .owl-theme .owl-nav button{
   border: 1px solid #439A82;
   background-color: transparent;
   color: #439A82;
+
+  &:hover{
+    border: 2px solid #439A82;
+  }
 }
 .middle-section .popular-guid-section.kitchen-guid-section .owl-theme .owl-nav button{
   border: 1px solid #277FB8;
   background-color: transparent;
   color: #277FB8;
+
+  &:hover{
+    border: 2px solid #277FB8;
+  }
 }
 .middle-section .popular-guid-section.electronic-guid-section .popular-box .popular-img{
   background-color: rgba(91, 211, 179, 0.137);
@@ -3371,6 +3404,10 @@ input.form-control {
   border: 1px solid #000;
   background-color: transparent;
   color: #000;
+
+  &:hover{
+    border: 2px solid #000;
+  }
 }
 /*Index*/
 
