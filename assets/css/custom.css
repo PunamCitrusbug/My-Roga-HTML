@@ -220,8 +220,6 @@ input[type="number"] {
   background: #47b8da;
   background: transparent -webkit-gradient(linear, left top, left bottom, from(#5BD3B2), color-stop(61%, #C9EDE9), to(#FFFFFF)) 0% 0% no-repeat padding-box;
   background: transparent linear-gradient(180deg, #5BD3B2 0%, #C9EDE9 61%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
-  -webkit-box-shadow: 0 7px 12px rgba(0, 0, 0, 0.02);
-          box-shadow: 0 7px 12px rgba(0, 0, 0, 0.02);
   z-index: 999;
   padding: 8px 0;
   /* border-bottom: 1px solid rgba(236, 236, 236, 0.6); */
@@ -1498,7 +1496,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .learn-filter-section {
-  padding: 32px 0 40px 0;
+  padding: 32px 0 6px 0;
 }
 
 .middle-section .learn-filter-section .heading h2 {
@@ -1522,8 +1520,8 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .learn-filter-section .profile-owner .img-profile {
-  height: 45px;
-  width: 45px;
+  height: 60px;
+  width: 60px;
   border-radius: 100%;
   overflow: hidden;
 }
@@ -1549,14 +1547,14 @@ input.form-control:focus::placeholder {
 
 .middle-section .learn-filter-section .profile-chat-div {
   padding: 0;
-  margin: 0 0 30px 0;
+  margin: 0 0 0 0;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
 }
 
 .middle-section .learn-filter-section .profile-chat-div .profile-text-div {
-  padding: 0 0 0 25px;
+  padding: 15px 0 0 25px;
   position: relative;
 }
 
@@ -2364,7 +2362,7 @@ input.form-control:focus::placeholder {
 .middle-section .product-info-new-section .prodcut-item h1 {
   font-size: 30px;
   line-height: 1.5;
-  font-weight: 600;
+  font-weight: 700;
   color: #5A2E8E;
   font-style: italic;
   margin-bottom: 20px;
@@ -2402,9 +2400,9 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .best-values-section .content h2 {
-  font-size: 30px;
+  font-size: 36px;
   line-height: 40px;
-  font-weight: 500;
+  font-weight: 400;
   color: #000;
   margin-bottom: 25px;
 }
@@ -2418,7 +2416,6 @@ input.form-control:focus::placeholder {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   overflow: hidden;
-  border: 1px solid rgba(0, 59, 142, 0.5);
 }
 
 .middle-section .best-values-section .table {
@@ -3218,7 +3215,7 @@ input.form-control:focus::placeholder {
   font-size: 16px;
   line-height: 26px;
   color: #8E8E8E;
-  background-color: #f4f4f4;
+  background-color: #fff;
   border: 1px solid #E6E6E6;
   border-radius: 5px;
   padding: 4px 10px 5px 10px;
@@ -3265,9 +3262,9 @@ input.form-control:focus::placeholder {
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-clear {
   height: 40px;
   background-color: transparent;
-  border: 0.5px solid #414141;
+  border: 0.5px solid #8C4CD8;
   border-radius: 6px;
-  color: #000000;
+  color: #8C4CD8;
   font-size: 15px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif !important;
@@ -3395,7 +3392,7 @@ input.form-control:focus::placeholder {
   background-color: #8C4CD8;
   color: #F5F7FF;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 30px;
   text-align: center;
 }
@@ -3412,6 +3409,7 @@ input.form-control:focus::placeholder {
 
 .new_quiz_section .new_quiz_heading h2 {
   font-size: 40px;
+  line-height: 60px;
   color: #000000;
   font-weight: 400;
   margin: 0;
@@ -3494,6 +3492,12 @@ input.form-control:focus::placeholder {
   border-width: 3px;
 }
 
+.new_quiz_section .new_quiz_optionList ul li label:focus {
+  border-width: 3px;
+  background-color: #5BD3B2;
+  color: #000;
+}
+
 .new_quiz_section .new_quiz_optionList ul li .quiz_icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3518,9 +3522,89 @@ input.form-control:focus::placeholder {
   border-width: 1px;
 }
 
+.new_quiz_section .new_quiz_optionList ul li .quiz_icon:focus {
+  background-color: #8C4CD8;
+  color: #fff;
+}
+
 .new_quiz_section .new_quiz_optionList ul li input[type="checkbox"]:checked + label {
   background-color: #5BD3B2;
+  color: #000;
+}
+
+.new_quiz_section .new_quiz_optionList ul li .quiz_mob_inner {
+  display: none;
+}
+
+.new_quiz_section .new_quiz_optionList ul li.active .quiz_icon {
+  display: none;
+}
+
+.new_quiz_section .new_quiz_optionList ul li.active label {
+  height: 100%;
+  padding: 10px 20px 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+}
+
+.new_quiz_section .new_quiz_optionList ul li.active .quiz_mob_inner {
+  display: block;
+  position: relative;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.new_quiz_section .new_quiz_optionList ul li.active .quiz_mob_inner .close_mob_quiz {
+  width: 32px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #8C4CD8;
+  border-radius: 50%;
+  position: absolute;
+  top: -44px;
+  right: -8px;
+}
+
+.new_quiz_section .new_quiz_optionList ul li.active .quiz_mob_inner .close_mob_quiz img {
+  width: 14px;
+  height: 14px;
+}
+
+.new_quiz_section .new_quiz_optionList ul li.active .quiz_mob_inner .quiz_img {
+  margin-bottom: 17px;
+}
+
+.new_quiz_section .new_quiz_optionList ul li.active .quiz_mob_inner p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+  text-align: left;
+}
+
+.new_quiz_section .new_quiz_optionList ul li.active .quiz_mob_inner a {
+  display: inline-block;
+  min-width: 90px;
+  height: 37px;
+  line-height: 37px;
+  background-color: #8C4CD8;
   color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 30px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .new_quiz_section .new_quiz_nav {
@@ -3608,7 +3692,7 @@ input.form-control:focus::placeholder {
 }
 
 .related_guidline_wrapper .guidline_list li {
-  margin-bottom: 10px;
+  margin-bottom: 21px;
 }
 
 .related_guidline_wrapper .guidline_list li a {
@@ -3616,6 +3700,7 @@ input.form-control:focus::placeholder {
   text-decoration: none;
   color: #000;
   font-size: 24px;
+  line-height: 36px;
   font-weight: 400;
 }
 
@@ -3627,6 +3712,20 @@ input.form-control:focus::placeholder {
   position: absolute;
   top: 0px;
   right: 0px;
+}
+
+.font-16 {
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.purp_txt {
+  color: #8C4CD8;
+  display: inline-block;
+}
+
+.mob_quiz_image {
+  margin-bottom: 26px;
 }
 
 /*New Quiz section CSS End*/
@@ -3758,8 +3857,38 @@ input.form-control:focus::placeholder {
 }
 
 @media (max-width: 767px) {
+  .related_guidline_wrapper {
+    padding-bottom: 40px;
+  }
   .mobile-hidden {
     display: none;
+  }
+  .new_quiz_section {
+    background-color: rgba(67, 154, 129, 0.041);
+  }
+  .middle-section .product-info-new-section .prodcut-item h1 span {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+  .product-inner .content_2 {
+    margin-bottom: 20px;
+  }
+  .new_quiz_section .new_quiz_heading h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .related_guidline_wrapper .guidline_heading {
+    margin-bottom: 5px;
+  }
+  .related_guidline_wrapper .guidline_heading h2 {
+    font-size: 24px;
+  }
+  .related_guidline_wrapper .guidline_list li a {
+    font-size: 16px;
+  }
+  .related_guidline_wrapper .guidline_list li {
+    margin-bottom: 16px;
   }
   .dollars input {
     padding-left: 18px !important;
@@ -3858,6 +3987,13 @@ input.form-control:focus::placeholder {
   .modal-custom.modal-custom-filter .modal-dialog .modal-content .modal-footer {
     padding: 20px 28px 20px 28px;
     position: fixed;
+  }
+  .new_quiz_section .new_quiz_optionList ul li label {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .new_quiz_section .new_quiz_optionList ul li.active label {
+    font-size: 20px;
   }
   .header .navbar {
     padding: 8px 0;
@@ -4376,8 +4512,8 @@ input.form-control:focus::placeholder {
   .middle-section .product-details .content h1 {
     font-size: 28px;
     line-height: 42px;
-    font-weight: 600;
-    margin-bottom: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
   }
   .middle-section .product-details .content .profile-owner {
     margin-bottom: 25px;
@@ -4672,6 +4808,11 @@ input.form-control:focus::placeholder {
   }
   .middle-section .product-info-section .content .filter-div ul li .btn-go {
     width: 55px;
+    border-radius: 12px;
+    border-color: #003B8E;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
   }
   .middle-section .product-info-section .prodcut-item {
     padding: 0 0 5px 0;
@@ -4781,25 +4922,25 @@ input.form-control:focus::placeholder {
     font-size: 18px;
   }
   .middle-section .product-info-new-section .content-header-div h2 {
-    font-size: 24px;
-    line-height: 30px;
-    margin: 0 0 10px 0;
-    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    margin: 0 0 0 0;
+    font-weight: 400;
   }
   .middle-section .product-info-new-section .content-header-div h3 {
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.5;
     margin: 0 0 10px 0;
-    font-size: 16px;
+    font-size: 28px;
   }
   .middle-section .best-values-section {
     padding: 0 0 40px 0;
   }
   .middle-section .best-values-section .content h2 {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 27px;
     color: #000;
-    font-weight: 700;
+    font-weight: 400;
   }
   .middle-section .best-values-section .table tr th {
     font-size: 16px;
@@ -4895,13 +5036,6 @@ input.form-control:focus::placeholder {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     color: #277fb8;
-  }
-  .middle-section .page-title-new-section .title-link p span.text {
-    max-width: calc(100% - 78px);
-    white-space: nowrap;
-    overflow: hidden;
-    display: inline-block;
-    text-overflow: ellipsis;
   }
   .middle-section .page-title-new-section .title-link p span.read-txt {
     font-weight: 700;
