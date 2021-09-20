@@ -3054,6 +3054,7 @@ input.form-control {
           border: 0.5px solid #8C4CD8;
           border-radius: 6px;
           color: #8C4CD8;
+          outline: none;
           font-size: 15px;
           font-weight: 400;
           // font-family: $roboto;
@@ -3066,6 +3067,7 @@ input.form-control {
           }
           &:focus {
             font-weight: 600;
+            border-width: 2px;
             transition: all 0.3s ease-in-out;
           }
         }
@@ -3077,6 +3079,7 @@ input.form-control {
           color: #fff;
           border-radius: 6px;
           font-weight: 400;
+          outline: none;
           border: 1px solid transparent;
           font-size: 15px;
           font-family: "Montserrat", sans-serif !important;

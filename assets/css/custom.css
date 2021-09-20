@@ -3296,6 +3296,7 @@ input.form-control:focus::placeholder {
   border: 0.5px solid #8C4CD8;
   border-radius: 6px;
   color: #8C4CD8;
+  outline: none;
   font-size: 15px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif !important;
@@ -3311,6 +3312,7 @@ input.form-control:focus::placeholder {
 
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-clear:focus {
   font-weight: 600;
+  border-width: 2px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -3321,6 +3323,7 @@ input.form-control:focus::placeholder {
   color: #fff;
   border-radius: 6px;
   font-weight: 400;
+  outline: none;
   border: 1px solid transparent;
   font-size: 15px;
   font-family: "Montserrat", sans-serif !important;
