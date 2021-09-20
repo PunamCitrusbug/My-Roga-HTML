@@ -3064,6 +3064,10 @@ input.form-control {
             font-weight: 600;
             transition: all 0.3s ease-in-out;
           }
+          &:focus {
+            font-weight: 600;
+            transition: all 0.3s ease-in-out;
+          }
         }
 
         .btn-save {
@@ -3082,13 +3086,14 @@ input.form-control {
           &:hover {
             font-weight: 600;
           }
+          &:focus {
+            font-weight: 600;
+            border-color: #000000;
+          }
 
-          &:active {
-            // background: rgb(42, 111, 133);
-            // background: linear-gradient(111deg, rgba(42, 111, 133, 1) 0%, rgba(9, 37, 59, 1) 100%);
-            // transition: all 0.3s ease-in-out;
-            // border-color: #fff !important;
-            text-decoration: underline;
+          &:active {            
+            font-weight: 600;
+            border-color: #000000;
           }
         }
       }

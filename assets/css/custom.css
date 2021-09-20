@@ -3309,6 +3309,12 @@ input.form-control:focus::placeholder {
   transition: all 0.3s ease-in-out;
 }
 
+.modal-custom .modal-dialog .modal-content .modal-footer .btn-clear:focus {
+  font-weight: 600;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-save {
   height: 40px;
   background: #8C4CD8;
@@ -3326,8 +3332,14 @@ input.form-control:focus::placeholder {
   font-weight: 600;
 }
 
+.modal-custom .modal-dialog .modal-content .modal-footer .btn-save:focus {
+  font-weight: 600;
+  border-color: #000000;
+}
+
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-save:active {
-  text-decoration: underline;
+  font-weight: 600;
+  border-color: #000000;
 }
 
 .modal-custom.modal-custom-filter .modal-dialog {
