@@ -3264,9 +3264,7 @@ input.form-control:focus::placeholder {
 }
 
 .modal-custom .modal-dialog .modal-content .modal-body .filter-item .custom-control .custom-control-label:hover {
-  background-color: #5BD3B2 !important;
   border-color: #5BD3B2;
-  color: #fff;
 }
 
 .modal-custom .modal-dialog .modal-content .modal-body .filter-item .custom-control .custom-control-input:checked ~ .custom-control-label {
@@ -3306,7 +3304,7 @@ input.form-control:focus::placeholder {
 }
 
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-clear:hover {
-  text-decoration: underline;
+  font-weight: 600;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -3316,7 +3314,7 @@ input.form-control:focus::placeholder {
   background: #8C4CD8;
   color: #fff;
   border-radius: 6px;
-  font-weight: 600 !important;
+  font-weight: 400;
   border: 0 !important;
   font-size: 15px;
   font-family: "Montserrat", sans-serif !important;
@@ -3325,9 +3323,7 @@ input.form-control:focus::placeholder {
 }
 
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-save:hover {
-  text-decoration: underline;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  font-weight: 600;
 }
 
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-save:active {

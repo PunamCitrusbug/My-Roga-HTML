@@ -3013,9 +3013,7 @@ input.form-control {
               }
 
               &:hover {
-                background-color: #5BD3B2 !important;
                 border-color: #5BD3B2;
-                color: #fff;
               }
             }
 
@@ -3063,7 +3061,7 @@ input.form-control {
           transition: all 0.3s ease-in-out;
 
           &:hover {
-            text-decoration: underline;
+            font-weight: 600;
             transition: all 0.3s ease-in-out;
           }
         }
@@ -3074,7 +3072,7 @@ input.form-control {
           // background: linear-gradient(114deg, rgba(65, 173, 212, 1) 0%, rgba(23, 99, 167, 1) 100%);
           color: #fff;
           border-radius: 6px;
-          font-weight: 600 !important;
+          font-weight: 400;
           border: 0 !important;
           font-size: 15px;
           font-family: "Montserrat", sans-serif !important;
@@ -3082,12 +3080,7 @@ input.form-control {
           transition: all 0.3s ease-in-out;
 
           &:hover {
-            // background: rgb(42, 111, 133);
-            // background: linear-gradient(111deg, rgba(42, 111, 133, 1) 0%, rgba(9, 37, 59, 1) 100%);
-            // transition: all 0.3s ease-in-out;
-            // border-color: #fff !important;
-            text-decoration: underline;
-            transition: all 0.3s ease-in-out;
+            font-weight: 600;
           }
 
           &:active {
