@@ -3054,7 +3054,7 @@ input.form-control {
           border: 0.5px solid #8C4CD8;
           border-radius: 6px;
           color: #8C4CD8;
-          outline: none;
+          outline: none !important;
           font-size: 15px;
           font-weight: 400;
           // font-family: $roboto;
