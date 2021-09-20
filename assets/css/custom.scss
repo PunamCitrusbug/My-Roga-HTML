@@ -1845,7 +1845,7 @@ input.form-control {
               padding: 4px 27px;
 
               &:hover {
-                background-color: rgba(181, 206, 255, 0.5);
+                background-color: transparent;
                 border-width: 1.5px;
               }
 
@@ -1997,7 +1997,11 @@ input.form-control {
               line-height: 22px;
               font-weight: 400;
               margin-left: 10px;
-              // font-family: $roboto;
+              
+              &:focus{
+                text-decoration: underline;
+              }
+              
             }
           }
         }
@@ -2104,12 +2108,17 @@ input.form-control {
         justify-content: center;
         font-size: 18px;
         line-height: 22px;
-        color: #8C4CD8 !important;
+        color: #5A2E8E !important;
         font-family: "Montserrat", sans-serif !important;
         box-shadow: none;
         padding: 0;
 
         &:hover {
+          span {
+            text-decoration: underline;
+          }
+        }
+        &:focus {
           span {
             text-decoration: underline;
           }
@@ -2232,6 +2241,7 @@ input.form-control {
             color: #000;
             line-height: 22px;
             margin: 0;
+
           }
 
           &:last-child {
@@ -2260,6 +2270,22 @@ input.form-control {
 
         .tbl-price {
           color: #8C4CD8;
+          &:hover{
+            text-decoration: underline;
+          }
+          &:focus{
+            text-decoration: underline;
+          }
+        }
+
+        .tbl-review{
+          
+          &:hover{
+            text-decoration: underline;
+          }
+          &:focus{
+            text-decoration: underline;
+          }
         }
 
         .tbl-runnerup {
@@ -2897,7 +2923,7 @@ input.form-control {
 
           h3 {
             color: #000000;
-            font-size: 14px;
+            font-size: 13px;
             line-height: 18px;
             font-weight: 700;
             margin-bottom: 10px;
@@ -2971,9 +2997,9 @@ input.form-control {
               font-size: 16px;
               line-height: 26px;
               // font-family: $roboto;
-              color: #8E8E8E;
-              background-color: #fff;
-              border: 1px solid #E6E6E6;
+              color: #000000;
+              background-color: #F4F4F4;
+              border: 1px solid transparent;
               border-radius: 5px;
               padding: 4px 10px 5px 10px;
               font-weight: 500;
@@ -3142,12 +3168,17 @@ input.form-control {
     height: 50px;
     text-decoration: none;
     line-height: 50px;
+    border: 1px solid #8C4CD8;
     background-color: #8C4CD8;
     color: #F5F7FF;
     font-size: 18px;
     font-weight: 700;
     border-radius: 30px;
     text-align: center;
+
+    &:hover{
+      border-color: #000000;
+    }
   }
 }
 /*New heading CSS End*/
@@ -3252,7 +3283,8 @@ input.form-control {
           font-size: 16px;
 
           &:hover{
-            border-width: 1px;
+            border-width: 1.5px;
+            font-weight: 700;
           }
           &:focus{
             background-color: #8C4CD8;
@@ -3351,6 +3383,10 @@ input.form-control {
         text-decoration: underline;
       }
 
+      &:focus{
+        text-decoration: underline;
+      }
+
       &:first-child{
         span{
           margin-right: 10px;
@@ -3431,12 +3467,23 @@ input.form-control {
         font-size: 24px;
         line-height: 36px;
         font-weight: 400;
+        &:hover{
+          text-decoration: underline;
+        }
+        &:focus{
+          text-decoration: underline;
+        }
       }
     }
   }
 }
 .middle-section .page-title-new-section .title-link p.black_text{
   color: #000;
+
+  .purp_txt:hover
+  {
+    text-decoration: underline;
+  }
 }
 .banner_search .input-group-append {
   position: absolute;
@@ -3448,7 +3495,7 @@ input.form-control {
   line-height: 27px;
 }
 .purp_txt{
-  color: #8C4CD8;
+  color: #5A2E8E;
   display: inline-block;
 }
 .mob_quiz_image{
@@ -3761,6 +3808,7 @@ input.form-control {
           .modal-footer {
             padding: 20px 28px 20px 28px;
             position: fixed;
+            justify-content: space-between;
           }
         }
       }

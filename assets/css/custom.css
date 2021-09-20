@@ -2045,7 +2045,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .product-info-section .content .filter-div ul li .btn:hover {
-  background-color: rgba(181, 206, 255, 0.5);
+  background-color: transparent;
   border-width: 1.5px;
 }
 
@@ -2198,6 +2198,10 @@ input.form-control:focus::placeholder {
   margin-left: 10px;
 }
 
+.middle-section .product-info-section .prodcut-item .product-detail .product-name .product-review a:focus {
+  text-decoration: underline;
+}
+
 .middle-section .product-info-section .prodcut-item .product-detail .product-desc {
   max-width: 690px;
 }
@@ -2328,7 +2332,7 @@ input.form-control:focus::placeholder {
           justify-content: center;
   font-size: 18px;
   line-height: 22px;
-  color: #8C4CD8 !important;
+  color: #5A2E8E !important;
   font-family: "Montserrat", sans-serif !important;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -2336,6 +2340,10 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .product-info-section .show-more a.btn-show-more:hover span {
+  text-decoration: underline;
+}
+
+.middle-section .product-info-section .show-more a.btn-show-more:focus span {
   text-decoration: underline;
 }
 
@@ -2487,6 +2495,22 @@ input.form-control:focus::placeholder {
 
 .middle-section .best-values-section .table tr .tbl-price {
   color: #8C4CD8;
+}
+
+.middle-section .best-values-section .table tr .tbl-price:hover {
+  text-decoration: underline;
+}
+
+.middle-section .best-values-section .table tr .tbl-price:focus {
+  text-decoration: underline;
+}
+
+.middle-section .best-values-section .table tr .tbl-review:hover {
+  text-decoration: underline;
+}
+
+.middle-section .best-values-section .table tr .tbl-review:focus {
+  text-decoration: underline;
 }
 
 .middle-section .best-values-section .table tr .tbl-runnerup {
@@ -3139,7 +3163,7 @@ input.form-control:focus::placeholder {
 
 .modal-custom .modal-dialog .modal-content .modal-body .filter-item h3 {
   color: #000000;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 18px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -3223,9 +3247,9 @@ input.form-control:focus::placeholder {
   height: 40px;
   font-size: 16px;
   line-height: 26px;
-  color: #8E8E8E;
-  background-color: #fff;
-  border: 1px solid #E6E6E6;
+  color: #000000;
+  background-color: #F4F4F4;
+  border: 1px solid transparent;
   border-radius: 5px;
   padding: 4px 10px 5px 10px;
   font-weight: 500;
@@ -3398,12 +3422,17 @@ input.form-control:focus::placeholder {
   height: 50px;
   text-decoration: none;
   line-height: 50px;
+  border: 1px solid #8C4CD8;
   background-color: #8C4CD8;
   color: #F5F7FF;
   font-size: 18px;
   font-weight: 700;
   border-radius: 30px;
   text-align: center;
+}
+
+.content_2 .mr_btn:hover {
+  border-color: #000000;
 }
 
 /*New heading CSS End*/
@@ -3529,7 +3558,8 @@ input.form-control:focus::placeholder {
 }
 
 .new_quiz_section .new_quiz_optionList ul li .quiz_icon:hover {
-  border-width: 1px;
+  border-width: 1.5px;
+  font-weight: 700;
 }
 
 .new_quiz_section .new_quiz_optionList ul li .quiz_icon:focus {
@@ -3646,6 +3676,10 @@ input.form-control:focus::placeholder {
   text-decoration: underline;
 }
 
+.new_quiz_section .new_quiz_nav a:focus {
+  text-decoration: underline;
+}
+
 .new_quiz_section .new_quiz_nav a:first-child span {
   margin-right: 10px;
 }
@@ -3726,8 +3760,20 @@ input.form-control:focus::placeholder {
   font-weight: 400;
 }
 
+.related_guidline_wrapper .guidline_list li a:hover {
+  text-decoration: underline;
+}
+
+.related_guidline_wrapper .guidline_list li a:focus {
+  text-decoration: underline;
+}
+
 .middle-section .page-title-new-section .title-link p.black_text {
   color: #000;
+}
+
+.middle-section .page-title-new-section .title-link p.black_text .purp_txt:hover {
+  text-decoration: underline;
 }
 
 .banner_search .input-group-append {
@@ -3742,7 +3788,7 @@ input.form-control:focus::placeholder {
 }
 
 .purp_txt {
-  color: #8C4CD8;
+  color: #5A2E8E;
   display: inline-block;
 }
 
@@ -4016,6 +4062,9 @@ input.form-control:focus::placeholder {
   .modal-custom.modal-custom-filter .modal-dialog .modal-content .modal-footer {
     padding: 20px 28px 20px 28px;
     position: fixed;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .new_quiz_section .new_quiz_optionList ul li label {
     font-size: 16px;
