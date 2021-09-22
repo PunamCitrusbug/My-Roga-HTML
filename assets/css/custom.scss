@@ -1251,7 +1251,7 @@ input.form-control {
   //
 
   .product-details {
-    padding: 80px 0 30px 0;
+    padding: 80px 0 0px 0;
 
     .content {
       h1 {
@@ -1330,7 +1330,7 @@ input.form-control {
       }
 
       .read-more {
-        color: #003b8e;
+        color: #5A2E8E;
         font-size: 14px;
         line-height: 27px;
         font-weight: 400;
@@ -1402,6 +1402,10 @@ input.form-control {
             margin: 0 0 15px 0;
             position: relative;
             display: flex;
+
+            &:last-child{
+              margin-bottom: 0;
+            }
 
             &.bubble-arrow-left {
               &::before {
@@ -1817,7 +1821,7 @@ input.form-control {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        margin-bottom: 26px;
+        margin-bottom: 40px;
 
         ul {
           display: flex;
@@ -2324,8 +2328,12 @@ input.form-control {
           width: 100%;
           font-size: 16px;
           line-height: 19px;
-          height: 40px;
-          max-width: 250px;
+          height: 35px;
+          padding: 0 15px;
+          min-width: 141px;
+          max-width: 141px;
+          width: auto;
+          margin: 0 auto;
           font-weight: 500;
           display: flex;
           align-items: center;
@@ -2789,7 +2797,7 @@ input.form-control {
       // text-align: center;
       font-weight: 400;
       // font-family: $roboto;
-      margin-bottom: 18px;
+      margin-bottom: 10px;
     }
   }
 
@@ -3158,6 +3166,7 @@ input.form-control {
     font-weight: 400;
     margin-bottom: 30px;
     max-width: 750px;
+    line-height: 36px;
     span{
       color: #8C4CD8;
       font-weight: 700;
@@ -3437,7 +3446,7 @@ input.form-control {
   }
 }
 .middle-section.mr_quiz_mid{
-  padding-top: 130px;
+  padding-top: 80px;
 }
 .related_guidline_wrapper{
   padding: 30px 0 80px;
@@ -3645,8 +3654,21 @@ input.form-control {
 }
 
 @media (max-width: 767px) {
+  header.header.header-2 .navbar .navbar-brand{
+    margin-bottom: 10px;
+  }
   .related_guidline_wrapper{
     padding-bottom: 40px;
+  }
+  .new_quiz_section .new_quiz_optionList ul li{
+    margin-bottom: 10px;
+  }
+  .new_quiz_section .new_quiz_heading{
+    margin-bottom: 12px;
+
+    p{
+      margin: 0;
+    }
   }
   .content_2 .mr_btn{
     height: 37px;
@@ -3664,9 +3686,13 @@ input.form-control {
     width: 45px;
     height: 45px;
     font-size: 18px;
+    margin-right: 12px;
+  }
+  .middle-section .best-values-section .table{
+    border: none;
   }
   .product-inner .content_2{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   .new_quiz_section .new_quiz_heading h2{
     font-size: 28px;
@@ -4122,8 +4148,8 @@ input.form-control {
 
   // middle section
 
-  .middle-section {
-    padding-top: 56px;
+  .middle-section.mr_quiz_mid {
+    padding-top: 110px;
 
     .middle-inner {
       overflow: hidden;
@@ -4485,13 +4511,9 @@ input.form-control {
             font-weight: 700;
           }
 
-          // &::before {
-          //   left: 0;
-          //   margin-right: 20px;
-          //   position: relative;
-          //   display: inline-block;
-          //   bottom: 0;
-          // }
+          &:nth-child(2){
+            margin: 0;
+          }
 
           span {
             &::before {
@@ -4518,7 +4540,7 @@ input.form-control {
     }
 
     .learn-filter-section {
-      padding: 35px 0 27px 0;
+      padding: 45px 0 2px 0;
 
       .heading {
         h2 {
@@ -4744,7 +4766,7 @@ input.form-control {
     }
 
     .product-info-section {
-      padding: 33px 0 30px 0;
+      padding: 33px 0 40px 0;
 
       .content {
         .result {
@@ -4761,7 +4783,7 @@ input.form-control {
         }
 
         .filter-div {
-          margin-bottom: 30px;
+          margin-bottom: 17px;
 
           ul li {
             margin-right: 5px;
@@ -4778,7 +4800,7 @@ input.form-control {
 
             .btn {
               font-size: 13px;
-              line-height: 20px;
+              line-height: 24px;
               white-space: nowrap;
               height: 35px;
               padding: 5px 9px;
@@ -4796,6 +4818,7 @@ input.form-control {
               padding-left: 21px !important;
               padding: 10px 5px;
               height: 35px;
+              line-height: 35px;
             }
 
             .btn-go {
@@ -4804,7 +4827,7 @@ input.form-control {
               border-color: #003B8E;
               font-size: 13px;
               font-weight: 600;
-              line-height: 15px;
+              line-height: 16px;
             }
           }
         }
@@ -4818,7 +4841,7 @@ input.form-control {
           font-style: italic;
           line-height: 22px;
           font-weight: 700;
-          margin-bottom: 15px;
+          margin-bottom: 12px;
         }
 
         .product-img {
@@ -4838,10 +4861,11 @@ input.form-control {
               font-size: 26px;
               line-height: 30px;
               font-weight: 500;
-              margin: 0 0 10px 0;
+              margin: 0 0 0 0;
             }
 
             .product-review {
+              margin-bottom: 15px;
               .rating {
                 i {
                   color: #e2e2e2;
@@ -4949,12 +4973,12 @@ input.form-control {
     }
 
     .best-values-section {
-      padding: 0 0 40px 0;
+      padding: 0 0 0 0;
 
       .content {
         h2 {
           font-size: 24px;
-          line-height: 27px;
+          line-height: 36px;
           color: #000;
           font-weight: 400;
         }
@@ -5010,7 +5034,7 @@ input.form-control {
         border-radius: 0 10px 10px 0;
         width: calc(100% + 15px);
         border-left: 1px solid transparent;
-        border-right: 1px solid rgba(0, 59, 142, 0.5);
+        border: none;
         margin-left: -15px !important;
       }
     }
@@ -5021,13 +5045,13 @@ input.form-control {
       p {
         font-size: 16px;
         line-height: 27px;
-        -webkit-line-clamp: 1;
+        // -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
         display: -webkit-box;
-        max-width: 96%;
+        max-width: 100%;
       }
 
       a {
@@ -5054,10 +5078,17 @@ input.form-control {
         font-weight: 400;
 
         p {
-          display: flex;
-          align-items: center;
-          flex-wrap: wrap;
-          color: #277fb8;
+          color: #000000;
+          font-size: 12px;
+          line-height: 18px;
+
+          span{
+            display: inline-block;
+          }
+
+          .purp_txt{
+            font-weight: 600;
+          }
 
           span.read-txt {
             font-weight: 700;
@@ -5346,8 +5377,9 @@ input.form-control {
     text-align: center;
     h3{
       font-size: 16px;
-      line-height: 1.5;
+      line-height: 27px;
       text-align: left;
+      margin-bottom: 22px;
     }
   }
   .middle-section .find-section .content{
@@ -5355,7 +5387,7 @@ input.form-control {
   }
   header.header.header-2 .navbar .navbar-brand{
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 15px 0px;
     text-align: center;
     width: 100%;
@@ -5365,12 +5397,22 @@ input.form-control {
     border: 1px solid #439A82;
     background-color: #fff;
   }
+  .new_quiz_section .new_quiz_optionList ul li .quiz_icon{
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .middle-section .product-info-section .prodcut-item .product-detail .product-btns .btn{
+    max-width: 160px;
+  }
 }
 
 @media (max-width: 580px){
   header.header.header-2 .navbar .navbar-brand{
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 15px 0px;
     text-align: center;
     width: 100%;

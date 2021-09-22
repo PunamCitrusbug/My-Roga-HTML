@@ -1403,7 +1403,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .product-details {
-  padding: 80px 0 30px 0;
+  padding: 80px 0 0px 0;
 }
 
 .middle-section .product-details .content h1 {
@@ -1487,7 +1487,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .product-details .content-product .read-more {
-  color: #003b8e;
+  color: #5A2E8E;
   font-size: 14px;
   line-height: 27px;
   font-weight: 400;
@@ -1568,6 +1568,10 @@ input.form-control:focus::placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.middle-section .learn-filter-section .profile-chat-div .profile-text-div .profile-chat-message-div .chat-div:last-child {
+  margin-bottom: 0;
 }
 
 .middle-section .learn-filter-section .profile-chat-div .profile-text-div .profile-chat-message-div .chat-div.bubble-arrow-left::before {
@@ -2000,7 +2004,7 @@ input.form-control:focus::placeholder {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-bottom: 26px;
+  margin-bottom: 40px;
 }
 
 .middle-section .product-info-section .content .filter-div ul {
@@ -2548,8 +2552,12 @@ input.form-control:focus::placeholder {
   width: 100%;
   font-size: 16px;
   line-height: 19px;
-  height: 40px;
-  max-width: 250px;
+  height: 35px;
+  padding: 0 15px;
+  min-width: 141px;
+  max-width: 141px;
+  width: auto;
+  margin: 0 auto;
   font-weight: 500;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3034,7 +3042,7 @@ input.form-control:focus::placeholder {
   line-height: 24px;
   color: black;
   font-weight: 400;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 
 .footer-section .affilate-link a {
@@ -3420,6 +3428,7 @@ input.form-control:focus::placeholder {
   font-weight: 400;
   margin-bottom: 30px;
   max-width: 750px;
+  line-height: 36px;
 }
 
 .content_2 h3 span {
@@ -3734,7 +3743,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section.mr_quiz_mid {
-  padding-top: 130px;
+  padding-top: 80px;
 }
 
 .related_guidline_wrapper {
@@ -3936,8 +3945,20 @@ input.form-control:focus::placeholder {
 }
 
 @media (max-width: 767px) {
+  header.header.header-2 .navbar .navbar-brand {
+    margin-bottom: 10px;
+  }
   .related_guidline_wrapper {
     padding-bottom: 40px;
+  }
+  .new_quiz_section .new_quiz_optionList ul li {
+    margin-bottom: 10px;
+  }
+  .new_quiz_section .new_quiz_heading {
+    margin-bottom: 12px;
+  }
+  .new_quiz_section .new_quiz_heading p {
+    margin: 0;
   }
   .content_2 .mr_btn {
     height: 37px;
@@ -3955,9 +3976,13 @@ input.form-control:focus::placeholder {
     width: 45px;
     height: 45px;
     font-size: 18px;
+    margin-right: 12px;
+  }
+  .middle-section .best-values-section .table {
+    border: none;
   }
   .product-inner .content_2 {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   .new_quiz_section .new_quiz_heading h2 {
     font-size: 28px;
@@ -4356,38 +4381,38 @@ input.form-control:focus::placeholder {
     margin-left: 50px;
     display: block;
   }
-  .middle-section {
-    padding-top: 56px;
+  .middle-section.mr_quiz_mid {
+    padding-top: 110px;
   }
-  .middle-section .middle-inner {
+  .middle-section.mr_quiz_mid .middle-inner {
     overflow: hidden;
   }
-  .middle-section .find-section {
+  .middle-section.mr_quiz_mid .find-section {
     padding: 78px 0 50px 0;
   }
-  .middle-section .find-section .content {
+  .middle-section.mr_quiz_mid .find-section .content {
     padding: 0 10px;
     text-align: left !important;
   }
-  .middle-section .find-section .content h1 {
+  .middle-section.mr_quiz_mid .find-section .content h1 {
     font-size: 30px;
     line-height: 37px;
     font-weight: 600;
     margin-bottom: 10px;
   }
-  .middle-section .find-section .content h2 {
+  .middle-section.mr_quiz_mid .find-section .content h2 {
     font-size: 16px;
     line-height: 27px;
     color: #000000;
     margin-bottom: 15px;
   }
-  .middle-section .find-section .content .search-bar {
+  .middle-section.mr_quiz_mid .find-section .content .search-bar {
     display: block;
     max-width: 365px;
     width: 100%;
     margin: 0 auto;
   }
-  .middle-section .find-section .content .search-bar .form-control {
+  .middle-section.mr_quiz_mid .find-section .content .search-bar .form-control {
     height: 50px;
     background-color: #f4f6fa;
     font-size: 18px;
@@ -4397,100 +4422,100 @@ input.form-control:focus::placeholder {
     border: 1px solid #40404080 !important;
     border-width: thin !important;
   }
-  .middle-section .find-section .content .search-bar .input-group-text {
+  .middle-section.mr_quiz_mid .find-section .content .search-bar .input-group-text {
     height: 50px;
   }
-  .middle-section .find-section .content .search-bar .input-group-text i {
+  .middle-section.mr_quiz_mid .find-section .content .search-bar .input-group-text i {
     color: #707070;
   }
-  .middle-section .popular-guid-section {
+  .middle-section.mr_quiz_mid .popular-guid-section {
     padding: 20px 0 15px 0;
   }
-  .middle-section .popular-guid-section .heading h3 {
+  .middle-section.mr_quiz_mid .popular-guid-section .heading h3 {
     font-size: 18px;
     line-height: 22px;
     font-weight: 700;
   }
-  .middle-section .popular-guid-section .owl-theme {
+  .middle-section.mr_quiz_mid .popular-guid-section .owl-theme {
     padding: 0;
   }
-  .middle-section .popular-guid-section .owl-nav.disabled {
+  .middle-section.mr_quiz_mid .popular-guid-section .owl-nav.disabled {
     display: none !important;
   }
-  .middle-section .popular-guid-section .popular-box .popular-img {
+  .middle-section.mr_quiz_mid .popular-guid-section .popular-box .popular-img {
     height: 108px;
     width: 108px;
     min-width: 108px;
     margin-bottom: 20px;
   }
-  .middle-section .popular-guid-section .popular-box .popular-img img {
+  .middle-section.mr_quiz_mid .popular-guid-section .popular-box .popular-img img {
     width: 70px;
     height: 70px;
   }
-  .middle-section .popular-guid-section .popular-box h3 {
+  .middle-section.mr_quiz_mid .popular-guid-section .popular-box h3 {
     font-size: 16px;
     line-height: 18px;
     color: #000;
     margin-bottom: 6px;
   }
-  .middle-section .popular-guid-section .popular-box p {
+  .middle-section.mr_quiz_mid .popular-guid-section .popular-box p {
     font-size: 12px;
     line-height: 16px;
     margin-bottom: 0;
   }
-  .middle-section .makeup-section .makeup-inner-div {
+  .middle-section.mr_quiz_mid .makeup-section .makeup-inner-div {
     padding: 15px 20px 18px 20px;
   }
-  .middle-section .makeup-section .makeup-inner-div h3 {
+  .middle-section.mr_quiz_mid .makeup-section .makeup-inner-div h3 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 10px;
     font-weight: 500;
   }
-  .middle-section .makeup-section .search-bar {
+  .middle-section.mr_quiz_mid .makeup-section .search-bar {
     display: block;
     margin-left: 0;
     width: 100%;
   }
-  .middle-section .makeup-section .search-bar .search-div {
+  .middle-section.mr_quiz_mid .makeup-section .search-bar .search-div {
     display: none;
   }
-  .middle-section .makeup-section .search-bar .search-icon {
+  .middle-section.mr_quiz_mid .makeup-section .search-bar .search-icon {
     display: block;
   }
-  .middle-section .makeup-section .search-bar .form-control {
+  .middle-section.mr_quiz_mid .makeup-section .search-bar .form-control {
     padding-left: 15px;
     background-color: #fff;
     color: #414141;
     border-radius: 5px;
   }
-  .middle-section .feature-section {
+  .middle-section.mr_quiz_mid .feature-section {
     padding: 30px 0 0 0;
   }
-  .middle-section .feature-section .heading h2 {
+  .middle-section.mr_quiz_mid .feature-section .heading h2 {
     font-size: 27px;
     line-height: 1.5;
     margin-bottom: 5px;
   }
-  .middle-section .feature-section .heading P {
+  .middle-section.mr_quiz_mid .feature-section .heading P {
     font-size: 16px;
     line-height: 22px;
   }
-  .middle-section .feature-section .featured-item .featured-img {
+  .middle-section.mr_quiz_mid .feature-section .featured-item .featured-img {
     width: 90px;
     height: 90px;
     border: 0 !important;
   }
-  .middle-section .feature-section .featured-item .featured-img a {
+  .middle-section.mr_quiz_mid .feature-section .featured-item .featured-img a {
     display: inline-block;
   }
-  .middle-section .feature-section .featured-item .featured-img img {
+  .middle-section.mr_quiz_mid .feature-section .featured-item .featured-img img {
     width: 90px;
     height: 90px;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .middle-section .feature-section .featured-item .featured-content {
+  .middle-section.mr_quiz_mid .feature-section .featured-item .featured-content {
     width: calc(100% - 90px);
     padding: 8px 7px 1px 10px;
     min-height: 90px;
@@ -4509,55 +4534,55 @@ input.form-control:focus::placeholder {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .middle-section .feature-section .featured-item .featured-content h3 {
+  .middle-section.mr_quiz_mid .feature-section .featured-item .featured-content h3 {
     font-size: 18px;
     margin-bottom: 12px;
     line-height: 18px;
   }
-  .middle-section .feature-section .featured-item .featured-content ul {
+  .middle-section.mr_quiz_mid .feature-section .featured-item .featured-content ul {
     margin-left: -5px;
   }
-  .middle-section .feature-section .featured-item .featured-content ul li {
+  .middle-section.mr_quiz_mid .feature-section .featured-item .featured-content ul li {
     padding: 0 4px !important;
     line-height: 14px;
     margin-bottom: 5px;
     float: left;
   }
-  .middle-section .feature-section .featured-item .featured-content ul li a {
+  .middle-section.mr_quiz_mid .feature-section .featured-item .featured-content ul li a {
     font-size: 14px;
     line-height: 18px;
   }
-  .middle-section .feature-section .featured-item .featured-content ul li a h4 {
+  .middle-section.mr_quiz_mid .feature-section .featured-item .featured-content ul li a h4 {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
   }
-  .middle-section .feature-section .featured-item .featured-content ul li:last-child {
+  .middle-section.mr_quiz_mid .feature-section .featured-item .featured-content ul li:last-child {
     display: none;
   }
-  .middle-section .feature-section .featured-item .featured-content ul li:nth-last-child(2) {
+  .middle-section.mr_quiz_mid .feature-section .featured-item .featured-content ul li:nth-last-child(2) {
     border: 0;
   }
-  .middle-section .best-deal-section .heading h2 {
+  .middle-section.mr_quiz_mid .best-deal-section .heading h2 {
     font-size: 27px;
     line-height: 1.5;
   }
-  .middle-section .best-deal-section .heading p {
+  .middle-section.mr_quiz_mid .best-deal-section .heading p {
     font-size: 16px;
     line-height: 22px;
   }
-  .middle-section .best-deal-section .sub-heading h3 {
+  .middle-section.mr_quiz_mid .best-deal-section .sub-heading h3 {
     font-size: 18px;
     line-height: 22px;
   }
-  .middle-section .best-deal-section .sub-heading a {
+  .middle-section.mr_quiz_mid .best-deal-section .sub-heading a {
     font-size: 18px;
     line-height: 22px;
   }
-  .middle-section .best-deal-section .owl-theme {
+  .middle-section.mr_quiz_mid .best-deal-section .owl-theme {
     padding: 0;
   }
-  .middle-section .best-deal-section .owl-theme .owl-stage {
+  .middle-section.mr_quiz_mid .best-deal-section .owl-theme .owl-stage {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4569,84 +4594,87 @@ input.form-control:focus::placeholder {
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
-  .middle-section .best-deal-section .owl-nav.disabled {
+  .middle-section.mr_quiz_mid .best-deal-section .owl-nav.disabled {
     display: none !important;
   }
-  .middle-section .best-deal-section .owl-stage-outer {
+  .middle-section.mr_quiz_mid .best-deal-section .owl-stage-outer {
     overflow: visible;
   }
-  .middle-section .best-deal-section .product-item {
+  .middle-section.mr_quiz_mid .best-deal-section .product-item {
     min-width: 155px;
   }
-  .middle-section .best-deal-section .product-item .product-price h4 {
+  .middle-section.mr_quiz_mid .best-deal-section .product-item .product-price h4 {
     font-size: 16px;
     line-height: 19px;
   }
-  .middle-section .best-deal-section .product-item .product-img img {
+  .middle-section.mr_quiz_mid .best-deal-section .product-item .product-img img {
     width: 120px;
     height: 120px;
   }
-  .middle-section .best-deal-section .product-item .product-review .rating i {
+  .middle-section.mr_quiz_mid .best-deal-section .product-item .product-review .rating i {
     font-size: 12px;
   }
-  .middle-section .best-deal-section .product-item .product-review a {
+  .middle-section.mr_quiz_mid .best-deal-section .product-item .product-review a {
     font-size: 12px;
     margin-left: 2px;
   }
-  .middle-section .best-deal-section .product-item .product-name {
+  .middle-section.mr_quiz_mid .best-deal-section .product-item .product-name {
     min-height: 38px;
   }
-  .middle-section .best-deal-section .product-item .product-name h3 {
+  .middle-section.mr_quiz_mid .best-deal-section .product-item .product-name h3 {
     font-size: 16px;
     line-height: 19px;
   }
-  .middle-section .product-details {
+  .middle-section.mr_quiz_mid .product-details {
     padding: 30px 0 0 0;
   }
-  .middle-section .product-details .content h1 {
+  .middle-section.mr_quiz_mid .product-details .content h1 {
     font-size: 28px;
     line-height: 42px;
     font-weight: 700;
     margin-bottom: 5px;
   }
-  .middle-section .product-details .content .profile-owner {
+  .middle-section.mr_quiz_mid .product-details .content .profile-owner {
     margin-bottom: 25px;
   }
-  .middle-section .product-details .content .profile-owner .img-profile {
+  .middle-section.mr_quiz_mid .product-details .content .profile-owner .img-profile {
     height: 30px;
     width: 30px;
   }
-  .middle-section .product-details .content .profile-owner .img-profile img {
+  .middle-section.mr_quiz_mid .product-details .content .profile-owner .img-profile img {
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .middle-section .product-details .content .profile-owner .profiel-name {
+  .middle-section.mr_quiz_mid .product-details .content .profile-owner .profiel-name {
     padding-left: 7px;
     min-height: 30px;
   }
-  .middle-section .product-details .content .profile-owner .profiel-name p {
+  .middle-section.mr_quiz_mid .product-details .content .profile-owner .profiel-name p {
     font-size: 14px;
     line-height: 27px;
     color: rgba(0, 0, 0, 0.4);
   }
-  .middle-section .product-details .content-product {
+  .middle-section.mr_quiz_mid .product-details .content-product {
     margin-bottom: 0;
   }
-  .middle-section .product-details .content-product .readmore-text::before {
+  .middle-section.mr_quiz_mid .product-details .content-product .readmore-text::before {
     display: none;
   }
-  .middle-section .product-details .content-product p {
+  .middle-section.mr_quiz_mid .product-details .content-product p {
     padding-left: 0;
     float: none;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 15px;
   }
-  .middle-section .product-details .content-product p .bold-mobile {
+  .middle-section.mr_quiz_mid .product-details .content-product p .bold-mobile {
     font-weight: 700;
   }
-  .middle-section .product-details .content-product p span::before {
+  .middle-section.mr_quiz_mid .product-details .content-product p:nth-child(2) {
+    margin: 0;
+  }
+  .middle-section.mr_quiz_mid .product-details .content-product p span::before {
     left: 3px;
     margin-right: 10px;
     position: relative;
@@ -4655,7 +4683,7 @@ input.form-control:focus::placeholder {
     height: 8px;
     width: 8px;
   }
-  .middle-section .product-details .content-product p img.img-detail {
+  .middle-section.mr_quiz_mid .product-details .content-product p img.img-detail {
     width: 100%;
     height: 113px;
     -o-object-fit: cover;
@@ -4664,60 +4692,60 @@ input.form-control:focus::placeholder {
     margin-left: 0;
     margin-bottom: 25px;
   }
-  .middle-section .learn-filter-section {
-    padding: 35px 0 27px 0;
+  .middle-section.mr_quiz_mid .learn-filter-section {
+    padding: 45px 0 2px 0;
   }
-  .middle-section .learn-filter-section .heading h2 {
+  .middle-section.mr_quiz_mid .learn-filter-section .heading h2 {
     font-size: 18px;
     line-height: 24px;
   }
-  .middle-section .learn-filter-section .profile-owner {
+  .middle-section.mr_quiz_mid .learn-filter-section .profile-owner {
     margin-top: 0;
     margin-bottom: 15px;
   }
-  .middle-section .learn-filter-section .profile-owner .img-profile {
+  .middle-section.mr_quiz_mid .learn-filter-section .profile-owner .img-profile {
     height: 40px;
     width: 40px;
   }
-  .middle-section .learn-filter-section .profile-owner .img-profile .img-fluid {
+  .middle-section.mr_quiz_mid .learn-filter-section .profile-owner .img-profile .img-fluid {
     height: 40px;
     width: 40px;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .middle-section .learn-filter-section .profile-chat-div .profile-text-div .profile-chat-message-div .chat-div {
+  .middle-section.mr_quiz_mid .learn-filter-section .profile-chat-div .profile-text-div .profile-chat-message-div .chat-div {
     margin: 0 0 10px 0;
   }
-  .middle-section .learn-filter-section .profile-chat-div .profile-text-div .profile-chat-message-div .chat-div.bubble-arrow-left::before {
+  .middle-section.mr_quiz_mid .learn-filter-section .profile-chat-div .profile-text-div .profile-chat-message-div .chat-div.bubble-arrow-left::before {
     top: 11px;
     left: -16px;
     width: 17px;
     height: 12px;
   }
-  .middle-section .learn-filter-section .profile-chat-div .profile-text-div .profile-chat-message-div .chat-div p {
+  .middle-section.mr_quiz_mid .learn-filter-section .profile-chat-div .profile-text-div .profile-chat-message-div .chat-div p {
     min-height: 35px;
     font-size: 14px;
   }
-  .middle-section .learn-filter-section .content h2 {
+  .middle-section.mr_quiz_mid .learn-filter-section .content h2 {
     font-size: 24px;
     line-height: 36px;
     margin-bottom: 12px;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item {
     margin-bottom: 18px;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .custom-control {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .custom-control {
     padding: 0;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .custom-control .custom-control-label::after {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .custom-control .custom-control-label::after {
     left: 20px;
     top: 15px;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .custom-control .custom-control-label::before {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .custom-control .custom-control-label::before {
     left: 20px;
     top: 15px;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .call-detail {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .call-detail {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4727,7 +4755,7 @@ input.form-control:focus::placeholder {
             flex-direction: column;
     border: 1px solid #ab2a2ab3;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .call-detail .btn-open {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .call-detail .btn-open {
     position: absolute;
     right: 17px;
     top: 15px;
@@ -4742,7 +4770,7 @@ input.form-control:focus::placeholder {
     display: -ms-flexbox;
     display: flex;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .call-detail .btn-open .info-mark-icon.fe.fe-x {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .call-detail .btn-open .info-mark-icon.fe.fe-x {
     background: transparent;
     width: auto;
     height: auto;
@@ -4752,45 +4780,45 @@ input.form-control:focus::placeholder {
     color: #5f5f5f;
     font-size: 24px;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .call-detail .call-content {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .call-detail .call-content {
     width: 100%;
     padding: 12px 18px 10px 18px;
     min-height: 50px;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .call-detail .call-content h3 {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .call-detail .call-content h3 {
     padding-left: 0;
     font-size: 16px;
     margin-bottom: 0;
     padding-right: 20px;
     font-weight: 400;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .call-detail .call-content p {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .call-detail .call-content p {
     font-size: 16px;
     line-height: 27px;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .call-detail .img-content img {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .call-detail .img-content img {
     display: block;
     margin-bottom: 16px;
     border-radius: 6px;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .call-detail .selected-div {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .call-detail .selected-div {
     display: block;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .call-detail .img-content {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .call-detail .img-content {
     display: none;
     margin-top: 15px;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .call-detail .call-img {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .call-detail .call-img {
     width: 100%;
     display: none;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .no-img h3 {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .no-img h3 {
     margin-bottom: 0 !important;
   }
-  .middle-section .learn-filter-section .radio-list .radio-item .no-img p {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list .radio-item .no-img p {
     display: none;
   }
-  .middle-section .learn-filter-section .radio-action {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-action {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4799,14 +4827,14 @@ input.form-control:focus::placeholder {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .middle-section .learn-filter-section .radio-action .left-conetnt {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-action .left-conetnt {
     width: 100%;
   }
-  .middle-section .learn-filter-section .radio-action .left-conetnt .btn {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-action .left-conetnt .btn {
     width: 100%;
     max-width: unset;
   }
-  .middle-section .learn-filter-section .radio-action .right-conetnt {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-action .right-conetnt {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4819,14 +4847,14 @@ input.form-control:focus::placeholder {
             justify-content: space-between;
     margin-top: 20px;
   }
-  .middle-section .learn-filter-section .radio-action .right-conetnt .btn {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-action .right-conetnt .btn {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
-  .middle-section .learn-filter-section .who-smartwatch-root {
+  .middle-section.mr_quiz_mid .learn-filter-section .who-smartwatch-root {
     padding: 15px 0 0 0;
   }
-  .middle-section .learn-filter-section .who-smartwatch-root .content-who-smartwatch h2 {
+  .middle-section.mr_quiz_mid .learn-filter-section .who-smartwatch-root .content-who-smartwatch h2 {
     font-size: 24px;
     line-height: 1.5;
     color: #000;
@@ -4834,128 +4862,132 @@ input.form-control:focus::placeholder {
     text-align: left !important;
     font-weight: 600;
   }
-  .middle-section .learn-filter-section .who-smartwatch-root .content-who-smartwatch .get-link-div .link {
+  .middle-section.mr_quiz_mid .learn-filter-section .who-smartwatch-root .content-who-smartwatch .get-link-div .link {
     font-size: 14px;
   }
-  .middle-section .learn-filter-section .radio-list-new-div .radio-item .custom-control-input ~ .custom-control-label:hover {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list-new-div .radio-item .custom-control-input ~ .custom-control-label:hover {
     border: 0 solid #ab2a2a;
   }
-  .middle-section .learn-filter-section .radio-list-new-div .radio-item .custom-control-input:checked ~ .custom-control-label {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-list-new-div .radio-item .custom-control-input:checked ~ .custom-control-label {
     border: 0 solid #ab2a2a;
   }
-  .middle-section .learn-filter-section .radio-action-new-center-div {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-action-new-center-div {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin: 0;
   }
-  .middle-section .learn-filter-section .radio-action-new-center-div .btn-bx {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-action-new-center-div .btn-bx {
     padding: 0 10px;
   }
-  .middle-section .learn-filter-section .radio-action-new-center-div .btn-bx .btn-action-link {
+  .middle-section.mr_quiz_mid .learn-filter-section .radio-action-new-center-div .btn-bx .btn-action-link {
     font-size: 16px;
   }
-  .middle-section .product-info-section {
-    padding: 33px 0 30px 0;
+  .middle-section.mr_quiz_mid .product-info-section {
+    padding: 33px 0 40px 0;
   }
-  .middle-section .product-info-section .content .result p {
+  .middle-section.mr_quiz_mid .product-info-section .content .result p {
     font-size: 16px;
     line-height: 20px;
   }
-  .middle-section .product-info-section .content h1 {
+  .middle-section.mr_quiz_mid .product-info-section .content h1 {
     font-size: 24px;
     line-height: 36px;
     font-weight: 600;
   }
-  .middle-section .product-info-section .content .filter-div {
-    margin-bottom: 30px;
+  .middle-section.mr_quiz_mid .product-info-section .content .filter-div {
+    margin-bottom: 17px;
   }
-  .middle-section .product-info-section .content .filter-div ul li {
+  .middle-section.mr_quiz_mid .product-info-section .content .filter-div ul li {
     margin-right: 5px;
   }
-  .middle-section .product-info-section .content .filter-div ul li.dollars::after {
+  .middle-section.mr_quiz_mid .product-info-section .content .filter-div ul li.dollars::after {
     font-size: 13px !important;
     top: 9px;
     margin-left: 2px;
   }
-  .middle-section .product-info-section .content .filter-div ul li:last-child {
+  .middle-section.mr_quiz_mid .product-info-section .content .filter-div ul li:last-child {
     margin-right: 0;
   }
-  .middle-section .product-info-section .content .filter-div ul li .btn {
+  .middle-section.mr_quiz_mid .product-info-section .content .filter-div ul li .btn {
     font-size: 13px;
-    line-height: 20px;
+    line-height: 24px;
     white-space: nowrap;
     height: 35px;
     padding: 5px 9px;
   }
-  .middle-section .product-info-section .content .filter-div ul li .btn i {
+  .middle-section.mr_quiz_mid .product-info-section .content .filter-div ul li .btn i {
     height: 7px;
     width: 13px;
     top: 1px;
     position: relative;
   }
-  .middle-section .product-info-section .content .filter-div ul li input {
+  .middle-section.mr_quiz_mid .product-info-section .content .filter-div ul li input {
     font-size: 13px;
     padding-left: 21px !important;
     padding: 10px 5px;
     height: 35px;
+    line-height: 35px;
   }
-  .middle-section .product-info-section .content .filter-div ul li .btn-go {
+  .middle-section.mr_quiz_mid .product-info-section .content .filter-div ul li .btn-go {
     width: 55px;
     border-radius: 12px;
     border-color: #003B8E;
     font-size: 13px;
     font-weight: 600;
-    line-height: 15px;
+    line-height: 16px;
   }
-  .middle-section .product-info-section .prodcut-item {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item {
     padding: 0 0 5px 0;
   }
-  .middle-section .product-info-section .prodcut-item h1 {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item h1 {
     font-size: 18px;
     font-style: italic;
     line-height: 22px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
-  .middle-section .product-info-section .prodcut-item .product-img {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-img {
     display: none;
     max-width: 115px;
     height: auto;
     margin-bottom: 18px;
   }
-  .middle-section .product-info-section .prodcut-item .product-img img {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-img img {
     width: 100%;
   }
-  .middle-section .product-info-section .prodcut-item .product-detail .product-name h2 {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-name h2 {
     font-size: 26px;
     line-height: 30px;
     font-weight: 500;
-    margin: 0 0 10px 0;
+    margin: 0 0 0 0;
   }
-  .middle-section .product-info-section .prodcut-item .product-detail .product-name .product-review .rating i {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-name .product-review {
+    margin-bottom: 15px;
+  }
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-name .product-review .rating i {
     color: #e2e2e2;
   }
-  .middle-section .product-info-section .prodcut-item .product-detail .product-name .product-review .rating i.active {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-name .product-review .rating i.active {
     color: #f8da48;
   }
-  .middle-section .product-info-section .prodcut-item .product-detail .product-name .product-review a {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-name .product-review a {
     font-size: 12px;
   }
-  .middle-section .product-info-section .prodcut-item .product-detail .product-desc {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-desc {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
   }
-  .middle-section .product-info-section .prodcut-item .product-detail .product-desc h4 {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-desc h4 {
     font-size: 16px;
   }
-  .middle-section .product-info-section .prodcut-item .product-detail .product-desc p {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-desc p {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 15px;
   }
-  .middle-section .product-info-section .prodcut-item .product-detail .product-footer {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-footer {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
@@ -4971,7 +5003,7 @@ input.form-control:focus::placeholder {
             flex-direction: row;
     margin-bottom: 18px;
   }
-  .middle-section .product-info-section .prodcut-item .product-detail .product-footer .product-img-mobile {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-footer .product-img-mobile {
     max-width: 115px;
     height: auto;
     display: block;
@@ -4979,10 +5011,10 @@ input.form-control:focus::placeholder {
     margin-right: 40px;
     border-bottom: 1px solid #c4c4c480;
   }
-  .middle-section .product-info-section .prodcut-item .product-detail .product-footer .product-img-mobile img {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-footer .product-img-mobile img {
     width: 100%;
   }
-  .middle-section .product-info-section .prodcut-item .product-detail .product-footer .product-btns {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-footer .product-btns {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4991,78 +5023,78 @@ input.form-control:focus::placeholder {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .middle-section .product-info-section .prodcut-item .product-detail .product-footer .product-btns .btn {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-footer .product-btns .btn {
     font-size: 14px;
     line-height: 18px;
     height: 40px;
     margin-bottom: 15px;
     margin-right: 0;
   }
-  .middle-section .product-info-section .prodcut-item .product-detail .product-footer .product-btns .btn span.mobile-hidden {
+  .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-footer .product-btns .btn span.mobile-hidden {
     width: 0;
     margin: 0 0 0 -3px;
     position: relative;
     visibility: hidden;
   }
-  .middle-section .product-info-section .show-more {
+  .middle-section.mr_quiz_mid .product-info-section .show-more {
     top: -10px;
     position: relative;
   }
-  .middle-section .product-info-section .show-more a.btn-show-more {
+  .middle-section.mr_quiz_mid .product-info-section .show-more a.btn-show-more {
     font-size: 15px;
     line-height: 19px;
   }
-  .middle-section .product-info-section .show-more a.btn-show-more i {
+  .middle-section.mr_quiz_mid .product-info-section .show-more a.btn-show-more i {
     font-size: 18px;
   }
-  .middle-section .product-info-new-section .content-header-div h2 {
+  .middle-section.mr_quiz_mid .product-info-new-section .content-header-div h2 {
     font-size: 16px;
     line-height: 36px;
     margin: 0 0 0 0;
     font-weight: 400;
   }
-  .middle-section .product-info-new-section .content-header-div h3 {
+  .middle-section.mr_quiz_mid .product-info-new-section .content-header-div h3 {
     font-weight: 400;
     line-height: 1.5;
     margin: 0 0 10px 0;
     font-size: 28px;
   }
-  .middle-section .best-values-section {
-    padding: 0 0 40px 0;
+  .middle-section.mr_quiz_mid .best-values-section {
+    padding: 0 0 0 0;
   }
-  .middle-section .best-values-section .content h2 {
+  .middle-section.mr_quiz_mid .best-values-section .content h2 {
     font-size: 24px;
-    line-height: 27px;
+    line-height: 36px;
     color: #000;
     font-weight: 400;
   }
-  .middle-section .best-values-section .table tr th {
+  .middle-section.mr_quiz_mid .best-values-section .table tr th {
     font-size: 16px;
   }
-  .middle-section .best-values-section .table tr th h3 {
+  .middle-section.mr_quiz_mid .best-values-section .table tr th h3 {
     font-size: 16px;
   }
-  .middle-section .best-values-section .table tr th:first-child {
+  .middle-section.mr_quiz_mid .best-values-section .table tr th:first-child {
     min-width: 113px;
     position: -webkit-sticky;
     position: sticky;
     left: 0;
     background: #fff;
   }
-  .middle-section .best-values-section .table tr td {
+  .middle-section.mr_quiz_mid .best-values-section .table tr td {
     font-size: 14px;
   }
-  .middle-section .best-values-section .table tr td:first-child {
+  .middle-section.mr_quiz_mid .best-values-section .table tr td:first-child {
     position: -webkit-sticky;
     position: sticky;
     left: 0;
     background: #fff;
   }
-  .middle-section .best-values-section .table tr .btn-outline-primary {
+  .middle-section.mr_quiz_mid .best-values-section .table tr .btn-outline-primary {
     font-size: 14px;
     height: 30px;
   }
-  .middle-section .best-values-section .table-div {
+  .middle-section.mr_quiz_mid .best-values-section .table-div {
     border-radius: 10px 0 0 10px;
     width: calc(100% + 15px);
     border-right: 1px solid transparent;
@@ -5070,31 +5102,30 @@ input.form-control:focus::placeholder {
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
   }
-  .middle-section .best-values-section .table-div .table tr .pro-left-th {
+  .middle-section.mr_quiz_mid .best-values-section .table-div .table tr .pro-left-th {
     min-width: 151px;
   }
-  .middle-section .best-values-section .scroll-table-end:not(.scroll-table-start) {
+  .middle-section.mr_quiz_mid .best-values-section .scroll-table-end:not(.scroll-table-start) {
     border-radius: 0 10px 10px 0;
     width: calc(100% + 15px);
     border-left: 1px solid transparent;
-    border-right: 1px solid rgba(0, 59, 142, 0.5);
+    border: none;
     margin-left: -15px !important;
   }
-  .middle-section .page-tile-section {
+  .middle-section.mr_quiz_mid .page-tile-section {
     padding-top: 15px;
   }
-  .middle-section .page-tile-section p {
+  .middle-section.mr_quiz_mid .page-tile-section p {
     font-size: 16px;
     line-height: 27px;
-    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
     display: block;
     display: -webkit-box;
-    max-width: 96%;
+    max-width: 100%;
   }
-  .middle-section .page-tile-section a {
+  .middle-section.mr_quiz_mid .page-tile-section a {
     font-size: 16px;
     line-height: 27px;
     display: -webkit-box;
@@ -5107,47 +5138,47 @@ input.form-control:focus::placeholder {
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
-  .middle-section .page-tile-section a i {
+  .middle-section.mr_quiz_mid .page-tile-section a i {
     position: absolute;
     top: 0;
     right: 10px;
   }
-  .middle-section .page-title-new-section {
+  .middle-section.mr_quiz_mid .page-title-new-section {
     padding-bottom: 5px;
   }
-  .middle-section .page-title-new-section .title-link {
+  .middle-section.mr_quiz_mid .page-title-new-section .title-link {
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
   }
-  .middle-section .page-title-new-section .title-link p {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    color: #277fb8;
+  .middle-section.mr_quiz_mid .page-title-new-section .title-link p {
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
   }
-  .middle-section .page-title-new-section .title-link p span.read-txt {
+  .middle-section.mr_quiz_mid .page-title-new-section .title-link p span {
+    display: inline-block;
+  }
+  .middle-section.mr_quiz_mid .page-title-new-section .title-link p .purp_txt {
+    font-weight: 600;
+  }
+  .middle-section.mr_quiz_mid .page-title-new-section .title-link p span.read-txt {
     font-weight: 700;
   }
-  .middle-section .page-title-new-section .title-link p .arrow-up-icon {
+  .middle-section.mr_quiz_mid .page-title-new-section .title-link p .arrow-up-icon {
     display: none;
   }
-  .middle-section .product-details.collapse.show {
+  .middle-section.mr_quiz_mid .product-details.collapse.show {
     padding-top: 30px !important;
   }
-  .middle-section .about-morya {
+  .middle-section.mr_quiz_mid .about-morya {
     padding: 93px 0;
     background: transparent -webkit-gradient(linear, left top, left bottom, from(#5BD3B2), color-stop(61%, #C9EDE9), to(#FFFFFF)) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(180deg, #5BD3B2 0%, #C9EDE9 61%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
     min-height: 813px;
     position: relative;
   }
-  .middle-section .about-morya::after {
+  .middle-section.mr_quiz_mid .about-morya::after {
     content: "";
     background-image: url(../images/star-group.png);
     background-repeat: no-repeat;
@@ -5161,10 +5192,10 @@ input.form-control:focus::placeholder {
     bottom: -142px;
     z-index: 10;
   }
-  .middle-section .about-morya .content {
+  .middle-section.mr_quiz_mid .about-morya .content {
     text-align: center;
   }
-  .middle-section .about-morya .content h1 {
+  .middle-section.mr_quiz_mid .about-morya .content h1 {
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
@@ -5172,122 +5203,122 @@ input.form-control:focus::placeholder {
     text-transform: uppercase;
     margin-bottom: 28px;
   }
-  .middle-section .about-morya .content h2 {
+  .middle-section.mr_quiz_mid .about-morya .content h2 {
     color: #000000;
     font-size: 30px;
     line-height: 37px;
     font-weight: 600;
     margin-bottom: 20px;
   }
-  .middle-section .about-morya .content p {
+  .middle-section.mr_quiz_mid .about-morya .content p {
     font-size: 16px;
     line-height: 27px;
     color: #000000;
     font-weight: 500;
     margin-bottom: 14px;
   }
-  .middle-section .about-morya .content .rating i {
+  .middle-section.mr_quiz_mid .about-morya .content .rating i {
     font-size: 18px;
     color: #f89a48;
     margin: 0 2px;
   }
-  .middle-section .our-promises-section {
+  .middle-section.mr_quiz_mid .our-promises-section {
     background-color: #effafd;
   }
-  .middle-section .our-promises-section::after {
+  .middle-section.mr_quiz_mid .our-promises-section::after {
     display: none;
   }
-  .middle-section .our-promises-section .our-promices-div {
+  .middle-section.mr_quiz_mid .our-promises-section .our-promices-div {
     background-color: #effafd;
     margin-bottom: 0;
   }
-  .middle-section .our-promises-section .our-promices-div .our-inner {
+  .middle-section.mr_quiz_mid .our-promises-section .our-promices-div .our-inner {
     padding: 36px 0 40px 0;
   }
-  .middle-section .our-promises-section .our-promices-div .our-inner h2 {
+  .middle-section.mr_quiz_mid .our-promises-section .our-promices-div .our-inner h2 {
     font-size: 24px;
     line-height: 29px;
     margin-bottom: 35px;
   }
-  .middle-section .our-promises-section .our-promices-div .our-inner .our-promis-box {
+  .middle-section.mr_quiz_mid .our-promises-section .our-promices-div .our-inner .our-promis-box {
     padding: 0;
   }
-  .middle-section .our-promises-section .our-promices-div .our-inner .our-promis-box h3 {
+  .middle-section.mr_quiz_mid .our-promises-section .our-promices-div .our-inner .our-promis-box h3 {
     font-size: 20px;
     line-height: 24px;
     margin-bottom: 10px;
   }
-  .middle-section .our-promises-section .our-promices-div .our-inner .our-promis-box p {
+  .middle-section.mr_quiz_mid .our-promises-section .our-promices-div .our-inner .our-promis-box p {
     font-size: 16px;
     line-height: 24px;
   }
-  .middle-section .our-promises-section .our-promices-div::after {
+  .middle-section.mr_quiz_mid .our-promises-section .our-promices-div::after {
     display: none;
   }
-  .middle-section .our-promises-section .why-we-do-section {
+  .middle-section.mr_quiz_mid .our-promises-section .why-we-do-section {
     margin-bottom: 0;
     background-color: #2e8cbf;
   }
-  .middle-section .our-promises-section .why-we-do-section::after {
+  .middle-section.mr_quiz_mid .our-promises-section .why-we-do-section::after {
     display: none;
   }
-  .middle-section .our-promises-section .why-we-do-section .why-we-do-inner {
+  .middle-section.mr_quiz_mid .our-promises-section .why-we-do-section .why-we-do-inner {
     padding: 99px 0 64px 0;
   }
-  .middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content h2 {
+  .middle-section.mr_quiz_mid .our-promises-section .why-we-do-section .why-we-do-inner .content h2 {
     font-size: 24px;
     line-height: 29px;
     margin-bottom: 20px;
   }
-  .middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content p {
+  .middle-section.mr_quiz_mid .our-promises-section .why-we-do-section .why-we-do-inner .content p {
     font-size: 16px;
     line-height: 24px;
   }
-  .middle-section .our-promises-section .why-we-do-section .why-we-do-inner .content .rating i {
+  .middle-section.mr_quiz_mid .our-promises-section .why-we-do-section .why-we-do-inner .content .rating i {
     font-size: 16px;
   }
-  .middle-section .our-promises-section .buisenss-modal-section {
+  .middle-section.mr_quiz_mid .our-promises-section .buisenss-modal-section {
     margin-bottom: 0;
     background-color: #1c6bab;
   }
-  .middle-section .our-promises-section .buisenss-modal-section::after {
+  .middle-section.mr_quiz_mid .our-promises-section .buisenss-modal-section::after {
     display: none;
   }
-  .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner {
+  .middle-section.mr_quiz_mid .our-promises-section .buisenss-modal-section .buisenss-modal-inner {
     padding: 99px 0 53px 0;
   }
-  .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content h2 {
+  .middle-section.mr_quiz_mid .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content h2 {
     font-size: 24px;
     line-height: 29px;
     margin-bottom: 20px;
   }
-  .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content p {
+  .middle-section.mr_quiz_mid .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content p {
     font-size: 16px;
     line-height: 24px;
   }
-  .middle-section .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content .rating i {
+  .middle-section.mr_quiz_mid .our-promises-section .buisenss-modal-section .buisenss-modal-inner .content .rating i {
     font-size: 16px;
   }
-  .middle-section .our-promises-section .testimonial-section {
+  .middle-section.mr_quiz_mid .our-promises-section .testimonial-section {
     margin-bottom: 0;
     background-color: #0e549d;
   }
-  .middle-section .our-promises-section .testimonial-section::after {
+  .middle-section.mr_quiz_mid .our-promises-section .testimonial-section::after {
     display: none;
   }
-  .middle-section .our-promises-section .testimonial-section .testimonial-inner {
+  .middle-section.mr_quiz_mid .our-promises-section .testimonial-section .testimonial-inner {
     padding: 120px 0 88px 0;
   }
-  .middle-section .our-promises-section .testimonial-section .testimonial-inner .content h2 {
+  .middle-section.mr_quiz_mid .our-promises-section .testimonial-section .testimonial-inner .content h2 {
     font-size: 24px;
     line-height: 29px;
     margin-bottom: 20px;
   }
-  .middle-section .our-promises-section .testimonial-section .testimonial-inner .content p {
+  .middle-section.mr_quiz_mid .our-promises-section .testimonial-section .testimonial-inner .content p {
     font-size: 16px;
     line-height: 24px;
   }
-  .middle-section .our-promises-section .testimonial-section .testimonial-inner .content .rating i {
+  .middle-section.mr_quiz_mid .our-promises-section .testimonial-section .testimonial-inner .content .rating i {
     font-size: 16px;
   }
   .footer-section {
@@ -5354,15 +5385,16 @@ input.form-control:focus::placeholder {
   }
   .content_2 h3 {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 27px;
     text-align: left;
+    margin-bottom: 22px;
   }
   .middle-section .find-section .content {
     text-align: center !important;
   }
   header.header.header-2 .navbar .navbar-brand {
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 15px 0px;
     text-align: center;
     width: 100%;
@@ -5372,12 +5404,22 @@ input.form-control:focus::placeholder {
     border: 1px solid #439A82;
     background-color: #fff;
   }
+  .new_quiz_section .new_quiz_optionList ul li .quiz_icon {
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .middle-section .product-info-section .prodcut-item .product-detail .product-btns .btn {
+    max-width: 160px;
+  }
 }
 
 @media (max-width: 580px) {
   header.header.header-2 .navbar .navbar-brand {
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 15px 0px;
     text-align: center;
     width: 100%;
