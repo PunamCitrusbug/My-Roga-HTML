@@ -3301,12 +3301,13 @@ input.form-control:focus::placeholder {
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-clear {
   height: 40px;
   background-color: transparent;
-  border: 0.5px solid #8C4CD8;
+  border: 0.5px solid #5A2E8E;
   border-radius: 6px;
-  color: #8C4CD8;
+  color: #5A2E8E;
   outline: none !important;
   font-size: 15px;
   font-weight: 400;
+  outline: none;
   font-family: "Montserrat", sans-serif !important;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -3319,7 +3320,9 @@ input.form-control:focus::placeholder {
 }
 
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-clear:focus {
-  font-weight: 600;
+  font-weight: 700;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   border-width: 2px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -3344,8 +3347,10 @@ input.form-control:focus::placeholder {
 }
 
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-save:focus {
-  font-weight: 600;
+  font-weight: 700;
   border-color: #000000;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-save:active {
@@ -3889,6 +3894,7 @@ input.form-control:focus::placeholder {
 
 .header .navbar .navbar-brand {
   width: 271px;
+  padding: 0;
 }
 
 .header .navbar .navbar-brand img {
@@ -3908,6 +3914,10 @@ input.form-control:focus::placeholder {
 
 .mob_quiz_image img {
   width: auto;
+}
+
+.new_quiz_section .new_quiz_nav {
+  margin-top: 28px;
 }
 
 /*Index*/

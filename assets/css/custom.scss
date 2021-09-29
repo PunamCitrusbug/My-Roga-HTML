@@ -3059,13 +3059,14 @@ input.form-control {
         .btn-clear {
           height: 40px;
           background-color: transparent;
-          border: 0.5px solid #8C4CD8;
+          border: 0.5px solid #5A2E8E;
           border-radius: 6px;
-          color: #8C4CD8;
+          color: #5A2E8E;
           outline: none !important;
           font-size: 15px;
           font-weight: 400;
           // font-family: $roboto;
+          outline: none;
           font-family: "Montserrat", sans-serif !important; 
           transition: all 0.3s ease-in-out;
 
@@ -3074,7 +3075,8 @@ input.form-control {
             transition: all 0.3s ease-in-out;
           }
           &:focus {
-            font-weight: 600;
+            font-weight: 700;
+            box-shadow: none;
             border-width: 2px;
             transition: all 0.3s ease-in-out;
           }
@@ -3098,8 +3100,9 @@ input.form-control {
             font-weight: 600;
           }
           &:focus {
-            font-weight: 600;
+            font-weight: 700;
             border-color: #000000;
+            box-shadow: none;
           }
 
           &:active {            
@@ -3573,6 +3576,7 @@ input.form-control {
 }
 .header .navbar .navbar-brand{
   width: 271px;
+  padding: 0;
 
   img{
     width: auto;
@@ -3587,6 +3591,9 @@ input.form-control {
 }
 .mob_quiz_image img{
   width: auto;
+}
+.new_quiz_section .new_quiz_nav{
+  margin-top: 28px;
 }
 /*Index*/
 
