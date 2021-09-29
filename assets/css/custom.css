@@ -1594,7 +1594,7 @@ input.form-control:focus::placeholder {
   min-height: 40px;
   color: #439A82;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3879,6 +3879,37 @@ input.form-control:focus::placeholder {
   border: 2px solid #000;
 }
 
+.nav-center .search-bar .form-control.serach-text {
+  border-color: #235547;
+}
+
+.middle-section .page-title-new-section .title-link .purp_txt {
+  margin-left: 20px;
+}
+
+.header .navbar .navbar-brand {
+  width: 271px;
+}
+
+.header .navbar .navbar-brand img {
+  width: auto;
+}
+
+.header .navbar .nav-center {
+  padding-left: 90px;
+}
+
+.nav-center .collapse1 .navbar-nav {
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+  margin-left: 50px;
+}
+
+.mob_quiz_image img {
+  width: auto;
+}
+
 /*Index*/
 /*###########################################################################
 ############################## media query started ###############################
@@ -3894,6 +3925,16 @@ input.form-control:focus::placeholder {
     -o-object-fit: contain;
        object-fit: contain;
   }
+  .header .navbar .navbar-brand {
+    width: 200px;
+  }
+  .header .navbar .navbar-brand img {
+    max-width: 100%;
+  }
+  .header .navbar .nav-center {
+    margin-left: 10px;
+    padding-left: 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -3902,6 +3943,18 @@ input.form-control:focus::placeholder {
   }
   .desktop-hidden {
     display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .header .navbar .nav-center {
+    padding-left: 0;
+  }
+  .new_quiz_section .new_quiz_nav {
+    margin-top: 20px;
+  }
+  .middle-section.mr_quiz_mid .product-info-section {
+    padding-top: 40px;
   }
 }
 
@@ -4884,7 +4937,7 @@ input.form-control:focus::placeholder {
     font-size: 16px;
   }
   .middle-section.mr_quiz_mid .product-info-section {
-    padding: 33px 0 40px 0;
+    padding: 40px 0 40px 0;
   }
   .middle-section.mr_quiz_mid .product-info-section .content .result p {
     font-size: 16px;
