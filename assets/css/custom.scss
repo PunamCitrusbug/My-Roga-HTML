@@ -1346,7 +1346,7 @@ input.form-control {
 
   .learn-filter-section {
     // background-color: #effafd;
-    padding: 32px 0 6px 0;
+    padding: 27px 0 6px 0;
 
     .heading {
       h2 {
@@ -1394,7 +1394,7 @@ input.form-control {
       align-items: flex-start;
 
       .profile-text-div {
-        padding: 15px 0 0 25px;
+        padding: 14px 0 0 25px;
         position: relative;
 
         .profile-chat-message-div {
@@ -3212,7 +3212,7 @@ input.form-control {
 
   .quiz_progressbar{
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     .quiz_progress{
       position: relative;
@@ -3241,7 +3241,7 @@ input.form-control {
         position: relative;
         display: flex;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 17px;
         width: 100%;
 
         input[type="checkbox"]{
@@ -3468,7 +3468,7 @@ input.form-control {
     position: relative;
 
     li{
-      margin-bottom: 21px;
+      margin-bottom: 22px;
 
       a{
         display: inline-block;
@@ -3743,6 +3743,7 @@ input.form-control {
   .new_quiz_section .new_quiz_heading h2{
     font-size: 28px;
     line-height: 40px;
+    margin-bottom: 9px;
   }
   .related_guidline_wrapper .guidline_heading {
     margin-bottom: 5px;
@@ -4525,7 +4526,6 @@ input.form-control {
           }
 
           .profiel-name {
-            padding-left: 7px;
             min-height: 30px;
 
             p {
@@ -4986,7 +4986,7 @@ input.form-control {
       }
 
       .show-more {
-        top: -10px;
+        top: -15px;
         position: relative;
 
         a.btn-show-more {
@@ -5067,7 +5067,6 @@ input.form-control {
       .table-div {
         border-radius: 10px 0 0 10px;
         width: calc(100% + 15px);
-        border-right: 1px solid transparent;
         will-change: margin-left;
         transition: all 0.4s;
 
@@ -5079,7 +5078,6 @@ input.form-control {
       .scroll-table-end:not(.scroll-table-start) {
         border-radius: 0 10px 10px 0;
         width: calc(100% + 15px);
-        border-left: 1px solid transparent;
         border: none;
         margin-left: -15px !important;
       }

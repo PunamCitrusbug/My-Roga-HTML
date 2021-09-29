@@ -1500,7 +1500,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .learn-filter-section {
-  padding: 32px 0 6px 0;
+  padding: 27px 0 6px 0;
 }
 
 .middle-section .learn-filter-section .heading h2 {
@@ -1558,7 +1558,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .learn-filter-section .profile-chat-div .profile-text-div {
-  padding: 15px 0 0 25px;
+  padding: 14px 0 0 25px;
   position: relative;
 }
 
@@ -3476,7 +3476,7 @@ input.form-control:focus::placeholder {
 
 .new_quiz_section .quiz_progressbar {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .new_quiz_section .quiz_progressbar .quiz_progress {
@@ -3510,7 +3510,7 @@ input.form-control:focus::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
   width: 100%;
 }
 
@@ -3768,7 +3768,7 @@ input.form-control:focus::placeholder {
 }
 
 .related_guidline_wrapper .guidline_list li {
-  margin-bottom: 21px;
+  margin-bottom: 22px;
 }
 
 .related_guidline_wrapper .guidline_list li a {
@@ -4040,6 +4040,7 @@ input.form-control:focus::placeholder {
   .new_quiz_section .new_quiz_heading h2 {
     font-size: 28px;
     line-height: 40px;
+    margin-bottom: 9px;
   }
   .related_guidline_wrapper .guidline_heading {
     margin-bottom: 5px;
@@ -4700,7 +4701,6 @@ input.form-control:focus::placeholder {
        object-fit: cover;
   }
   .middle-section.mr_quiz_mid .product-details .content .profile-owner .profiel-name {
-    padding-left: 7px;
     min-height: 30px;
   }
   .middle-section.mr_quiz_mid .product-details .content .profile-owner .profiel-name p {
@@ -5090,7 +5090,7 @@ input.form-control:focus::placeholder {
     visibility: hidden;
   }
   .middle-section.mr_quiz_mid .product-info-section .show-more {
-    top: -10px;
+    top: -15px;
     position: relative;
   }
   .middle-section.mr_quiz_mid .product-info-section .show-more a.btn-show-more {
@@ -5150,7 +5150,6 @@ input.form-control:focus::placeholder {
   .middle-section.mr_quiz_mid .best-values-section .table-div {
     border-radius: 10px 0 0 10px;
     width: calc(100% + 15px);
-    border-right: 1px solid transparent;
     will-change: margin-left;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
@@ -5161,7 +5160,6 @@ input.form-control:focus::placeholder {
   .middle-section.mr_quiz_mid .best-values-section .scroll-table-end:not(.scroll-table-start) {
     border-radius: 0 10px 10px 0;
     width: calc(100% + 15px);
-    border-left: 1px solid transparent;
     border: none;
     margin-left: -15px !important;
   }
