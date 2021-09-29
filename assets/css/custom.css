@@ -3314,7 +3314,7 @@ input.form-control:focus::placeholder {
 }
 
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-clear:hover {
-  font-weight: 600;
+  font-weight: 700;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -3343,7 +3343,7 @@ input.form-control:focus::placeholder {
 }
 
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-save:hover {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .modal-custom .modal-dialog .modal-content .modal-footer .btn-save:focus {

@@ -3071,7 +3071,7 @@ input.form-control {
           transition: all 0.3s ease-in-out;
 
           &:hover {
-            font-weight: 600;
+            font-weight: 700;
             transition: all 0.3s ease-in-out;
           }
           &:focus {
@@ -3096,8 +3096,8 @@ input.form-control {
           // font-family: $roboto;
           transition: all 0.3s ease-in-out;
 
-          &:hover {
-            font-weight: 600;
+          &:hover { 
+            font-weight: 700;
           }
           &:focus {
             font-weight: 700;
