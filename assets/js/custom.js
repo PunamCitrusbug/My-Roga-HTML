@@ -106,7 +106,7 @@ $("#toggle-read").click(function() {
 $(".owl-carousel-popular").owlCarousel({
     loop:false,
     margin:0,
-    smartSpeed:120,
+    smartSpeed:500,
     autoplay:false,
     // autoplayTimeout:4000,
     // autoplayHoverPause:true,
@@ -120,18 +120,18 @@ $(".owl-carousel-popular").owlCarousel({
     responsive:{
         0:{
             slideBy:2,
-            items:2,
+            items:2.8,
             nav:false
         },
 
         375:{
-            slideBy:3,
-            items:3,
+            slideBy:2,
+            items:2.8,
             nav:false   
         },
         768:{
-            slideBy:4,
-            items:4,
+            slideBy:3,
+            items:3,
             nav:false
         },
 
@@ -141,8 +141,8 @@ $(".owl-carousel-popular").owlCarousel({
             nav:true
         },
         1024:{
-            slideBy:5,
-            items:5,
+            slideBy:4,
+            items:4,
             nav:true,
         },
         1200:{
@@ -161,7 +161,7 @@ $(".owl-carousel-popular").owlCarousel({
 $(".owl-carousel-best").owlCarousel({
     loop:false,
     margin:27,
-    smartSpeed:120, 
+    smartSpeed:500, 
     autoplay:false,
     // autoplayTimeout:4000,
     rewind: false,
@@ -174,25 +174,19 @@ $(".owl-carousel-best").owlCarousel({
     ],
     responsive:{
         0:{
-            items:1.6,
-            smartSpeed: 120, 
-            touchDrag: true,
+            items:2.2,
             nav:false,
-            center: true
+            margin:20,
         },
         321:{
-            items:2,
-            smartSpeed: 120,
-            touchDrag: true,
+            items:2.2,
+            margin:20,
             nav:false
         },
         375:{
             slideBy:2,
-            items:2,
+            items:2.2,
             margin:20,
-            smartSpeed: 120,
-            touchDrag: true,
-            autoWidth: true,
             nav:false
         },
         768:{

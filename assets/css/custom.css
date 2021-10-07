@@ -122,10 +122,6 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-.btn {
-  font-family: "Roboto" !important;
-}
-
 /*   normalize  */
 /* font family added */
 @media (max-width: 1230px) {
@@ -466,7 +462,6 @@ input[type="number"] {
   border-color: #fff;
   font-size: 15px;
   line-height: 28px;
-  font-family: "Roboto";
   -webkit-box-shadow: none;
           box-shadow: none;
   padding-left: 20px;
@@ -594,7 +589,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .find-section .content h1 {
-  margin-bottom: 0;
+  margin-bottom: 12px;
 }
 
 .middle-section .find-section .content h2 {
@@ -602,7 +597,7 @@ input.form-control:focus::placeholder {
   line-height: 29px;
   color: #000000;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .middle-section .find-section .content .search-bar {
@@ -677,7 +672,6 @@ input.form-control:focus::placeholder {
   border-color: #235547;
   font-size: 16px;
   line-height: 28px;
-  font-family: "Roboto";
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: none;
@@ -751,7 +745,6 @@ input.form-control:focus::placeholder {
   font-size: 24px;
   line-height: 24px;
   margin-bottom: 10px;
-  font-family: "Roboto";
   color: #000;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -764,7 +757,6 @@ input.form-control:focus::placeholder {
 .middle-section .popular-guid-section .popular-box p {
   font-size: 16px;
   line-height: 18px;
-  font-family: "Roboto";
   color: #000;
 }
 
@@ -856,7 +848,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .makeup-section {
-  padding-top: 16px;
+  padding-top: 70px;
 }
 
 .middle-section .makeup-section .makeup-inner-div {
@@ -956,7 +948,6 @@ input.form-control:focus::placeholder {
   border-color: #003b8e;
   font-size: 16px;
   line-height: 28px;
-  font-family: "Roboto";
   border: 0 !important;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -983,7 +974,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .feature-section {
-  padding: 60px 0;
+  padding: 63px 0 60px;
 }
 
 .middle-section .feature-section .heading h2 {
@@ -998,7 +989,6 @@ input.form-control:focus::placeholder {
   line-height: 22px;
   color: #000;
   margin-bottom: 20px;
-  font-family: "Roboto";
 }
 
 .middle-section .feature-section .featured-item {
@@ -1013,13 +1003,13 @@ input.form-control:focus::placeholder {
           justify-content: flex-start;
   margin-bottom: 20px;
   width: 100%;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
 }
 
 .middle-section .feature-section .featured-item .featured-img {
   width: 400px;
   height: 116px;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   overflow: hidden;
 }
 
@@ -1029,7 +1019,7 @@ input.form-control:focus::placeholder {
   padding: 19px 21px;
   height: 100%;
   min-height: 116px;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   margin-left: -2px;
 }
 
@@ -1042,7 +1032,6 @@ input.form-control:focus::placeholder {
   line-height: 29px;
   margin-bottom: 20px;
   color: #000;
-  font-family: "Roboto";
 }
 
 .middle-section .feature-section .featured-item .featured-content ul {
@@ -1054,7 +1043,6 @@ input.form-control:focus::placeholder {
 .middle-section .feature-section .featured-item .featured-content ul li {
   display: inline-block;
   padding: 0 10px;
-  font-family: "Roboto";
   border-right: 1px solid #000;
 }
 
@@ -1118,7 +1106,11 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .best-deal-section {
-  padding: 20px 0 20px 0;
+  padding: 40px 0 40px 0;
+}
+
+.middle-section .best-deal-section:first-child {
+  padding-top: 20px;
 }
 
 .middle-section .best-deal-section:last-child {
@@ -1128,8 +1120,8 @@ input.form-control:focus::placeholder {
 .middle-section .best-deal-section .heading h2 {
   color: #000;
   margin-bottom: 10px;
-  font-size: 30px;
-  line-height: 37px;
+  font-size: 36px;
+  line-height: 54px;
   margin-bottom: 10px;
 }
 
@@ -1137,8 +1129,7 @@ input.form-control:focus::placeholder {
   font-size: 18px;
   line-height: 22px;
   color: #000;
-  font-family: "Roboto";
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .middle-section .best-deal-section .sub-heading {
@@ -1168,7 +1159,7 @@ input.form-control:focus::placeholder {
   color: #000;
   margin-bottom: 0px;
   margin-left: 10px;
-  font-weight: 400;
+  font-weight: 300;
   border-left: 1px solid #000;
   padding-left: 10px;
 }
@@ -1235,7 +1226,7 @@ input.form-control:focus::placeholder {
 .middle-section .best-deal-section .product-item .product-review .rating i {
   color: #f89a48;
   font-size: 17px;
-  margin-right: 3px;
+  margin-right: 1px;
 }
 
 .middle-section .best-deal-section .product-item .product-review a {
@@ -1243,7 +1234,6 @@ input.form-control:focus::placeholder {
   font-size: 14px;
   line-height: 18px;
   margin-left: 5px;
-  font-family: "Roboto";
 }
 
 .middle-section .best-deal-section .product-item .product-name {
@@ -1256,7 +1246,6 @@ input.form-control:focus::placeholder {
   line-height: 22px;
   color: #000000;
   font-weight: 600;
-  font-family: "Roboto";
 }
 
 .middle-section .best-deal-section .product-item .product-btns {
@@ -1803,7 +1792,6 @@ input.form-control:focus::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Roboto";
   font-weight: 300;
 }
 
@@ -3105,7 +3093,6 @@ input.form-control:focus::placeholder {
   width: 10px;
   z-index: 99;
   color: #495057;
-  font-family: "Roboto";
 }
 
 .modal-custom .modal-dialog {
@@ -3205,7 +3192,6 @@ input.form-control:focus::placeholder {
   height: 28px;
   font-size: 16px;
   line-height: 26px;
-  font-family: "Roboto";
   background-color: #ffffff;
   border: 1px solid #bfbfbf;
   border-radius: 5px;
@@ -3872,6 +3858,7 @@ input.form-control:focus::placeholder {
   font-size: 22px;
   font-weight: 400;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .middle-section .best-deal-section .owl-theme .owl-nav button {
@@ -3920,6 +3907,10 @@ input.form-control:focus::placeholder {
   margin-top: 28px;
 }
 
+.middle-section .makeup-section .search-bar .form-control {
+  font-family: "Montserrat", sans-serif;
+}
+
 /*Index*/
 /*###########################################################################
 ############################## media query started ###############################
@@ -3954,11 +3945,17 @@ input.form-control:focus::placeholder {
   .desktop-hidden {
     display: none;
   }
+  .middle-section .makeup-section .search-bar .input-group {
+    border: 0.5px solid #235547;
+  }
 }
 
 @media (max-width: 767px) {
   .header .navbar .nav-center {
     padding-left: 0;
+  }
+  .middle-section .makeup-section .search-bar .input-group {
+    border: 0.5px solid #439A82;
   }
   .new_quiz_section .new_quiz_nav {
     margin-top: 20px;
@@ -4010,6 +4007,9 @@ input.form-control:focus::placeholder {
 @media (max-width: 767px) {
   header.header.header-2 .navbar .navbar-brand {
     margin-bottom: 10px;
+  }
+  .home-page .middle-section .find-section .content .search-bar {
+    display: block;
   }
   .related_guidline_wrapper {
     padding-bottom: 40px;
@@ -4077,7 +4077,6 @@ input.form-control:focus::placeholder {
     display: inline-block;
     color: #003b8e !important;
     font-size: 16px;
-    font-family: "Roboto";
   }
   .modal-backdrop {
     background-color: transparent !important;
@@ -4093,7 +4092,6 @@ input.form-control:focus::placeholder {
     display: block;
     color: #003b8e !important;
     font-size: 16px;
-    font-family: "Roboto";
   }
   .collapse.open {
     display: none;
@@ -5474,6 +5472,178 @@ input.form-control:focus::placeholder {
   }
   .middle-section .product-info-section .prodcut-item .product-detail .product-btns .btn {
     max-width: 160px;
+  }
+  .middle-section .popular-guid-section .owl-theme {
+    padding: 0;
+  }
+  .middle-section .popular-guid-section .owl-theme .owl-nav {
+    display: none;
+  }
+  .middle-section .popular-guid-section .popular-box .popular-img {
+    width: 110px;
+    min-width: 110px;
+    height: 110px;
+    margin-bottom: 13px;
+  }
+  .middle-section .popular-guid-section .popular-box .popular-img img {
+    width: 70px;
+    height: 70px;
+  }
+  .middle-section .find-section {
+    padding: 50px 0;
+  }
+  .middle-section .find-section .content {
+    padding: 0 17px;
+  }
+  .middle-section .find-section .content h1 {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 6px;
+  }
+  .middle-section .find-section .content h2 {
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+  .middle-section .popular-guid-section .heading h3 {
+    font-size: 22px;
+    margin-bottom: 4px;
+  }
+  .middle-section .popular-guid-section .popular-box h3 a {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .middle-section .popular-guid-section {
+    position: relative;
+  }
+  .middle-section .popular-guid-section:after {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    left: 18px;
+    width: 60px;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .middle-section .makeup-section .search-bar {
+    display: block;
+    margin-left: 0;
+    width: 100%;
+  }
+  .middle-section .makeup-section .makeup-inner-div {
+    padding: 15px 15px;
+  }
+  .middle-section .makeup-section h3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .middle-section .popular-guid-section {
+    margin-bottom: 20px;
+  }
+  .middle-section .makeup-section .search-bar .form-control {
+    font-weight: 300;
+  }
+  .middle-section .feature-section {
+    padding-top: 43px;
+    padding-bottom: 0px;
+  }
+  .middle-section .feature-section .heading h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .middle-section .feature-section .heading p {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .middle-section .feature-section .featured-item .featured-img {
+    width: 90px;
+    height: 90px;
+  }
+  .middle-section .feature-section .featured-item .featured-img img {
+    width: 90px;
+    height: 90px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .middle-section .feature-section .featured-item .featured-content {
+    width: calc(100% - 90px);
+    padding: 10px 10px 0;
+    min-height: 90px;
+  }
+  .middle-section .feature-section .featured-item .featured-content h3 {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .middle-section .feature-section .featured-item .featured-content ul li {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+  .middle-section .feature-section .featured-item .featured-content ul li a {
+    font-size: 13px;
+  }
+  .middle-section .feature-section .featured-item .featured-content ul li a h4 {
+    font-size: 13px;
+  }
+  .middle-section .best-deal-section .heading h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .middle-section .best-deal-section .heading p {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .middle-section .best-deal-section .sub-heading h3 {
+    font-size: 18px;
+  }
+  .middle-section .best-deal-section .sub-heading a {
+    font-size: 16px;
+  }
+  .middle-section .best-deal-section .owl-theme {
+    padding: 0 0;
+  }
+  .middle-section .best-deal-section .owl-theme .owl-nav {
+    display: none;
+  }
+  .middle-section .best-deal-section .product-item .product-price h4 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .middle-section .best-deal-section .product-item .product-review .rating i {
+    font-size: 12px;
+    margin-right: 2px;
+  }
+  .middle-section .best-deal-section .product-item .product-review a {
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 0px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .middle-section .best-deal-section .product-item .product-name h3 {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+  }
+  .middle-section .best-deal-section .product-item .product-btns .btn {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif !important;
+  }
+  .middle-section .best-deal-section .product-item .product-btns .btn.btn-primary {
+    font-weight: 500;
+  }
+  .middle-section .best-deal-section .product-item .product-name {
+    min-height: 42px;
+  }
+  .footer-section .quicklink ul li a {
+    font-family: "Montserrat", sans-serif;
   }
 }
 
