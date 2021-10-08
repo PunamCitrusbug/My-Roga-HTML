@@ -628,7 +628,7 @@ input.form-control {
         .form-control {
           height: 40px;
           border-color: #235547;
-          font-size: 16px;
+          font-size: 18px;
           line-height: 28px;
           
           box-shadow: none;
@@ -650,6 +650,7 @@ input.form-control {
 
     .heading {
       h3 {
+        font-size: 28px;
         margin-bottom: 20px;
       }
     }
@@ -686,7 +687,7 @@ input.form-control {
       }
 
       h3 {
-        font-size: 24px;
+        font-size: 22px;
         line-height: 24px;
         margin-bottom: 10px;
         
@@ -863,7 +864,7 @@ input.form-control {
       .form-control {
         height: 40px;
         border-color: #003b8e;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 28px;
         
         border: 0 !important;
@@ -889,7 +890,7 @@ input.form-control {
       h2 {
         color: #000;
         margin-bottom: 10px;
-        font-size: 30px;
+        font-size: 36px;
         line-height: 37px;
       }
 
@@ -3551,7 +3552,7 @@ input.form-control {
   background-color: rgba(72, 185, 219, 0.158);
 }
 .middle-section .popular-guid-section .heading h3{
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
 }
 .middle-section .popular-guid-section .popular-box h3 a{
@@ -3969,7 +3970,7 @@ input.form-control {
       }
 
       .navbar-brand {
-        width: 188px;
+        width: 180px;
         height: auto;
         margin: 0 auto;
         padding: 0px;
@@ -5436,6 +5437,7 @@ input.form-control {
   .middle-section .find-section .content .search-bar .form-control{
     background-color: #fff;
     border: 0.5px solid #439A82 !important;
+    font-size: 15px;
   }
   .content_2{
     text-align: center;
@@ -5516,7 +5518,7 @@ input.form-control {
     position: relative;
   }
   .middle-section .popular-guid-section:after{
-    content: "";
+    // content: "";
     position: absolute;
     bottom: 15px;
     left: 18px;
@@ -5543,6 +5545,7 @@ input.form-control {
   }
   .middle-section .makeup-section .search-bar .form-control{
     font-weight: 300;
+    font-size: 15px;
   }
   .middle-section .feature-section{
     padding-top: 43px;
