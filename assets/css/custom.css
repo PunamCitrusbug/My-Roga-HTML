@@ -800,9 +800,19 @@ input.form-control:focus::placeholder {
   position: absolute;
 }
 
+.middle-section .popular-guid-section .owl-theme .owl-nav .owl-prev i {
+  margin-right: 2px;
+  margin-top: 1px;
+}
+
 .middle-section .popular-guid-section .owl-theme .owl-nav .owl-next {
   right: -55px;
   position: absolute;
+}
+
+.middle-section .popular-guid-section .owl-theme .owl-nav .owl-next i {
+  margin-left: 2px;
+  margin-top: 1px;
 }
 
 .middle-section .popular-guid-section .owl-theme .owl-nav button {

@@ -739,11 +739,21 @@ input.form-control {
         .owl-prev {
           left: -55px;
           position: absolute;
+
+          i{
+            margin-right: 2px;
+            margin-top: 1px;
+          }
         }
 
         .owl-next {
           right: -55px;
           position: absolute;
+
+          i{
+            margin-left: 2px;
+            margin-top: 1px;
+          }
         }
 
         button {
