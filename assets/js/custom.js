@@ -106,7 +106,6 @@ $("#toggle-read").click(function() {
 $(".owl-carousel-popular").owlCarousel({
     loop:false,
     margin:0,
-    smartSpeed:500,
     autoplay:false,
     // autoplayTimeout:4000,
     // autoplayHoverPause:true,
@@ -119,39 +118,32 @@ $(".owl-carousel-popular").owlCarousel({
     ],
     responsive:{
         0:{
-            slideBy:2,
             items:2.8,
             nav:false
         },
 
         375:{
-            slideBy:2,
             items:2.8,
             nav:false   
         },
         768:{
-            slideBy:3,
             items:3,
             nav:false
         },
 
         1000:{
-            slideBy:5,
             items:5,
             nav:true
         },
         1024:{
-            slideBy:4,
             items:4,
             nav:true,
         },
         1200:{
-            slideBy:5,
             items:5,
             nav:true,
         },
         1300:{
-            slideBy:6,
             items:6,
             nav:true,
         }
@@ -161,7 +153,6 @@ $(".owl-carousel-popular").owlCarousel({
 $(".owl-carousel-best").owlCarousel({
     loop:false,
     margin:27,
-    smartSpeed:500, 
     autoplay:false,
     // autoplayTimeout:4000,
     rewind: false,
@@ -174,34 +165,30 @@ $(".owl-carousel-best").owlCarousel({
     ],
     responsive:{
         0:{
-            items:2.2,
+            items:2,
             nav:false,
             margin:20,
         },
         321:{
-            items:2.2,
+            items:2,
             margin:20,
             nav:false
         },
         375:{
-            slideBy:2,
-            items:2.2,
+            items:2,
             margin:20,
             nav:false
         },
         768:{
-            slideBy:3,
             items:3,
             nav:false
         },
 
         1024:{
-            slideBy:4,
             items:4,
             nav:true
         },
         1200:{
-            slideBy:5,
             items:5,
             nav:true,
         },

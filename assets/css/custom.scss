@@ -3350,7 +3350,7 @@ input.form-control {
               border: 1px solid #8C4CD8;
               border-radius: 50%;
               position: absolute;
-              top: -44px;
+              top: -45px;
               right: -8px;
 
               img{
@@ -3928,6 +3928,8 @@ input.form-control {
   }
   .new_quiz_section .new_quiz_optionList ul li.active label{
     font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 18.9px;
   }
   .new_quiz_section .new_quiz_nav a{
     font-size: 16px;
@@ -5500,7 +5502,7 @@ input.form-control {
     height: 70px;
   }
   .middle-section .find-section{
-    padding: 50px 0;
+    padding: 60px 0px 50px;
   }
   .middle-section .find-section .content{
     padding: 0 17px;
@@ -5515,10 +5517,11 @@ input.form-control {
     font-size: 18px;
     line-height: 27px;
     text-align: left;
+    margin-bottom: 16px;
   }
   .middle-section .popular-guid-section .heading h3{
     font-size: 22px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
   }
   .middle-section .popular-guid-section .popular-box h3 a {
     font-size: 16px;
@@ -5542,16 +5545,27 @@ input.form-control {
     width: 100%;
   }
   .middle-section .makeup-section .makeup-inner-div{
-    padding: 15px 15px;
+    padding: 9px 15px 18px;
   }
   .middle-section .makeup-section h3 {
     font-size: 18px;
     line-height: 24px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+  }
+  .middle-section .best-deal-section {
+    padding-top: 30px;
+    padding-bottom: 9px;
+  }
+  .middle-section .best-deal-section:last-child{
+    padding-bottom: 50px !important;
   }
   .middle-section .popular-guid-section{
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+  }
+  .middle-section .makeup-section{
+    padding-top: 37px;
   }
   .middle-section .makeup-section .search-bar .form-control{
     font-weight: 300;
@@ -5581,7 +5595,7 @@ input.form-control {
   .middle-section .feature-section .featured-item .featured-content{
     width: calc(100% - 90px);
     padding: 10px 10px 0;
-    min-height: 90px;
+    min-height: 88px;
   }
   .middle-section .feature-section .featured-item .featured-content h3 {
     font-size: 16px;
@@ -5608,6 +5622,13 @@ input.form-control {
   .middle-section .best-deal-section .heading p{
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
+    margin-bottom: 23px;
+  }
+  .middle-section .best-deal-section .sub-heading{
+    margin-bottom: 0;
+  }
+  .middle-section .best-deal-section .product-item .product-img{
+    margin-bottom: 16px;
   }
   .middle-section .best-deal-section .sub-heading h3{
     font-size: 18px;
