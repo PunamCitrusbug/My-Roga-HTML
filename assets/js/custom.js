@@ -185,7 +185,7 @@ $(".owl-carousel-best").owlCarousel({
         },
 
         1024:{
-            items:4,
+            items:3,
             nav:true
         },
         1200:{

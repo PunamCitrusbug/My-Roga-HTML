@@ -672,6 +672,7 @@ input.form-control:focus::placeholder {
   border-color: #235547;
   font-size: 18px;
   line-height: 28px;
+  border-width: 0.5px;
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: none;
@@ -685,6 +686,14 @@ input.form-control:focus::placeholder {
 
 .middle-section .popular-guid-section {
   padding: 30px 0 30px 0;
+}
+
+.middle-section .popular-guid-section.electronic-guid-section {
+  padding-top: 50px;
+}
+
+.middle-section .popular-guid-section.kitchen-guid-section {
+  padding-top: 50px;
 }
 
 .middle-section .popular-guid-section .heading h3 {
@@ -985,7 +994,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .feature-section {
-  padding: 63px 0 60px;
+  padding: 63px 0 14px;
 }
 
 .middle-section .feature-section .heading h2 {
@@ -1236,7 +1245,7 @@ input.form-control:focus::placeholder {
 
 .middle-section .best-deal-section .product-item .product-review .rating i {
   color: #f89a48;
-  font-size: 17px;
+  font-size: 14px;
   margin-right: 1px;
 }
 
@@ -1248,7 +1257,7 @@ input.form-control:focus::placeholder {
 }
 
 .middle-section .best-deal-section .product-item .product-name {
-  min-height: 56px;
+  min-height: 51px;
   margin-bottom: 10px;
 }
 
@@ -3884,6 +3893,7 @@ input.form-control:focus::placeholder {
 
 .nav-center .search-bar .form-control.serach-text {
   border-color: #235547;
+  border-width: 0.5px;
 }
 
 .middle-section .page-title-new-section .title-link .purp_txt {
@@ -5034,7 +5044,7 @@ input.form-control:focus::placeholder {
     font-size: 26px;
     line-height: 30px;
     font-weight: 500;
-    margin: 0 0 0 0;
+    margin: 0 0 5px 0;
   }
   .middle-section.mr_quiz_mid .product-info-section .prodcut-item .product-detail .product-name .product-review {
     margin-bottom: 15px;
@@ -5634,6 +5644,7 @@ input.form-control:focus::placeholder {
   }
   .middle-section .best-deal-section .sub-heading h3 {
     font-size: 18px;
+    margin-bottom: 5px;
   }
   .middle-section .best-deal-section .sub-heading a {
     font-size: 16px;
