@@ -1,0 +1,330 @@
+.or_loader_wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 30px;
+  background-color: #ffffff;
+  z-index: 99999;
+
+  .container{
+    max-width: 1286px;
+  }
+
+  .or_loader_inner{
+    display: flex;
+    align-items: center;
+
+    .or_loader_left{
+      position: relative;
+      width: 50%;
+
+      h4{
+        margin-bottom: 12px;
+        text-align: left;
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 300;
+        letter-spacing: 0px;
+        color: #000000;
+      }
+      h1{
+        margin-bottom: 0;
+        text-align: left;
+        font-size: 150px;
+        line-height: 1.2;
+        font-weight: bold;
+        margin-left: -5px;
+        letter-spacing: 0px;
+        color: #000000;
+      }
+      h2{
+        margin-bottom: 12px;
+        text-align: left;
+        font-size: 75px;
+        line-height: 92px;
+        font-weight: 300;
+        margin-left: -8px;
+        letter-spacing: 0px;
+        color: #000000;
+      }
+      h3{
+        margin-bottom: 20px;
+        text-align: left;
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 300;
+        letter-spacing: 0px;
+        color: #000000;
+      }
+      ul{
+        li{
+          margin-bottom: 10px;
+
+          p{
+            margin: 0;
+            text-align: left;
+            font-size: 15px;
+            line-height: 19px;
+            font-weight: 300;
+            letter-spacing: 0px;
+            color: #000000;
+          }
+        }
+      }
+    }
+
+    .or_loader_right{
+      width: 50%;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -7px;
+
+      span{
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        border-radius: 100%;
+        border: 2px solid #E8E8E8;
+        background-color: #ffffff;
+        margin-right: 7px;
+        margin-bottom: 9px;
+        
+        &.green{
+          border-color: #29D6AE;
+          background-color: #29D6AE;
+        }
+      }
+    }
+  }
+}
+
+/*Responsive CSS Start*/
+@media (max-width: 1200px){
+  .or_loader_wrapper{
+    .or_loader_inner{
+  
+      .or_loader_left{
+        h2{
+          font-size: 60px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px){
+  .or_loader_wrapper{
+    .or_loader_inner{
+  
+      .or_loader_left{
+        h1{
+          font-size: 80px;
+          margin-left: 0;
+        }
+        h2{
+          font-size: 40px;
+          line-height: 1.5;
+          margin-left: 0;
+        }
+        h3{
+          font-size: 20px;
+        }
+        h4{
+          font-size: 20px;
+        }
+        ul{
+          li{
+            p{
+              font-size: 14px;
+              line-height: 1.5;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px){
+  .or_loader_wrapper{
+    .or_loader_inner{
+  
+      .or_loader_right {
+        span{
+          width: 7px;
+          height: 7px;
+          border-width: 1px;
+          margin-right: 4px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 900px) and (orientation: landscape){
+  .or_loader_wrapper{
+    padding: 10px 10px;
+    .or_loader_inner{
+      flex-direction: row !important;
+  
+      .or_loader_left {
+        margin-bottom: 0;
+
+        h1{
+          font-size: 80px;
+          line-height: 97px;
+        }
+        h2{
+          font-size: 35px;
+          line-height: 45px;
+          margin-bottom: 0;
+        }
+        h3{
+          font-size: 16px;
+        }
+        h4{
+          font-size: 15px;
+        }
+        ul{
+          li{
+            margin-bottom: 15px;
+            p{
+              font-size: 12px;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+      .or_loader_right {
+        span{
+          width: 7px;
+          height: 7px;
+          border-width: 1px;
+          margin-right: 4px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px){
+  .or_loader_wrapper{
+    padding: 10px 10px;
+    .or_loader_inner{
+      flex-direction: column;
+  
+      .or_loader_left {
+        width: 100%;
+        margin-bottom: 40px;
+
+        h1{
+          font-size: 80px;
+          line-height: 97px;
+        }
+        h2{
+          font-size: 35px;
+          line-height: 45px;
+          margin-bottom: 0;
+        }
+        h3{
+          font-size: 16px;
+        }
+        h4{
+          font-size: 15px;
+        }
+        ul{
+          li{
+            margin-bottom: 15px;
+            p{
+              font-size: 12px;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+      .or_loader_right {
+        width: 100%;
+        span{
+          width: 7px;
+          height: 7px;
+          border-width: 1px;
+          margin-right: 4px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px) and (orientation: landscape){
+  .or_loader_wrapper{
+    padding: 10px 10px;
+    .or_loader_inner{
+      flex-direction: row !important;
+  
+      .or_loader_left {
+        margin-bottom: 0;
+
+        h1{
+          font-size: 50px;
+          line-height: 1.3;
+        }
+        h2{
+          font-size: 25px;
+          line-height: 1.5;
+          margin-bottom: 0;
+        }
+        h3{
+          font-size: 12px;
+          margin-bottom: 10px;
+        }
+        h4{
+          font-size: 15px;
+          margin: 0;
+        }
+        ul{
+          li{
+            margin-bottom: 15px;
+            p{
+              font-size: 12px;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+      .or_loader_right {
+        span{
+          width: 7px;
+          height: 7px;
+          border-width: 1px;
+          margin-right: 4px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 320px){
+.or_loader_wrapper{
+  padding: 10px 0;
+  .or_loader_inner{
+
+    .or_loader_left {
+      margin-bottom: 10px;
+
+      h2{
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+
+      h3{
+        font-size: 14px;
+      }
+    }
+  }
+}
+}
+/*Responsive CSS End*/
