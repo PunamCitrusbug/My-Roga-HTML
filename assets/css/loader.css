@@ -250,7 +250,7 @@
   }
 }
 
-@media (max-width: 600px) and (orientation: landscape) {
+@media (max-width: 900px) and (orientation: landscape) {
   .or_loader_wrapper {
     padding: 10px 10px;
   }
