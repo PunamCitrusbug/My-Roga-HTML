@@ -96,6 +96,7 @@ $('.mr_product_slider_main .owl-carousel').owlCarousel({
     loop:false,
     margin:10,
     nav:true,
+    slideBy: 2,
     navText : ["<span class='owl_left'></span>","<span class='owl_right'></span>"],
     responsive:{
         0:{
@@ -132,6 +133,7 @@ $('.mr_product_slider_main_mobile.mr_product_slider_main .owl-carousel').owlCaro
     loop:false,
     margin:10,
     nav:true,
+    slideBy: 2,
     navText : ["<span class='owl_left'></span>","<span class='owl_right'></span>"],
     responsive:{
         0:{
