@@ -3498,7 +3498,7 @@ input.form-control:focus::placeholder {
   margin-bottom: 30px;
 }
 
-.new_quiz_section .new_quiz_heading h2 {
+.new_quiz_section .new_quiz_heading .quiz_main_heading {
   font-size: 40px;
   line-height: 60px;
   color: #000000;
@@ -3786,7 +3786,7 @@ input.form-control:focus::placeholder {
   margin-bottom: 20px;
 }
 
-.related_guidline_wrapper .guidline_heading h2 {
+.related_guidline_wrapper .guidline_heading h3 {
   font-size: 36px;
   font-weight: 700;
   line-height: 54px;
@@ -5811,7 +5811,7 @@ input.form-control:focus::placeholder {
     font-size: 36px;
     line-height: 2;
   }
-  .new_quiz_section .new_quiz_heading h2 {
+  .new_quiz_section .new_quiz_heading .quiz_main_heading {
     font-size: 36px;
     line-height: 1.5;
   }
@@ -5884,7 +5884,7 @@ input.form-control:focus::placeholder {
 }
 
 @media (max-width: 768px) {
-  .new_quiz_section .new_quiz_heading h2 {
+  .new_quiz_section .new_quiz_heading .quiz_main_heading {
     font-size: 30px;
   }
   .mr_product_info_inner .mr_product_head .mr_product_title h2 {
@@ -5978,13 +5978,14 @@ input.form-control:focus::placeholder {
     margin-top: 0;
   }
   .mobile_content_slider {
-    margin-top: 31px;
+    margin-top: 39px;
   }
   .mobile_content_slider b {
     font-weight: 600;
   }
   .mr_product_info_details_section .mr_product_info_details_content_wrapper .mr_product_info_details_content_block .mr_product_info_content_right p {
     margin-bottom: 0;
+    line-height: 27px;
   }
   .mr_product_info_details_section .mr_product_info_details_content_wrapper .mr_product_info_details_content_block {
     margin-bottom: 25px;
@@ -6105,7 +6106,7 @@ input.form-control:focus::placeholder {
   .product-inner .content_2 {
     margin-bottom: 25px;
   }
-  .new_quiz_section .new_quiz_heading h2 {
+  .new_quiz_section .new_quiz_heading .quiz_main_heading {
     font-size: 28px;
     line-height: 40px;
     margin-bottom: 9px;
@@ -6113,7 +6114,7 @@ input.form-control:focus::placeholder {
   .related_guidline_wrapper .guidline_heading {
     margin-bottom: 5px;
   }
-  .related_guidline_wrapper .guidline_heading h2 {
+  .related_guidline_wrapper .guidline_heading h3 {
     font-size: 24px;
   }
   .related_guidline_wrapper .guidline_list li a {
@@ -7757,6 +7758,7 @@ input.form-control:focus::placeholder {
   }
   .mr_product_info_inner .mr_product_head .mr_product_title p {
     font-size: 16px;
+    margin-bottom: 5px;
   }
   .mr_product_info_inner .mr_product_head .mr_product_title h2 {
     font-size: 28px;
@@ -8093,7 +8095,7 @@ input.form-control:focus::placeholder {
     min-width: 142px;
     height: 30px;
     font-size: 16px;
-    margin: 5px 0;
+    margin: 10px 0 5px;
   }
   .mr_blog_section .mr_blog_inner .mr_blog_wrapper .mr_blog_wrapper_left .mr_blog_content_block.contact_content .privacy_info {
     font-size: 10px;
