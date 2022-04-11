@@ -321,6 +321,7 @@ input[type="number"] {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   color: #ebebeb;
+  text-decoration: underline;
 }
 
 .header .navbar .collapse1 .navbar-nav .nav-item .nav-link:active {
