@@ -103,10 +103,10 @@ $('.mr_product_slider_main .owl-carousel').owlCarousel({
             items:2
         },
         768:{
-            items:4
+            items:3
         },
         1200:{
-            items:5
+            items:4
         },
     }
 }).on('initialized.owl.carousel changed.owl.carousel refreshed.owl.carousel', function (event) {
@@ -174,13 +174,13 @@ $('.mr_product_slider_main_sticky .owl-carousel').owlCarousel({
     navText : ["<span class='owl_left'></span>","<span class='owl_right'></span>"],
     responsive:{
         0:{
-            items:3
+            items:2
         },
         768:{
-            items:4
+            items:3
         },
         1200:{
-            items:5
+            items:4
         },
     }
 }).on('initialized.owl.carousel changed.owl.carousel refreshed.owl.carousel', function (event) {
