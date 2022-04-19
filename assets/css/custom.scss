@@ -2518,6 +2518,8 @@ input.form-control {
 
   .mr_result_list_wrapper.active ~ .page-title-new-section{
     padding-bottom: 11px;
+    padding-top: 40px;
+    z-index: 10;
   }
 
   .about-morya {
@@ -3253,7 +3255,7 @@ input.form-control {
 
 /*New Quiz section CSS Start*/
 .new_quiz_section{
-  padding-top: 6px;
+  padding-top: 25px;
   padding-bottom: 30px;
 
   .new_quiz_heading{
@@ -4321,12 +4323,12 @@ input.form-control {
       width: auto;
       max-width: 444px;
       // border-bottom: 1px solid rgba(35, 85, 71, 0.34);
-      box-shadow: 0 0.5px 0 rgba(112, 112, 112, 0.4);
+      box-shadow: 0 0.5px 0 rgba(35, 85, 71, 0.34);
 
       .mr_product_drop{
         padding: 5px 20px 5px 10px;
         // border-right: 1px solid rgba(35, 85, 71, 0.34);
-        box-shadow: 0.5px 0 0 rgba(112, 112, 112, 0.4);
+        box-shadow: 0.5px 0 0 rgba(35, 85, 71, 0.34);
 
         a{
           font-size: 18px;
@@ -5250,6 +5252,8 @@ input.form-control {
 
   &.active{
     display: block;
+    margin-top: -40px;
+    z-index: -1;
   }
 
   .mr_found_result_inner{
@@ -5258,7 +5262,7 @@ input.form-control {
       align-items: center;
 
       .mr_foundresult_image{
-        margin-right: 15px;
+        margin-right: 12px;
 
         img{
           width: 45.42px;
@@ -5700,6 +5704,9 @@ input.form-control {
 @media (max-width: 767px){
   .answer_moto {
     margin-bottom: 3px;
+  }
+  .mr_product_info_block .mr_product_info_head{
+    margin-bottom: 17px;
   }
   .blog_border_bottom{
     border-bottom: 1px solid #C4C4C4;
@@ -6645,7 +6652,7 @@ input.form-control {
           font-size: 28px;
           line-height: 42px;
           font-weight: 700;
-          margin-bottom: 5px;
+          margin-bottom: 1px;
         }
 
         .profile-owner {
@@ -7805,7 +7812,7 @@ input.form-control {
   }
   .new_quiz_inner{
     margin: 0 -15px;
-    padding: 40px 15px;
+    padding: 20px 15px;
   }
   .mr_product_info_inner .mr_product_head .mr_product_filter{
     max-width: 100%;
@@ -7837,7 +7844,8 @@ input.form-control {
   }
   .mr_product_info_inner .mr_product_head .mr_product_filter .mr_product_drop{
     padding-left: 0;
-    padding-right: 10px;
+    padding-right: 12px;
+    padding-bottom: 3px;
   }
   .mr_product_info_inner .mr_product_head .mr_product_filter .mr_product_drop a i{
     width: 10px;
@@ -7846,12 +7854,13 @@ input.form-control {
   }
   .mr_product_info_inner .mr_product_head .mr_product_filter .mr_product_pricerange{
     padding-right: 0;
-    padding-left: 10px;
+    padding-left: 12px;
+    padding-bottom: 3px;
   }
   .mr_product_info_inner .mr_product_head .mr_product_title{
     border: none;
     padding-bottom: 0;
-    margin-bottom: 2px;
+    margin-bottom: 6px;
   }
   .mr_product_info_inner .mr_product_head .mr_product_filter .mr_product_pricerange .mr_input_block .mr_input_block_min input{
     padding-left: 11px;
@@ -7891,7 +7900,7 @@ input.form-control {
   }
   .mr_product_info_details_section .mr_product_info_details_image_wrapper{
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   .mr_product_info_details_section .mr_product_info_details_content_wrapper{
     width: 100%;
@@ -8195,6 +8204,16 @@ input.form-control {
   .mr_blog_section .mr_blog_inner .mr_blog_wrapper .mr_blog_wrapper_left .mr_blog_content_block.contact_content .contact_form_block input{
     max-width: 100%;
   }
+  .mr_product_info_details_section .mr_product_info_details_content_wrapper .mr_product_info_details_content_block .mr_product_info_content_right p{
+    line-height: 23px;
+    margin-bottom: 6px;
+  }
+  .mr_blog_section .mr_blog_inner .mr_blog_wrapper .mr_blog_wrapper_left .mr_blog_content_block {
+    padding: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #C4C4C4;
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 580px){
   header.header.header-2 .navbar .navbar-brand{
@@ -8215,6 +8234,10 @@ input.form-control {
     right: 20px;
     left: 20px;
     width: auto;
+  }
+  .mr_product_info_details_section .mr_product_info_details_content_wrapper .mr_product_info_details_content_block .mr_product_info_content_right p{
+    line-height: 23px;
+    margin-bottom: 6px;
   }
   .ipad-hidden{
     display: none !important;
