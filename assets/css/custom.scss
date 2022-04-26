@@ -3790,7 +3790,7 @@ input.form-control {
 .mobile_content_slider{
   text-align: left;
   line-height: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
   font-size: 18px;
 }
 .owl_left, .owl_right{
@@ -5436,7 +5436,7 @@ input.form-control {
         width: 100%;
         height: 25px;
         line-height: 24px;
-        border: 1px solid #8C4CD8;
+        border: 0.5px solid #8C4CD8;
         text-align: center;
         font-size: 10px;
         font-weight: 600;
@@ -5834,7 +5834,7 @@ input.form-control {
     margin-bottom: 8px;
   }
   .mr_product_slider_main .main_slider_block a{
-    font-size: 10px;
+    font-size: 11px;
     height: 25px;
   }
   .mr_next_que_wrapper{
@@ -5897,7 +5897,7 @@ input.form-control {
   }
   .readmore-link-div{
     margin-top: -11px;
-    margin-bottom: 17px;
+    margin-bottom: 18px;
   }
   .new_quiz_section .new_quiz_heading .quiz_main_heading{
     font-size: 28px;
@@ -8257,6 +8257,13 @@ input.form-control {
     background-color: #ffffff;
     border-bottom: 1px solid #C4C4C4;
     margin-bottom: 0;
+  }
+  .middle-section .best-new-values-section .container {
+    border-bottom: 0;
+  }
+  .mr_blog_section {
+    padding-bottom: 49px;
+    padding-top: 0px;
   }
 }
 @media (max-width: 580px){
