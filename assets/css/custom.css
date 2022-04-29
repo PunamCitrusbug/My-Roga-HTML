@@ -4455,10 +4455,15 @@ input.form-control:focus::placeholder {
   position: relative;
   margin-bottom: 15px;
   display: inline-block;
+  max-width: 300px;
+  max-height: 200px;
 }
 
 .new_quiz_inner .quiz_right_wrapper .quiz_right_image img {
-  width: auto;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .new_quiz_inner .quiz_right_wrapper .quiz_right_image .quiz_right_overlay {
@@ -4702,7 +4707,6 @@ input.form-control:focus::placeholder {
 
 .mr_product_info_details_section .mr_product_info_details_image_wrapper .mr_product_info_details_image_block .mr_product_info_details_image_thumb {
   min-width: 45px;
-  margin-right: 5px;
 }
 
 .mr_product_info_details_section .mr_product_info_details_image_wrapper .mr_product_info_details_image_block .mr_product_info_details_image_thumb ul li {
@@ -4745,7 +4749,9 @@ input.form-control:focus::placeholder {
 }
 
 .mr_product_info_details_section .mr_product_info_details_image_wrapper .mr_product_info_details_image_block .mr_product_info_details_image_large {
-  width: calc(100% - 50px);
+  width: calc(100% - 45px);
+  max-width: 280px;
+  max-height: 280px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4758,7 +4764,9 @@ input.form-control:focus::placeholder {
 }
 
 .mr_product_info_details_section .mr_product_info_details_image_wrapper .mr_product_info_details_image_block .mr_product_info_details_image_large img {
-  width: 240px;
+  width: 100%;
+  max-width: 280px;
+  max-height: 280px;
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;

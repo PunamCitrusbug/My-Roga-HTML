@@ -4256,8 +4256,12 @@ input.form-control {
       position: relative;
       margin-bottom: 15px;
       display: inline-block;
+      max-width: 300px;
+      max-height: 200px;
       img{
-        width: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
       }
 
       .quiz_right_overlay{
@@ -4472,7 +4476,7 @@ input.form-control {
 
       .mr_product_info_details_image_thumb{
         min-width: 45px;
-        margin-right: 5px;
+        // margin-right: 5px;
 
         ul{
           li{
@@ -4505,13 +4509,17 @@ input.form-control {
         }
       }
       .mr_product_info_details_image_large{
-        width: calc(100% - 50px);
+        width: calc(100% - 45px);
+        max-width: 280px;
+        max-height: 280px;
         display: flex;
         align-items: center;
         justify-content: center;
 
         img{
-          width: 240px;
+          width: 100%;
+          max-width: 280px;
+          max-height: 280px;
           height: auto;
           object-fit: contain;
           object-position: center;
