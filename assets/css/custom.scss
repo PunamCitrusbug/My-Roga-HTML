@@ -5187,12 +5187,12 @@ input.form-control {
     background-color: rgba(244, 244, 244, 0.87);
     display: flex;
     align-items: center;
-    padding: 11px 24px 0px;
+    padding: 0px 24px 0px;
 
     h3{
       margin: 0;
-      margin-right: 20px;
-      margin-bottom: 16px;
+      margin-right: 5.3px;
+      margin-bottom: 6px;
       min-width: 90px;
       display: inline-block;
       font-size: 14px;
@@ -5211,6 +5211,11 @@ input.form-control {
 
       li{
         margin-right: 14.7px;
+        padding-top: 11px;
+
+        &:first-child{
+          padding-left: 14.7px;
+        }
         
         a{
           display: flex;
@@ -5223,7 +5228,7 @@ input.form-control {
           font-size: 13px;
           line-height: 17px;
           font-weight: 700;
-          box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 0px 5px #00000029;;
           text-decoration: none;
           margin-bottom: 11px;
           transition: all 0.3s ease-in-out;
@@ -5850,6 +5855,7 @@ input.form-control {
   }
   .mr_found_result_wrapper.active{
     margin-top: -35px;
+    z-index: auto;
   }
   .mr_found_result_wrapper .mr_found_result_inner .mr_found_result_block .mr_foundresult_image{
     margin-bottom: 5px;
@@ -8277,11 +8283,17 @@ input.form-control {
 @media (max-width: 580px){
   header.header.header-2 .navbar .navbar-brand{
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 8px !important;
     padding: 15px 0px;
     text-align: center;
     width: 100%;
-    max-width: 180px;
+    max-width: 196.5px;
+  }
+  .mr_result_list_wrapper{
+    margin-top: 1px;
+  }
+  .mr_found_result_wrapper .mr_found_result_inner .mr_found_result_block h3{
+    line-height: 15px;
   }
   .header.header-2 .search-bar .form-control{
     border: 1px solid #439A82;
@@ -8624,7 +8636,7 @@ input.form-control {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   .nav-center .search-bar {
-    max-width: 300px;
+    // max-width: 400px;
     margin-left: 50px;
   }
 
