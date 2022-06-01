@@ -5937,7 +5937,7 @@ input.form-control:focus::placeholder {
     max-height: 280px;
   }
   .mr_product_info_details_section .mr_product_info_details_content_wrapper {
-    width: 100%;
+    width: calc(100% - 280px);
     margin-left: 0;
   }
   .new_quiz_section .new_quiz_heading .quiz_main_heading {
@@ -5949,6 +5949,13 @@ input.form-control:focus::placeholder {
   .mr_product_info_block .mr_product_info_head h3 {
     font-size: 26px;
     line-height: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .middle-section .best-values-section .content h2 {
     font-size: 30px;
