@@ -5802,6 +5802,12 @@ input.form-control:focus::placeholder {
   min-width: 122px;
 }
 
+.go_btn {
+  color: #235547;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 /*Index*/
 /*###########################################################################
 ############################## media query started ###############################
@@ -8595,6 +8601,24 @@ input.form-control:focus::placeholder {
   .mr_product_info_inner .mr_product_head .mr_product_filter > a {
     margin-left: 9px;
   }
+  .mr_product_info_inner .mr_product_head .mr_product_filter .mr_product_pricerange h5 {
+    margin-right: 5px;
+  }
+  .mr_product_info_inner .mr_product_head .mr_product_filter .mr_product_drop a {
+    font-size: 12px;
+  }
+  .mr_product_info_inner .mr_product_head .mr_product_filter .mr_product_pricerange h5 {
+    font-size: 12px;
+  }
+  .mr_product_info_inner .mr_product_head .mr_product_filter .mr_product_pricerange .mr_input_block .mr_input_block_min span {
+    font-size: 12px;
+  }
+  .mr_product_info_inner .mr_product_head .mr_product_filter .mr_product_pricerange .mr_input_block .mr_input_block_min input {
+    font-size: 12px;
+  }
+  .go_btn {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 997px) and (max-width: 1200px) {
@@ -8725,11 +8749,5 @@ input.form-control:focus::placeholder {
   .middle-section .find-section .content {
     text-align: center !important;
   }
-}
-
-.go_btn {
-  color: #235547;
-  font-weight: bold;
-  text-decoration: underline;
 }
 /*# sourceMappingURL=custom.css.map */
