@@ -8565,7 +8565,10 @@ input.form-control:focus::placeholder {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 384px) {
+  .mr_product_info_inner .mr_product_head .mr_product_filter {
+    max-width: 361px;
+  }
   .mr_product_info_inner .mr_product_head .mr_product_filter .mr_product_pricerange {
     padding-left: 9px;
   }
