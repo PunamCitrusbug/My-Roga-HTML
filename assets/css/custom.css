@@ -8728,6 +8728,7 @@ input.form-control:focus::placeholder {
 }
 
 .go_btn {
+  color: #235547;
   font-weight: bold;
   text-decoration: underline;
 }
