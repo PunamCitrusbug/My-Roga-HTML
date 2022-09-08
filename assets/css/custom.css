@@ -5832,9 +5832,10 @@ input.form-control:focus::placeholder {
 .modal-dialog.checkprice-modal .modal-body button.close {
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 15px;
     font-size: 40px;
     font-weight: 400;
+    outline: none;
 }
 .modal-dialog.checkprice-modal .modal-body img.modal-logo {
     width: 124px;
