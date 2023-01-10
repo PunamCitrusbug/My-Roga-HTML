@@ -92,6 +92,52 @@ $('.mr_product_info_details_slider_block .owl-carousel').owlCarousel({
         }
     }
 })
+$(".mr_product_attr-slider .owl-carousel").owlCarousel({
+  loop: false,
+  margin: 10,
+  nav: false,
+  autoPlay: true,
+  responsive: {
+    320: {
+      items: 2,
+    },
+    390: {
+      items: 2,
+    },
+    480: {
+      items: 3,
+    },
+    575: {
+      items: 4,
+    },
+    767: {
+      items: 5,
+    },
+  },
+});
+$(".mr_product_strg_slider .owl-carousel").owlCarousel({
+  loop: false,
+  margin: 10,
+  nav: false,
+  autoPlay: true,
+  responsive: {
+    320: {
+      items: 2,
+    },
+    390: {
+      items: 2,
+    },
+    480: {
+      items: 3,
+    },
+    575: {
+      items: 4,
+    },
+    767: {
+      items: 5,
+    },
+  },
+});
 $('.mr_product_slider_main .owl-carousel').owlCarousel({
     loop:false,
     margin:10,
@@ -165,7 +211,6 @@ $('.mr_product_slider_main_mobile.mr_product_slider_main .owl-carousel').owlCaro
     }
 
 });
-
 $('.mr_product_slider_main_sticky .owl-carousel').owlCarousel({
     loop:false,
     margin:30,
@@ -235,6 +280,56 @@ $('.mr_mobile_sticky_slider .owl-carousel').owlCarousel({
     }
 
 });
+
+// for compare to competitors slider section 
+$(".mr_compet_info_slider .owl-carousel").owlCarousel({
+  loop: true,
+  margin: 30,
+  nav: true,
+  slideBy: 2,
+  navText: [
+    "<span class='owl_left'></span>",
+    "<span class='owl_right'></span>",
+  ],
+  responsive: {
+    0: {
+      items: 2,
+    },
+    640: {
+      items: 3,
+    },
+    768: {
+      items: 2,
+    },
+    991: {
+      items: 2,
+    },
+    1200: {
+      items: 3,
+    },
+  },
+});
+//   .on(
+//     "initialized.owl.carousel changed.owl.carousel refreshed.owl.carousel",
+//     function (event) {
+//       //alert("s");
+//       if (!event.namespace) return;
+//       var carousel = event.relatedTarget,
+//         element = event.target,
+//         current = carousel.current();
+
+//       if (current === carousel.maximum()) {
+//         $(".mr_compet_info_slider").addClass("last");
+//       } else {
+//         $(".mr_compet_info_slider").removeClass("last");
+//       }
+//       if (current === carousel.minimum()) {
+//         $(".mr_compet_info_slider").addClass("first");
+//       } else {
+//         $(".mr_compet_info_slider").removeClass("first");
+//       }
+//     }
+//   );
 
 // $(window).scroll(function() {
 

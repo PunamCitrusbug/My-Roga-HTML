@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="37" viewBox="0 0 38 37">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1716" data-name="Rectangle 1716" width="38" height="37" transform="translate(802 1023.109)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_38" data-name="Mask Group 38" transform="translate(-802 -1023.109)" clip-path="url(#clip-path)">
+    <g id="Google-Button" transform="translate(802 1012.099)">
+      <g id="btn_google_light_normal" transform="translate(0 0)">
+        <g id="button" transform="translate(0 0)">
+          <g id="button-bg" transform="translate(0 0)">
+            <rect id="Rectangle_1712" data-name="Rectangle 1712" width="45" height="45" rx="2" transform="translate(0 0.01)" fill="#fff"/>
+            <rect id="Rectangle_1713" data-name="Rectangle 1713" width="45" height="45" rx="2" transform="translate(0 0.01)" fill="none"/>
+            <rect id="Rectangle_1714" data-name="Rectangle 1714" width="45" height="45" rx="2" transform="translate(0 0.01)" fill="none"/>
+            <rect id="Rectangle_1715" data-name="Rectangle 1715" width="45" height="45" rx="2" transform="translate(0 0.01)" fill="none"/>
+          </g>
+        </g>
+        <g id="logo_googleg_48dp" transform="translate(5.172 13.834)">
+          <path id="Shape" d="M22.314,10.22a16.154,16.154,0,0,0-.252-2.856H9v5.4h7.464A6.427,6.427,0,0,1,13.7,16.98v3.5h4.482A13.667,13.667,0,0,0,22.314,10.22Z" transform="translate(4.869 4.062)" fill="#4285f4" fill-rule="evenodd"/>
+          <path id="Shape-2" data-name="Shape" d="M13.351,22.021a13.188,13.188,0,0,0,9.178-3.383l-4.482-3.5A8.34,8.34,0,0,1,5.591,10.71H.957v3.618a13.854,13.854,0,0,0,12.393,7.693Z" transform="translate(0.518 5.908)" fill="#34a853" fill-rule="evenodd"/>
+          <path id="Shape-3" data-name="Shape" d="M6.108,13.883a8.31,8.31,0,0,1,0-5.307V4.958H1.475a14.069,14.069,0,0,0,0,12.543l4.633-3.618Z" transform="translate(0 2.735)" fill="#fbbc05" fill-rule="evenodd"/>
+          <path id="Shape-4" data-name="Shape" d="M13.351,5.554a7.464,7.464,0,0,1,5.3,2.088L22.63,3.637A13.279,13.279,0,0,0,13.351,0,13.854,13.854,0,0,0,.957,7.693l4.633,3.618a8.272,8.272,0,0,1,7.76-5.757Z" transform="translate(0.518)" fill="#ea4335" fill-rule="evenodd"/>
+          <path id="Shape-5" data-name="Shape" d="M0,0H27.737V27.929H0Z" fill="none" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
