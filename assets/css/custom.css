@@ -5936,7 +5936,7 @@ div#myModal {
   z-index: 10000;
 } */
 .modal-backdrop {
-  z-index: 999;
+  z-index: 9999;
 }
 
 .modal-dialog.checkprice-modal .modal-body label.form-check-label a {
@@ -5977,7 +5977,9 @@ div#myModal {
 
 /* visual page css */
 
-
+.visual-modal-block .mr_discount_block .mr_discount_list ul li p {
+  margin-bottom: 0;
+}
 .custom_new_info_block .mr_product_info_details_image_large {
   flex-flow: column;
   max-height: fit-content !important;
@@ -5990,13 +5992,13 @@ a.all_visual_btn {
   text-align: center;
   min-width: 99px;
   max-width: 99px;
-  background: #FFFFFF;
+  background: #ffffffd9;
   border-radius: 37px;
   font-size: 12px;
   padding: 5px 18px;
-  line-height: 11px;
+  line-height: 14px;
   text-decoration: none;
-  color: #000000;
+  color: #434242;
   font-weight: 600;
   border: 1px solid #BFBFBF;
   height: 25px;
@@ -6113,7 +6115,7 @@ ul.visual-img-row {
 
 .visual-page-modal .mr_discount_block .mr_discount_list ul {
   display: block;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 button.close:focus {
@@ -6162,7 +6164,7 @@ button.close:focus {
   background-color: #fff;
   border: 0;
   outline: none;
-  border-bottom: 2px solid #A8AAA9;
+  border-bottom: 1px solid #A8AAA9;
 }
 
 .visual-page-modal .share_video_form_block a.form_submit {
@@ -6211,6 +6213,7 @@ button.close:focus {
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
+  color: #000;
 }
 
 .video_block {
@@ -6367,9 +6370,19 @@ button.close:focus {
 .visual-modal-checkbox label.form-check-label {
   font-size: 13px;
   line-height: 22px;
-  font-weight: 500;
+  font-weight: 400;
+  color: #000;
+}
+.visual-modal-checkbox label.form-check-label a {
+  text-decoration: underline;
+}
+label.form-check-label.alert-msg-label {
+  color: #AB2A2A;
 }
 
+label.form-check-label.alert-msg-label a {
+  color: #AB2A2A;
+}
 .visual-modal-checkbox .checkbox-grp {
   margin-bottom: 20px;
 }
@@ -6545,6 +6558,25 @@ button.close:focus {
 }
 
 @media (max-width: 767px) {
+    a.all_visual_btn {
+    min-width: 82px;
+    max-width: 82px;
+    background: #ffffffd9;
+    border-radius: 37px;
+    font-size: 10px;
+    padding: 2px 8px;
+    line-height: 13px;
+    height: 19px;
+  }
+  .visual-page-modal .mr_discount_block .mr_discount_btn_group ul li a.ebay_btn {
+  font-weight: 400;
+  color: #5F5F5F;
+  background: #fff;
+  }
+  .visual-page-modal .mr_discount_block .mr_discount_btn_group ul li a {
+    font-weight: 600;
+    background: #F9AE6C;
+}
   .custom_new_info_block .mr_product_info_details_content_wrapper.pt-0 {
     border-top: 0;
   }
@@ -6607,6 +6639,7 @@ button.close:focus {
   .visual-page-modal .modal-header h5 {
     font-size: 18px;
     line-height: 24px;
+    color: #3B3C3C;
   }
 
   .visual-page-modal .modal-header img {
@@ -6645,7 +6678,11 @@ button.close:focus {
 
   .visual_page_slider_block {
     margin-top: 10px;
+    margin-bottom: 10px;
   }
+  .visual-modal-checkbox .checkbox-grp {
+    margin-bottom: 15px;
+}
 
   .owl-theme .owl-dots .owl-dot:focus {
     outline: none;
@@ -6911,9 +6948,10 @@ button.close:focus {
   }
 
   .visual-video-modal-view .overview-mobile-title h4 {
-    color: #fff;
+    color: #EBEBEB;
     margin-bottom: 0;
-  }
+    font-weight: bold;
+}
 
   .visual-video-modal-view .overview-mobile-title:first-child {
     margin-top: -18px;
@@ -6968,7 +7006,7 @@ button.close:focus {
     width: 100%;
     background-color: transparent;
     scroll-snap-align: start;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .app__videos img {
@@ -7011,7 +7049,6 @@ button.close:focus {
     border-radius: 0;
   }
 }
-
 
 
 
