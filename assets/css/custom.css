@@ -6090,7 +6090,7 @@ ul.visual-img-row {
   align-items: center;
   justify-content: flex-start;
   gap: 0 7px;
-  padding: 30px 0;
+  padding: 30px 0 26px 0;
 }
 
 .visual-img-wrap {
@@ -6558,6 +6558,10 @@ label.form-check-label.alert-msg-label a {
 }
 
 @media (max-width: 767px) {
+  .mr_compet_info_slider_img_block .custom-img-div .showbtn-on-hover {
+    opacity: 1;
+    visibility: visible;
+}
     a.all_visual_btn {
     min-width: 82px;
     max-width: 82px;
@@ -6589,7 +6593,7 @@ label.form-check-label.alert-msg-label a {
     opacity: 1;
     visibility: visible;
     position: absolute;
-    bottom: 14%;
+    bottom: 16%;
     transform: translate(-50%, -50%);
     left: 50%;
     top: unset;
